@@ -2,13 +2,17 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Projeto:** [Eventful]
+* **Repositório GitHub:** (https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-eventos-proximos)
 * **Membros da equipe:**
 
-  * [Rafaelhs2005](https://github.com/Rafaelhs2005) 
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * [Rafael Henrique](https://github.com/Rafaelhs2005) 
+  * [Joao Pedro](https://github.com/Jopefv) 
+  * [Kamily Vitória](https://github.com/kamivss)
+  * [Bruna Noely](https://github.com/brunanoely)
+  * [Gabriel Lucas](https://github.com/Gabriellsmm)
+  * [Caio Fernandes](https://github.com/caionesess)
+  * [Julia Santos](https://github.com/ajuliasantos)
 
 A documentação do projeto é estruturada da seguinte forma:
 
