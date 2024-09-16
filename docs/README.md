@@ -29,18 +29,7 @@ A documentação do projeto é estruturada da seguinte forma:
 # Contexto
 
 Em um mundo em que as informações estão fragmentadas em vários lugares ao mesmo tempo, a busca por clareza nunca esteve tão fácil, mas ao mesmo tempo tão complicada - especialmente quando se trata do planejamento de um evento externo. Dessa forma, esse projeto visa otimizar o tempo e facilitar a vida de todos que estão envolvidos neste espectro, desde os jovens da vida noturna, até aqueles que tornam os eventos possíveis.
-<<<<<<< HEAD
 
-
-O público-alvo principal desse site inclui:
-
-  Jovens adultos e estudantes: Pessoas entre 18 e 35 anos que buscam atividades recreativas, sociais e culturais em suas cidades ou em locais próximos.
-  Profissionais ocupados: Pessoas com horários limitados que querem otimizar seu tempo livre participando de eventos de interesse, mas têm dificuldades para encontrar opções facilmente.
-  Organizadores de eventos: Profissionais e empresas que buscam divulgar seus eventos para públicos segmentados e aumentar a participação.
-  Turistas e visitantes: Pessoas em viagens que desejam descobrir atividades e eventos locais durante sua estadia.
-  Motoristas de aplicativo: que buscam otimizar seus ganhos e conseguir achar mais 
-=======
->>>>>>> 34ea4645b512ee2aedd5f94bec78259c00bf03a0
 
 ## Problema
 
@@ -51,10 +40,10 @@ tualmente, muitas pessoas têm dificuldade em encontrar eventos próximos que se
 
 O objetivo principal do site de encontrar eventos próximos é oferecer uma plataforma fácil de usar que centralize e organize informações sobre eventos locais de acordo com as preferências e localização do usuário. Alguns dos objetivos específicos incluem:
 
->  Centralizar informações: Reunir eventos de diversas fontes, como redes sociais, sites especializados e organizadores de eventos.
->  Facilitar a busca personalizada: Permitir que os usuários filtrem eventos por localização, categoria, data, faixa de preço e preferências pessoais.
->  Oferecer notificações personalizadas: Enviar alertas quando novos eventos de interesse surgirem próximos à localização do usuário.
->  Melhorar a experiência do usuário: Proporcionar uma interface simples e intuitiva, com descrições detalhadas dos eventos, permitindo fácil navegação e divulgação.
+* Centralizar informações: Reunir eventos de diversas fontes, como redes sociais, sites especializados e organizadores de eventos.
+* Facilitar a busca personalizada: Permitir que os usuários filtrem eventos por localização, categoria, data, faixa de preço e preferências pessoais.
+* Oferecer notificações personalizadas: Enviar alertas quando novos eventos de interesse surgirem próximos à localização do usuário.
+* Melhorar a experiência do usuário: Proporcionar uma interface simples e intuitiva, com descrições detalhadas dos eventos, permitindo fácil navegação e divulgação.
 
 
 
@@ -67,11 +56,11 @@ justificativa para o desenvolvimento de um site de encontrar eventos próximos b
 
 O público-alvo principal desse site inclui:
 
-  Jovens adultos e estudantes: Pessoas entre 18 e 35 anos que buscam atividades recreativas, sociais e culturais em suas cidades ou em locais próximos.
-  Profissionais ocupados: Pessoas com horários limitados que querem otimizar seu tempo livre participando de eventos de interesse, mas têm dificuldades para encontrar opções facilmente.
-  Organizadores de eventos: Profissionais e empresas que buscam divulgar seus eventos para públicos segmentados e aumentar a participação.
-  Turistas e visitantes: Pessoas em viagens que desejam descobrir atividades e eventos locais durante sua estadia.
-  Motoristas de aplicativo: que buscam otimizar seus ganhos e conseguir achar mais 
+*  Jovens adultos e estudantes: Pessoas entre 18 e 35 anos que buscam atividades recreativas, sociais e culturais em suas cidades ou em locais próximos.
+*  Profissionais ocupados: Pessoas com horários limitados que querem otimizar seu tempo livre participando de eventos de interesse, mas têm dificuldades para encontrar opções facilmente.
+*  Organizadores de eventos: Profissionais e empresas que buscam divulgar seus eventos para públicos segmentados e aumentar a participação.
+*  Turistas e visitantes: Pessoas em viagens que desejam descobrir atividades e eventos locais durante sua estadia.
+*  Motoristas de aplicativo: que buscam otimizar seus ganhos e conseguir achar mais 
 
 >[Personas e proposta de valor](files/Persona.pdf)
 
