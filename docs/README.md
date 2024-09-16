@@ -28,7 +28,7 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Atualmente, muitas pessoas têm dificuldade em encontrar eventos próximos que se alinhem com seus interesses específicos. A fragmentação de informações sobre eventos em diferentes plataformas e a falta de centralização dificultam a descoberta de opções culturais, sociais e recreativas. Além disso, usuários enfrentam o problema de não conseguir obter detalhes sobre eventos locais, como data, local, tipo de público, ingressos e atividades envolvidas, de maneira rápida e confiável. Isso pode resultar em uma perda de oportunidades para frequentar eventos relevantes ou em frustrações por não encontrar o que procuram.
+Em um mundo em que as informações estão fragmentadas em vários lugares ao mesmo tempo, a busca por clareza nunca esteve tão fácil, mas ao mesmo tempo tão complicada - especialmente quando se trata do planejamento de um evento externo. Dessa forma, esse projeto visa otimizar o tempo e facilitar a vida de todos que estão envolvidos neste espectro, desde os jovens da vida noturna, até aqueles que tornam os eventos possíveis.
 
 
 O público-alvo principal desse site inclui:
@@ -70,10 +70,8 @@ O público-alvo principal desse site inclui:
   Turistas e visitantes: Pessoas em viagens que desejam descobrir atividades e eventos locais durante sua estadia.
   Motoristas de aplicativo: que buscam otimizar seus ganhos e conseguir achar mais 
 
-[Personas e proposta de valor](files/Persona.pdf)
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+>[Personas e proposta de valor](files/Persona.pdf)
+
 
 # Product Discovery
 
