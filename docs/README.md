@@ -28,7 +28,7 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+Em um mundo em que as informações estão fragmentadas em vários lugares ao mesmo tempo, a busca por clareza nunca esteve tão fácil mas ao mesmo tempo tão complicada, ainda mais quando o assunto é uma programação externa que demanda planejamento. Dessa forma, esse projeto visa otimizar o tempo e facilitar a vida de todos que estão envolvidos neste espectro, indo dos jovens da vida noturna, passando pelos motoristas de aplicativo e até mesmo aqueles que fazem a mágica dos eventos acontecer.
 
 ## Problema
 
