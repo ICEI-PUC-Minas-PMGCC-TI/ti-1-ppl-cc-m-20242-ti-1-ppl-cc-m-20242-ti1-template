@@ -2,8 +2,8 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [Eventful]
-* **Repositório GitHub:** (https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-eventos-proximos)
+* **Projeto:** Eventful
+* **Repositório GitHub:** [Repositorio](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-eventos-proximos)
 * **Membros da equipe:**
 
   * [Rafael Henrique](https://github.com/Rafaelhs2005) 
@@ -24,7 +24,7 @@ A documentação do projeto é estruturada da seguinte forma:
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](files/processo-dt.pdf)
+✅ [Documentação de Design Thinking (MIRO)](files/Documentacao.pdf)
 
 # Contexto
 
