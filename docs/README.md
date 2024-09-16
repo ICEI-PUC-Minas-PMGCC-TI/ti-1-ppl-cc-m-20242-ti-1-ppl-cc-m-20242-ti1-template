@@ -107,8 +107,12 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 | EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
-| Jovem de 19 anos (Usuário do sistema)  | De informações e comentários de outros usuários a respeito do evento | Ir ao evento com segurança, já sabendo a procedência            |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
+| Jovem de 19 anos  | De informações e comentários de outros usuários a respeito do evento | Ir ao evento com segurança, já sabendo a procedência            |
+| Jovem de 19 anos         | Saber os eventos próximos a mim      | Me programar e conhecer lugares e pessoas novas |
+| Motorista de Aplicativo        | Saber os tipos de eventos próximos a mim a partir de filtros     | Selecionar melhor os tipos de passageiros que lidarei |
+| Motorista de Aplicativo        | Ter conhecimento de quais eventos estão sendo mais acessados/procurados  | Obter corridas mais rentáveis com maior lucro |
+| Produtor de Eventos       | Um espaço para condensar informações do meu evento e eventuais mudanças  | Não ter informações desconexas e perdidas em múltiplas plataformas, causando desinteresse no público |
+| Produtor de Eventos       | Destaque para o evento que estou promovendo  | Atingir meu público-alvo |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
