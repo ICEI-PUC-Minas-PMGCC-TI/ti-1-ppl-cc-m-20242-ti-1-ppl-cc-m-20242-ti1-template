@@ -29,6 +29,7 @@ A documentação do projeto é estruturada da seguinte forma:
 # Contexto
 
 Em um mundo em que as informações estão fragmentadas em vários lugares ao mesmo tempo, a busca por clareza nunca esteve tão fácil, mas ao mesmo tempo tão complicada - especialmente quando se trata do planejamento de um evento externo. Dessa forma, esse projeto visa otimizar o tempo e facilitar a vida de todos que estão envolvidos neste espectro, desde os jovens da vida noturna, até aqueles que tornam os eventos possíveis.
+<<<<<<< HEAD
 
 
 O público-alvo principal desse site inclui:
@@ -38,6 +39,8 @@ O público-alvo principal desse site inclui:
   Organizadores de eventos: Profissionais e empresas que buscam divulgar seus eventos para públicos segmentados e aumentar a participação.
   Turistas e visitantes: Pessoas em viagens que desejam descobrir atividades e eventos locais durante sua estadia.
   Motoristas de aplicativo: que buscam otimizar seus ganhos e conseguir achar mais 
+=======
+>>>>>>> 34ea4645b512ee2aedd5f94bec78259c00bf03a0
 
 ## Problema
 
