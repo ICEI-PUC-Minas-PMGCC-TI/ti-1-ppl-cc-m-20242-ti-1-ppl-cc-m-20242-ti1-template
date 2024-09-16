@@ -24,63 +24,53 @@ A documentação do projeto é estruturada da seguinte forma:
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](files/Documentacao.pdf)
+✅ [Documentação de Design Thinking (MIRO)](files/Documentacao.pdfpdf)
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+Atualmente, muitas pessoas têm dificuldade em encontrar eventos próximos que se alinhem com seus interesses específicos. A fragmentação de informações sobre eventos em diferentes plataformas e a falta de centralização dificultam a descoberta de opções culturais, sociais e recreativas. Além disso, usuários enfrentam o problema de não conseguir obter detalhes sobre eventos locais, como data, local, tipo de público, ingressos e atividades envolvidas, de maneira rápida e confiável. Isso pode resultar em uma perda de oportunidades para frequentar eventos relevantes ou em frustrações por não encontrar o que procuram.
+
+
+O público-alvo principal desse site inclui:
+
+  Jovens adultos e estudantes: Pessoas entre 18 e 35 anos que buscam atividades recreativas, sociais e culturais em suas cidades ou em locais próximos.
+  Profissionais ocupados: Pessoas com horários limitados que querem otimizar seu tempo livre participando de eventos de interesse, mas têm dificuldades para encontrar opções facilmente.
+  Organizadores de eventos: Profissionais e empresas que buscam divulgar seus eventos para públicos segmentados e aumentar a participação.
+  Turistas e visitantes: Pessoas em viagens que desejam descobrir atividades e eventos locais durante sua estadia.
+  Motoristas de aplicativo: que buscam otimizar seus ganhos e conseguir achar mais 
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+tualmente, muitas pessoas têm dificuldade em encontrar eventos próximos que se alinhem com seus interesses específicos. A fragmentação de informações sobre eventos em diferentes plataformas e a falta de centralização dificultam a descoberta de opções culturais, sociais e recreativas. Além disso, usuários enfrentam o problema de não conseguir obter detalhes sobre eventos locais, como data, local, tipo de público, ingressos e atividades envolvidas, de maneira rápida e confiável. Isso pode resultar em uma perda de oportunidades para frequentar eventos relevantes ou em frustrações por não encontrar o que procuram.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O objetivo principal do site de encontrar eventos próximos é oferecer uma plataforma fácil de usar que centralize e organize informações sobre eventos locais de acordo com as preferências e localização do usuário. Alguns dos objetivos específicos incluem:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+>  Centralizar informações: Reunir eventos de diversas fontes, como redes sociais, sites especializados e organizadores de eventos.
+>  Facilitar a busca personalizada: Permitir que os usuários filtrem eventos por localização, categoria, data, faixa de preço e preferências pessoais.
+>  Oferecer notificações personalizadas: Enviar alertas quando novos eventos de interesse surgirem próximos à localização do usuário.
+>  Melhorar a experiência do usuário: Proporcionar uma interface simples e intuitiva, com descrições detalhadas dos eventos, permitindo fácil navegação e divulgação.
+
+
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+justificativa para o desenvolvimento de um site de encontrar eventos próximos baseia-se na crescente demanda por uma plataforma centralizada e eficiente para ajudar as pessoas a descobrirem eventos que atendam a seus interesses e localização. A fragmentação de informações em diversas plataformas dificulta a experiência tanto para os usuários, que não encontram facilmente eventos relevantes, quanto para os organizadores, que buscam maior visibilidade. Um site que simplifique esse processo, oferecendo busca personalizada e notificações, pode melhorar o engajamento, apoiar pequenos eventos e aumentar a participação em atividades locais.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O público-alvo principal desse site inclui:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
+  Jovens adultos e estudantes: Pessoas entre 18 e 35 anos que buscam atividades recreativas, sociais e culturais em suas cidades ou em locais próximos.
+  Profissionais ocupados: Pessoas com horários limitados que querem otimizar seu tempo livre participando de eventos de interesse, mas têm dificuldades para encontrar opções facilmente.
+  Organizadores de eventos: Profissionais e empresas que buscam divulgar seus eventos para públicos segmentados e aumentar a participação.
+  Turistas e visitantes: Pessoas em viagens que desejam descobrir atividades e eventos locais durante sua estadia.
+  Motoristas de aplicativo: que buscam otimizar seus ganhos e conseguir achar mais 
+
+[Personas e proposta de valor](files/Persona.pdf)
 >
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
