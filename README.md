@@ -15,10 +15,9 @@ A dificuldade em encontrar concursos públicos e federais torna-se marcante no c
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
-
-
+* João Carlos Oliveira Caetano
+* Luciana Mara Freitas Diniz
+* Rommel Vieira Carneiro
 
 ## Instruções de utilização 
 
