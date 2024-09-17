@@ -33,7 +33,7 @@ Em um mundo em que as informações estão fragmentadas em vários lugares ao me
 
 ## Problema
 
-tualmente, muitas pessoas têm dificuldade em encontrar eventos próximos que se alinhem com seus interesses específicos. A fragmentação de informações sobre eventos em diferentes plataformas e a falta de centralização dificultam a descoberta de opções culturais, sociais e recreativas. Além disso, usuários enfrentam o problema de não conseguir obter detalhes sobre eventos locais, como data, local, tipo de público, ingressos e atividades envolvidas, de maneira rápida e confiável. Isso pode resultar em uma perda de oportunidades para frequentar eventos relevantes ou em frustrações por não encontrar o que procuram.
+Atualmente, muitas pessoas têm dificuldade em encontrar eventos próximos que se alinhem com seus interesses específicos. A fragmentação de informações sobre eventos em diferentes plataformas e a falta de centralização dificultam a descoberta de opções culturais, sociais e recreativas. Além disso, usuários enfrentam o problema de não conseguir obter detalhes sobre eventos locais, como data, local, tipo de público, ingressos e atividades envolvidas, de maneira rápida e confiável. Isso pode resultar em uma perda de oportunidades para frequentar eventos relevantes ou em frustrações por não encontrar o que procuram.
 
 
 ## Objetivos
@@ -49,7 +49,7 @@ O objetivo principal do site de encontrar eventos próximos é oferecer uma plat
 
 ## Justificativa
 
-justificativa para o desenvolvimento de um site de encontrar eventos próximos baseia-se na crescente demanda por uma plataforma centralizada e eficiente para ajudar as pessoas a descobrirem eventos que atendam a seus interesses e localização. A fragmentação de informações em diversas plataformas dificulta a experiência tanto para os usuários, que não encontram facilmente eventos relevantes, quanto para os organizadores, que buscam maior visibilidade. Um site que simplifique esse processo, oferecendo busca personalizada e notificações, pode melhorar o engajamento, apoiar pequenos eventos e aumentar a participação em atividades locais.
+A justificativa para o desenvolvimento de um site de encontrar eventos próximos baseia-se na crescente demanda por uma plataforma centralizada e eficiente para ajudar as pessoas a descobrirem eventos que atendam a seus interesses e localização. A fragmentação de informações em diversas plataformas dificulta a experiência tanto para os usuários, que não encontram facilmente eventos relevantes, quanto para os organizadores, que buscam maior visibilidade. Um site que simplifique esse processo, oferecendo busca personalizada e notificações, pode melhorar o engajamento, apoiar pequenos eventos e aumentar a participação em atividades locais.
 
 
 ## Público-Alvo
