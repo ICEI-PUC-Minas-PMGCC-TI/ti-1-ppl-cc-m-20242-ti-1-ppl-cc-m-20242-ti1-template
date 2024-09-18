@@ -6,13 +6,13 @@ Informações básicas do projeto.
 * **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g7-concursos/tree/master)
 * **Membros da equipe:**
 
-* [Gabriel Matos Nogueira](https://github.com/GabrielMatosNogueira)
-* [Gustavo Lopes Oliveira](https://github.com/GustavoLopesOliveira)
-* [Isabel Cristina Borges](https://github.com/isabelcbrg)
-* João Paulo de Deus Natividade Oliveira Saraiva
-* Nayron Campos Soares
-* [Lawer Böuch Soncin Rocha](https://github.com/la-wer)
-* Rafael Guimaraes Matos
+  * [Gabriel Matos Nogueira](https://github.com/GabrielMatosNogueira)
+  * [Gustavo Lopes Oliveira](https://github.com/GustavoLopesOliveira)
+  * [Isabel Cristina Borges](https://github.com/isabelcbrg)
+  * João Paulo de Deus Natividade Oliveira Saraiva
+  * Nayron Campos Soares
+  * [Lawer Böuch Soncin Rocha](https://github.com/la-wer)
+  * Rafael Guimaraes Matos
 
 A documentação do projeto é estruturada da seguinte forma:
 
