@@ -87,27 +87,25 @@ A dificuldade em encontrar concursos públicos e federais torna-se marcante no c
 
 ## Etapa de Entendimento
 
-**Matriz CSD**
+#### **Matriz CSD**
 
 ![Matriz CSD](https://f.feridinha.com/o4AcT.png)
 
-**Mapa de stakeholders**
+#### **Mapa de stakeholders**
 
 ![Mapa de stakeholders](https://f.feridinha.com/4HEsm.png)
 
-**Entrevistas qualitativas**
+#### **Entrevistas qualitativas**
 
 ![Entrevistas qualitativas](https://f.feridinha.com/gungr.png)
 
-**Highlights de pesquisa**
+#### **Highlights de pesquisa**
 
 ![Highlights de pesquisa](https://f.feridinha.com/ZURU5.png)
 
 ## Etapa de Definição
 
 ### Personas
-
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
 
 ![Joaquim](https://f.feridinha.com/JPjcW.png)
 
@@ -125,29 +123,29 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 | EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| Graduando de Direito/Adm | Saber quais os concursos disponíveis na minha área de interesse | Me preparar de maneira efetiva |
+| Estudante de Concurso | Saber como e quando me preparar | Ter maiores chances de passar |
+| "Concurseiro" (Mais de uma opção de curso) | De indicações de material de estudo de fácil acesso | Dedicar mais tempo estudando do que procurando livros |
+| Desempregado | Uma funcionalidade que mostre todos os concursos em um determinado raio de distância | Saber as oportunidades regionais de emprego |
+| Funcionário Público | Notícias sobre os concursos abertos | Informar meus amigos e familiares |
+| Um jovem com dificuldade com horários | Um ciclo de estudos personalizado | Melhorar a minha agenda |
+| Chefe de Empresa | Um local para disponibilizar concursos | Contratar funcionários |
+| Aposentado | Concursos que atendam minha faixa etária | Voltar ao mercado de trabalho |
+| Militar | Concursos da área militar | Me informar sobre testes físicos e disciplinares |
 
 ## Proposta de Valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
+##### Proposta para Joaquim
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
+![Joaquim](https://f.feridinha.com/Et4XI.png)
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+##### Proposta para Guilherme
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
+![Guilherme](https://f.feridinha.com/2x2wm.png)
+
+##### Proposta para Roberto
+
+![Roberto](https://f.feridinha.com/R9e0u.png)
 
 ## Requisitos
 
@@ -155,17 +153,50 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| ID  | Descrição do requisito                                                                                                                                 | Prioridade |
+|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| 1   | O site deve permitir o cadastro de usuários (com dados como nome, e-mail e senha).                                                                      | Alta       |
+| 2   | Botão de login.                                                                                                                                        | Alta       |
+| 3   | Deve haver autenticação de usuários por meio de login e senha.                                                                                          | Alta       |
+| 4   | O site deve oferecer uma opção de recuperação de senha por e-mail e telefone.                                                                           | Média      |
+| 5   | Os usuários devem poder pesquisar concursos públicos por palavras-chave, área de atuação, estado/região e cargo.                                        | Alta       |
+| 6   | A busca deve ser capaz de filtrar resultados por data de inscrição, nível de escolaridade, faixa etária e faixa salarial.                               | Alta       |
+| 7   | O site deve exibir uma lista de concursos ativos, com informações principais como: nome do concurso, órgão/empresa organizadora, datas e vagas.         | Alta       |
+| 8   | O site deve exibir salário e link para o edital nos concursos ativos.                                                                                   | Alta       |
+| 9   | Os usuários devem poder se inscrever para receber notificações sobre novos concursos com base em suas preferências.                                      | Alta       |
+| 10  | O sistema deve enviar alertas por e-mail, SMS e caixa de entrada quando novos concursos forem lançados.                                                 | Alta       |
+| 11  | Ao clicar em um concurso, o usuário deve ver uma página de detalhes com informações completas, link para edital, inscrição e calendário do concurso.     | Alta       |
+| 12  | O site deve oferecer simulados e provas anteriores de concursos.                                                                                        | Média      |
+| 13  | Deve haver uma seção com materiais de estudo (livros, apostilas, vídeo aulas, dicas) para diversos cargos e áreas.                                       | Média      |
+| 14  | Os usuários devem poder salvar concursos de interesse em uma lista de favoritos para acesso rápido.                                                     | Média      |
+| 15  | O site deve conter uma seção de notícias sobre concursos públicos, com atualizações sobre editais, resultados e dicas de preparação.                    | Média      |
+| 16  | Cada usuário deve ter acesso a um painel pessoal onde pode ver concursos favoritos, acompanhar notificações e acessar o histórico de concursos.          | Alta       |
+| 17  | O site deverá ter um FAQ para ajudar os usuários.                                                                                                       | Média      |
+| 18  | O site deve oferecer suporte técnico ao usuário, com canais de atendimento via chat, e-mail ou telefone.                                                | Alta       |
+
 
 ### Requisitos não Funcionais
 
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
+| ID  | Descrição do requisito                                                                                                                                   | Prioridade |
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| 19  | O site deverá ser publicado de forma pública na internet.                                                                                                 | Alta       |
+| 20  | Deve utilizar HTML e CSS.                                                                                                                                 | Alta       |
+| 21  | O sistema deve ser capaz de suportar pelo menos 10.000 usuários ativos simultaneamente sem perda de desempenho.                                           | Alta       |
+| 22  | O site deve ser escalável, ou seja, deve poder aumentar a capacidade de atendimento com o crescimento do número de usuários.                              | Alta       |
+| 23  | Todas as comunicações entre o usuário e o site devem ser feitas através de HTTPS (protocolo seguro).                                                      | Alta       |
+| 24  | As senhas dos usuários devem ser armazenadas de forma criptografada.                                                                                      | Alta       |
+| 25  | Backup diário das informações para evitar perda de dados em caso de falhas.                                                                               | Alta       |
+| 26  | O site deve estar disponível 99,9% do tempo.                                                                                                              | Alta       |
+| 27  | Deve ser fácil de navegar, com poucos cliques para acessar os principais conteúdos.                                                                       | Média      |
+| 28  | O site deve ser compatível com os navegadores mais usados, como Google Chrome, Mozilla Firefox, Safari e Microsoft Edge.                                  | Alta       |
+| 29  | O site deve funcionar corretamente em diferentes dispositivos, como desktops, tablets e smartphones.                                                      | Alta       |
+| 30  | O código do site deve ser modular e seguir boas práticas de programação, facilitando a manutenção e adição de novas funcionalidades.                      | Média      |
+| 31  | O sistema deve ser facilmente atualizável, permitindo a implementação de novas funcionalidades sem interrupções significativas.                           | Média      |
+| 32  | O sistema deve ser projetado de forma a permitir a migração para outras plataformas de hospedagem sem grande esforço.                                      | Média      |
+| 33  | O site deve ser compatível com diferentes sistemas operacionais e servidores (Windows, Linux, etc.).                                                      | Média      |
+| 34  | Toda a documentação técnica do sistema deve ser mantida e acessível para a equipe de desenvolvimento e manutenção.                                         | Média      |
+| 35  | O sistema deve permitir a adaptação para múltiplos idiomas e formatos regionais.                                                                          | Média      |
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
