@@ -1,7 +1,5 @@
 # Introdução
 
-Informações básicas do projeto.
-
 * **Projeto:** Dificuldades em prestar concursos públicos
 * **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g7-concursos/tree/master)
 * **Membros da equipe:**
@@ -12,7 +10,7 @@ Informações básicas do projeto.
   * João Paulo de Deus Natividade Oliveira Saraiva
   * Nayron Campos Soares
   * [Lawer Böuch Soncin Rocha](https://github.com/la-wer)
-  * Rafael Guimaraes Matos
+  * [Rafael Guimaraes Matos](https://github.com/RafaelgMatos)
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -28,7 +26,7 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+A dificuldade em encontrar concursos públicos e federais torna-se marcante no contexto brasileiro, uma vez que os candidatos interessados possuem dificuldade em encontrar, de maneira simples, concursos disponíveis, editais, materiais de estudo, datas e futuros concursos abertos (preestabelecidos por entidades públicas). Embora a Internet tenha facilitado a maneira como os candidatos possuem acesso aos concursos e editais, as informações geralmente se encontram fragmentadas e incompletas, com pouca variedade de opções e de difícil coesão temporal, uma vez que os prazos são curtos e a informação sobre as possibilidades são geralmente encaminhas aos usuários próximo a data das provas de seleção, o que diminui a possibilidade de aprovação.
 
 ## Problema
 
@@ -111,16 +109,11 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 **✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+![Joaquim](https://f.feridinha.com/JPjcW.png)
+
+![Guilherme](https://f.feridinha.com/UbmiU.png)
+
+![Roberta](https://f.feridinha.com/Ul4B1.png)
 
 # Product Design
 
