@@ -121,10 +121,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-002 | Exibir o local, horário e lotação dos eventos | ALTA     |
 | RF-003 | Mecanismos de filtragem dos eventos por preferências | ALTA     |
 | RF-004 | Espaço para divulgação de eventos | ALTA     |
-| RF-005 | Redirecionamento dos usuários interessados para a compra de
-ingressos ou inscrições dos eventos | MÉDIA     |
-| RF-006 | Notificações sobre eventos com base nas preferências
-dos usuário | MÉDIA     |
+| RF-005 | Redirecionamento dos usuários interessados para a compra de ingressos ou inscrições dos eventos | MÉDIA     |
+| RF-006 | Notificações sobre eventos com base nas preferências dos usuário | MÉDIA     |
 | RF-007 | Permitir o cadastro e login de usuários | MÉDIA     |
 
 ### Requisitos não Funcionais
