@@ -22,7 +22,7 @@ A documentação do projeto é estruturada da seguinte forma:
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](docs/files/PMGCC-M - G7 - Dificuldade em prestar concurso.pdf)
+✅ [Documentação de Design Thinking (MIRO)](docs/files/pdfmiro)
 
 # Contexto
 
