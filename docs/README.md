@@ -117,15 +117,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| RF-001 | Exibir as avaliações dos eventos | MÉDIA       |
+| RF-002 | Exibir o local, horário e lotação dos eventos | ALTA     |
+| RF-003 | Mecanismos de filtragem dos eventos por preferências | ALTA     |
+| RF-004 | Espaço para divulgação de eventos | ALTA     |
+| RF-005 | Redirecionamento dos usuários interessados para a compra de
+ingressos ou inscrições dos eventos | MÉDIA     |
+| RF-006 | Notificações sobre eventos com base nas preferências
+dos usuário | MÉDIA     |
+| RF-007 | Permitir o cadastro e login de usuários | MÉDIA     |
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
+| RNF-001 | O sistema deve suportar no mínimo 10000 acessos simultâneos sem comprometer o desempenho | MÉDIA     |
+| RNF-002 | O sistema deve garantir a segurança dos dados de todos os usuários | ALTA      |
+| RNF-003 | O sistema deve ser compatível com todos os dispositivos atuais | MÉDIA      |
+| RNF-004 | O sistema deve estar disponível 24/7 | ALTA      |
+| RNF-005 | O sistema deve retornar os resultados de busca em no máximo 1 segundo | MÉDIA      |
+| RNF-006 | O sistema deve ser intuitivo e de fácil utilização | ALTA      |
 
 
 ## Projeto de Interface
