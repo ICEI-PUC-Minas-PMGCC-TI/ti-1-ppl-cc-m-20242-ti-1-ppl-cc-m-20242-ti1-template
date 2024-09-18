@@ -100,6 +100,8 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 
+![Exemplo de wireframe](https://f.feridinha.com/Y30pf.png)
+
 ## Etapa de Definição
 
 ### Personas
