@@ -24,14 +24,13 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+O tema do projeto é a dificuldade de criar e se desfazer de hábitos, algo comum entre estudantes universitários, especialmente considerando as pressões acadêmicas e sociais. O objetivo do projeto é desenvolver um aplicativo que auxilie esses estudantes a melhorar sua rotina e hábitos diários, seja no abandono de comportamentos prejudiciais ou na adoção de práticas saudáveis. O público-alvo são estudantes universitários que lidam com questões como procrastinação, vícios e a organização do tempo. O aplicativo será desenvolvido em HTML e CSS, com foco em acessibilidade, interface intuitiva e ferramentas motivacionais.
+
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+Muitos estudantes universitários enfrentam dificuldades para criar e manter hábitos saudáveis, assim como para se livrar de vícios prejudiciais. Isso se deve a fatores como a sobrecarga acadêmica, a pressão social, a falta de orientação sobre como formar hábitos e a ausência de um sistema de apoio efetivo. Em ambientes universitários, problemas como procrastinação, vícios (tabagismo, apostas, etc.), desorganização de rotina e falta de motivação são comuns. Essas dificuldades impactam não só o desempenho acadêmico, mas também a saúde física e mental dos alunos, o que gera uma necessidade de ferramentas que auxiliem na gestão pessoal e no desenvolvimento de novos hábitos.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
 > Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
 >
 > **Orientações**:
@@ -42,24 +41,22 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+Objetivo Geral:
+Desenvolver um aplicativo que ajude estudantes universitários a criar e desfazer hábitos, com funcionalidades focadas em motivação, monitoramento e apoio à comunidade.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
+Objetivos Específicos:
+Criar um sistema de monitoramento diário que permita o acompanhamento do progresso dos hábitos, oferecendo lembretes e recompensas.
+Implementar uma funcionalidade de comunidade que permita aos usuários compartilhar experiências e se motivar mutuamente, facilitando o suporte entre pares.
+Desenvolver um sistema de gamificação para incentivar o uso contínuo e o progresso do usuário, promovendo o engajamento através de desafios e recompensas personalizadas.
+
 > **Orientações**:
 >
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O desenvolvimento deste aplicativo é importante devido ao impacto direto que a criação ou abandono de hábitos pode ter na vida dos estudantes universitários. Estudantes, como Edyvânia e João, enfrentam obstáculos para mudar comportamentos que afetam seu bem-estar e desempenho acadêmico. A solução proposta visa preencher a lacuna entre a teoria da formação de hábitos e sua aplicação prática no dia a dia dos usuários, por meio de uma plataforma acessível e intuitiva, que oferece motivação contínua e suporte. A decisão de incluir elementos de gamificação e uma comunidade de apoio baseia-se em entrevistas realizadas com estudantes, que indicaram a necessidade de um sistema de recompensas e de interação social para manter o engajamento.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
 > O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 >
 > **Orientações**:
@@ -68,11 +65,8 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O público-alvo principal deste aplicativo são estudantes universitários de diversas áreas de estudo, com idades entre 18 e 30 anos, que enfrentam desafios relacionados à criação de hábitos saudáveis ou à eliminação de hábitos prejudiciais. Esses estudantes têm um nível intermediário de familiaridade com tecnologias e dispositivos móveis, utilizando aplicativos de maneira frequente, principalmente para organização pessoal, redes sociais e lazer. As personas criadas para representar esse público incluem Edyvânia, uma estudante extrovertida que quer parar de fumar e organizar melhor sua rotina, e João, um estudante introvertido que deseja largar o vício em apostas e melhorar sua saúde física frequentando a academia. Essas personas refletem a diversidade de perfis e motivações dos estudantes universitários, além de suas necessidades específicas.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
 >
 > Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
 >
