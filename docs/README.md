@@ -2,13 +2,18 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Projeto:**  Descontrole financeiro
+* **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-organizacao-financeira
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * Alessandro Andrade de Oliveira(https://github.com/fulano) ⚠️ EXEMPLO ⚠️
+  * Pedro Henrique Cardoso Maia(https://github.com/cicrano)
+  * André Almeida Costa(https://github.com/cicrano)
+  * Samuel Padua Ramos(https://github.com/cicrano)
+  * Davi Manoel Bernardes (https://github.com/cicrano)
+  * Tiago Santos Nogueira https://github.com/TiagoSNogueira
+  * Felipe Quites Lopes(https://github.com/cicrano)
+  
 
 A documentação do projeto é estruturada da seguinte forma:
 
