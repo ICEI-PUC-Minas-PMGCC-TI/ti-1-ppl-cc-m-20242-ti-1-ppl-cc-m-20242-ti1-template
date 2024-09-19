@@ -121,7 +121,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | Estagiária  e estudante | Algo fácil de se usar       | Não precisar passar muito tempo pra aprender usar. |
 | Alguém que procrastina em redes sociais  | De que as notificações sejam bloqueadas    | Conseguir me concentrar melhor nos estudos |
 | Fumante   | Contador de quantos dias sem fumar |  ter maior controle do meu avanço e motivação      |
-
 | Um cara com dificuldade de manter a constância   | De algo que me incentive a continuar | Me motivar a continuar |
 |  Alguém que se frustra facilmente   | Mesagem de motivação | Manter meu progresso   |
 |  Usuário do aplicativo   | Lembretes diários | Me lembrar de fazer as tarefas  |
