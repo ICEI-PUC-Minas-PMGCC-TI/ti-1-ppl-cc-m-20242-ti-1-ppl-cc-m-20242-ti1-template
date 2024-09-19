@@ -42,8 +42,6 @@ O salário médio no Brasil em Julho de 2024 é de aproximadamente R$3.187,00. E
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
 Primeiramente focar nas pessoas que ja fazem concursos e tem dificuldade de achar e filtrar pelo que ele deseja, pois ela é o fundo do funil.
 Em segundo é aquela pessoa que não sabe da existência de quando os concursos que ele deseja abrem, isso se deve ao fato de uma má divulgação.
 
