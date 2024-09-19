@@ -5,9 +5,10 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Victor Seretni Guimarães
+* Pedro Siqueira Godinho
+* Filipe Estopa Tavares Santos
+* Felipe Gabriel de Carvalho
 * Tallys Assis de Souza
 
 ## Professores responsáveis
