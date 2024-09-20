@@ -145,11 +145,11 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ##### Proposta para Edyvania
 
-![Exemplo de proposta de valor](https://github.com/user-attachments/assets/1f39bc2a-fa08-4f89-a085-b5c9259b9fb1)
+![Proposta de valor Edyvania](https://github.com/user-attachments/assets/1f39bc2a-fa08-4f89-a085-b5c9259b9fb1)
 
 ##### Proposta para João
 
-![Exemplo de proposta de valor]()
+![Proposta de valor Joao](https://github.com/user-attachments/assets/aad4b189-816f-452d-b63a-52966fc8e441)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
