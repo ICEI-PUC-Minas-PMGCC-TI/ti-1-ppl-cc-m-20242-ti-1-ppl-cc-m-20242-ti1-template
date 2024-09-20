@@ -142,8 +142,15 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 ##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
 
 ![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+
+##### Proposta para Edyvania
+
 ![Exemplo de proposta de valor](images/proposta-de-valor-edyvania.pdf)
+
+##### Proposta para João
+
 ![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
@@ -157,7 +164,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
 | RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| RF-001 | Cadastro de usuário | ALTA       |
+| RF-002 | Área de criação de hábitos | ALTA    |
+| RF-003 | Lembretes diários | MÉDIA  |
+| RF-004 | Histórico de cada hábito  | ALTA  |
+| RF-005 | Comunidade de apoio| BAIXA  |
+| RF-006 | Gamificação | BAIXA  |
+| RF-007 | Calendário | ALTA |
+| RF-008 | Bloqueio de notificações | MÉDIA  |
+| RF-009 | Motivadores | MÉDIA |
+| RF-010 | Análise da constância  dos  hábitos | ALTA |
+
 
 ### Requisitos não Funcionais
 
@@ -165,6 +182,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
 | RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
+| RNF-001 |  O site tem que ser intuitivo e fácil de se usar | ALTA |
+| RNF-002 | O site tem que ter uma boa acessibilidade e funcionamento no celular também  | MÉDIA      |
+| RNF-003 |  O aplicativo deve ser rápido e responsivo, garantindo uma boa experiência ao usuário  | ALTA   |
+| RNF-004 | O sistema deve estar disponível 24 horas por dia     | ALTA     |
+| RNF-005 |  As informações do usuário devem ser protegidas e armazenadas de forma segura | ALTA     |
+| RNF-006 |  O sistema deve responder rápidamente | ALTA     |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
