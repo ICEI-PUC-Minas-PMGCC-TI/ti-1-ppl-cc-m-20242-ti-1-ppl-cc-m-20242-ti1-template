@@ -6,8 +6,6 @@ Informações básicas do projeto.
 * **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
   * [Thiago Gomes](https://github.com/Thigogomes)
   * [Tiago]()
   * [Felipe]()
@@ -121,7 +119,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 | EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
 | Estagiária  e estudante | Algo fácil de se usar       | Não precisar passar muito tempo pra aprender usar. |
 | Alguém que procrastina em redes sociais  | De que as notificações sejam bloqueadas    | Conseguir me concentrar melhor nos estudos |
 | Fumante   | Contador de quantos dias sem fumar |  ter maior controle do meu avanço e motivação      |
@@ -143,10 +140,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 **✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
-
-![Proposta de valor Edyvania](images/exemplo-proposta-valor.png)
-
 ##### Proposta para Edyvania
 
 ![Proposta de valor Edyvania](https://github.com/user-attachments/assets/1f39bc2a-fa08-4f89-a085-b5c9259b9fb1)
@@ -154,10 +147,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 ##### Proposta para João
 
 ![Proposta de valor Joao](https://github.com/user-attachments/assets/aad4b189-816f-452d-b63a-52966fc8e441)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
 
 ## Requisitos
 
@@ -167,7 +156,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
 | RF-001 | Cadastro de usuário | ALTA       |
 | RF-002 | Área de criação de hábitos | ALTA    |
 | RF-003 | Lembretes diários | MÉDIA  |
@@ -184,8 +172,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
 | RNF-001 |  O site tem que ser intuitivo e fácil de se usar | ALTA |
 | RNF-002 | O site tem que ter uma boa acessibilidade e funcionamento no celular também  | MÉDIA      |
 | RNF-003 |  O aplicativo deve ser rápido e responsivo, garantindo uma boa experiência ao usuário  | ALTA   |
