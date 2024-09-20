@@ -10,7 +10,7 @@ Informações básicas do projeto.
   * [Tiago]()
   * [Felipe]()
   * [Ricardo]()
-  * [Diego]()
+  * [Diego](https://github.com/Diegogeladin)
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -126,15 +126,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |  Alguém que se frustra facilmente   | Mesagem de motivação | Manter meu progresso   |
 |  Usuário do aplicativo   | Lembretes diários | Me lembrar de fazer as tarefas  |
 |  Viciado em apostas esportivas   | Bloquear meu acesso a sites de aposta | Me impedir de jogar |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Proposta de Valor
 
