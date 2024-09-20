@@ -142,7 +142,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 ##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
 
 ![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
-![Exemplo de proposta de valor]()
+![Exemplo de proposta de valor](imagens/Proposta de valor Edyvania.pdf)
 ![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
