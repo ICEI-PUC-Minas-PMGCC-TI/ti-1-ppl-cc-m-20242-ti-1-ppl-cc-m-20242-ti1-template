@@ -8,7 +8,11 @@ Informações básicas do projeto.
 
   * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
   * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * [Thiago Gomes](https://github.com/Thigogomes)
+  * [Tiago]()
+  * [Felipe]()
+  * [Ricardo]()
+  * [Diego]()
 
 A documentação do projeto é estruturada da seguinte forma:
 
