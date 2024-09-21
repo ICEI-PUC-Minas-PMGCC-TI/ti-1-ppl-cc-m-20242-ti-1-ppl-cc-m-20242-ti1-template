@@ -256,11 +256,11 @@ Tela onde o usuário poderá tirar dúvidas frequentes sobre o app.
 
 Onde o usuário poderá conhecer um pouco mais sobre a história do aplicativo.
 
-![Sobre](https://f.feridinha.com/yR760.png)
+![Sobre](https://f.feridinha.com/1n7g3.png)
 
 ### User Flow
 
-![Userflow](https://f.feridinha.com/kg56Z.png)
+![Userflow](https://f.feridinha.com/LE8o8.png)
 
 ### Protótipo Interativo
 
