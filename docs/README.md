@@ -42,8 +42,7 @@ O salário médio no Brasil em 2023, mensalmente, é de aproximadamente R2 979,0
 
 ## Público-Alvo
 
-Primeiramente focar nas pessoas que ja fazem concursos e tem dificuldade de achar e filtrar pelo que ele deseja, pois ela é o fundo do funil.
-Em segundo é aquela pessoa que não sabe da existência de quando os concursos que ele deseja abrem, isso se deve ao fato de uma má divulgação.
+A aplicação tem como base de público-alvo, alcançar pessoas as quais estão à procura de concursos públicos entre a faixa etária de 23 e 42 anos de idade, contemplando os níveis de escolaridade desde o ensino básico, médio e superior, abrangendo várias áreas profissionais como segmentação de atuação e atentendo a demanada de várias regiões do país.
 
 # Product Discovery
 
