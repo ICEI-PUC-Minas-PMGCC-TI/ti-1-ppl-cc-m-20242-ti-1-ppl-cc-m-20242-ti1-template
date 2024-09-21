@@ -167,24 +167,96 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 Estes são os protótipos de telas do sistema.
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+##### TELA DE CADASTRO
 
-Descrição para a tela XPTO
+Onde o usuário poderá fazer o primeiro cadastro.
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+![Cadastro](https://f.feridinha.com/ylCF1.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+#### TELA DE LOGIN
+
+Onde o usuário poderá fazer o login após se cadastrar ou retornar ao app.
+
+![Login](https://f.feridinha.com/UNDgM.png)
+
+#### TELA DE RECUPERAÇÃO DE SENHA
+
+Onde o usuário poderá recuperar sua senha.
+
+![Recuperação de senha](https://f.feridinha.com/Jo9z5.png)
+
+#### TELA DE HOME
+
+Tela inicial onde o usuário poderá acessar as funcionalidades do app.
+
+![Home](https://f.feridinha.com/grvgl.png)
+
+#### TELA DE PROVAS E SIMULADOS
+
+Onde o usuário poderá consultar provas e simulados disponíveis.
+
+![Provas e Simulados](https://f.feridinha.com/pco0W.png)
+
+#### TELA DE MATERIAIS DE ESTUDO
+
+Onde o usuário poderá consultar materiais de estudo disponíveis.
+
+![Materiais de Estudo](https://f.feridinha.com/AMF7W.png)
+
+#### TELA DE CONCURSOS
+
+Onde o usuário poderá consultar os concurasos disponíveis.
+
+![Concursos](https://f.feridinha.com/dvMwK.png)
+
+#### TELA DE EDITAIS
+
+Onde o usuário poderá conferir os editais dos cursos disponíveis.
+
+![Editais](https://f.feridinha.com/p78A8.png)\
+
+#### TELA DE CALENDÁRIO
+
+Onde o usuário poderá consultar os concursos futuros cadastrados.
+
+![Calendário](https://f.feridinha.com/fgobK.png)
+
+#### TELA DE CONFIGURAÇÕES
+
+Onde o usuário poderá configurar e acessar informações sobre o app.
+
+![Configurações](https://f.feridinha.com/Ok0XL.png)
+
+#### TELA DE APARÊNCIA
+
+Onde o usuário poderá modificar aspectos de aparência do aplicativo.
+
+![Aparência](https://f.feridinha.com/Ot8Iv.png)
+
+#### TELA DE PRIVACIDADE E SEGURANÇA
+
+Onde o usuário poderá conferir as diretrizes do app.
+
+![Privacidade e Segurança](https://f.feridinha.com/kY7sw.png)
+
+#### TELA DE NOTIFICAÇÕES
+
+Onde o usuário poderá conferir novidades e notificações do app.
+
+![Notificações](https://f.feridinha.com/ClVn8.png)
+
+#### TELA DE FAQ
+
+Tela onde o usuário poderá tirar dúvidas frequentes sobre o app.
+
+![FAQ](https://f.feridinha.com/Klg0i.png)
+
+#### TELA DE SOBRE
+
+Onde o usuário poderá conhecer um pouco mais sobre a história do aplicativo.
+
+![Sobre](https://f.feridinha.com/yR760.png)
 
 ### User Flow
 
@@ -206,11 +278,7 @@ Descrição para a tela XPTO
 
 **✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
 
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
+✅ [Protótipo Interativo (Figma)](https://www.figma.com/proto/ENQz2rYdKyTwRPfqBOEvGZ/Prototipo-TI?node-id=5-2&node-type=canvas&t=AgwKRiTkJKDNl0ZZ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A2)
 
 # Metodologia
 
@@ -225,12 +293,8 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKoWG8Ew=/       |
 | Repositório de código     | GitHub     | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g7-concursos/tree/master/codigo      |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+| Protótipo Interativo       | MarvelApp  | https://www.figma.com/proto/ENQz2rYdKyTwRPfqBOEvGZ/Prototipo-TI?node-id=5-2&node-type=canvas&t=AgwKRiTkJKDNl0ZZ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A2   |
 |                             |            |                                                    |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
 
 ## Gerenciamento do Projeto
 
