@@ -101,6 +101,10 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 > * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
 > ![Nossa Mapa](images/MapaStakeholders.png)
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
+>  ![Nossa Entrevista](images/entrevista_quali1.png)
+   ![Nossa Entrevista](images/entrevista_quali2.png)
+   ![Nossa Entrevista](images/entrevista_quali3.png)
+   ![Nossa Entrevista](images/entrevista_quali4.png)
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 
 ## Etapa de Definição
