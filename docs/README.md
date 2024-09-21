@@ -399,6 +399,8 @@ Esta seção apresenta os módulos e APIs utilizados na solução
 
 As referências utilizadas no trabalho foram:
 
-* blog.grancursosonline.com.br
-* www.acheconcursos.com.br
+* Blog AcheConcursos: https://www.acheconcursos.com.br/concurso-nacional-unificado-cnu/concurso-unificado-cnu-inscritos-por-estado-68725#:~:text=O%20Concurso%20Nacional%20Unificado%20(CNU)%20bateu%20a%20marca,CNU%20registrou%20mais%20de%202%2C65%20milhões%20de%20inscritos
+* Notícias R7: https://noticias.r7.com/economia/salario-medio-do-trabalhador-cresce-e-atinge-r-2979-ibge-31012024/
+* Blog GranCursosOnline: https://blog.grancursosonline.com.br/concurso-nacional-unificado-remuneracao/#:~:text=Menor%20remuneração%3A%20inicial%20de%20R%24%205.212%2C29,Maior%20remuneração%3A%20inicial%20de%20R%24%2020.924%2C80 
+
 
