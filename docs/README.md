@@ -109,6 +109,18 @@ O público-alvo principal deste aplicativo são estudantes universitários de di
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
 
+##### Edyvania
+
+Edyvania, mulher de 25 anos, pobre, brasileira, mora em Belo Horizonte, Minas Gerais, ela é estudante do oitavo período de direito, e estagiaria em um escritório de advocacia. Ela tem um grande vicio em fumar, e usa isso para se acalmar. Ela está estudando para prestar a prova da OAB. no seu tempo livre ela gosta de ver series e domaras, e também de estudar coreano, ela gosta de passar tempo com seus dois irmãos mais novos e sua mãe e padrasto, e também sair com seu namorado. Ela precisa de ajuda para conseguir se organizar e a criar o hábito de estudar na sua rotina que é bem corrida, ela costuma perder seu tempo procastinando nas redes sociais, e também quer melhorar a sua saúde parando de fumar, pois a prejudica muito, principalmente a sua respiração. Ela é bastante extrovertida, comunicativa e expressiva, ela tem pouca paciência.
+
+![PMGCC-M - G6 - Dific  em fazer_tirar hábitos - EDYVANIA](https://github.com/user-attachments/assets/1c1edcc6-e645-440f-a3dc-97768e09d538)
+
+##### João
+
+João, homem de 19 anos, classe media, brasileiro, mora em Sabará, Minas Gerais, ele é estudante do segundo período de enfermagem. Ele gosta de tocar violão e de musica no geral, e de esportes principalmente futebol, mas só joga as vezes,  e também gosta de sair com seus amigos. Ele acaba sendo bem sedentário na maior parte do tempo, e ele gostaria de mudar isso começando a fazer academia. ele também tem um vicio em apostas esportivas, que adquiriu por influencia de seus amigos, e por causa disso ele acaba perdendo muito de seu dinheiro. Ele pretende abandonar seu vicio em apostas, tentar manter uma frequência na academia, e conciliar isso com a faculdade e sua rotina de estudos. Ele é bastante tímido e introvertido, mas também é bem emotivo.
+
+![PMGCC-M - G6 - Dific  em fazer_tirar hábitos - JOAO](https://github.com/user-attachments/assets/49950389-c5d2-4f73-b5cd-a0dd67827bb3)
+
 # Product Design
 
 Nesse momento, vamos transformar os insights e validações obtidos em soluções tangíveis e utilizáveis. Essa fase envolve a definição de uma proposta de valor, detalhando a prioridade de cada ideia e a consequente criação de wireframes, mockups e protótipos de alta fidelidade, que detalham a interface e a experiência do usuário.
