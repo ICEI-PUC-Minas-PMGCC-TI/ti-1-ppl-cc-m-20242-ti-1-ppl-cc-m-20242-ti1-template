@@ -7,8 +7,8 @@ Informações básicas do projeto.
 * **Membros da equipe:**
 
   * [Thiago Gomes](https://github.com/Thigogomes)
-  * [Tiago]()
-  * [Felipe]()
+  * [Tiago Morais]()
+  * [Felipe](https://github.com/ilipehwd)
   * [Ricardo]()
   * [Diego](https://github.com/Diegogeladin)
 
