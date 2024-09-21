@@ -261,11 +261,11 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
+| Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKoWGKSY=/       |
+| Repositório de código       | GitHub     | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g6-criar-e-desfazer-habitos/tree/master      |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
-|                             |            |                                                    |
+| Protótipo Interativo        | Figma      |  https://www.figma.com/design/yQJVH902D3Z9bOykY9xmuC/Projeto-ESCOLAR?node-id=0-1&node-type=canvas&t=Ga8tZvOvD7HfvKQQ-0  | 
+| Organização de tarefas      | Monday.com | https://ilipedesousas-team.monday.com/boards/7452019286|
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
