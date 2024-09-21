@@ -128,8 +128,14 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+
+## Persona1
  ![Persona](images/persona1.png)
+
+ ## Persona2
  ![Persona](images/persona2.png)
+
+ ## Persona3
  ![Persona](images/persona3.png)
 >
 > **Orientações**:
@@ -175,8 +181,13 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
 
+## Proposta da Persona1
 ![proposta de valor](images/Proposta1.png)
+
+## Proposta da Persona2
 ![proposta de valor](images/Proposta2.png)
+
+## Proposta da Persona3
 ![proposta de valor](images/Proposta3.png)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
