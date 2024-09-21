@@ -29,7 +29,7 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+O objetivo desse aplicativo e ajudar pessoas que tem dificuldade para gerenciar suas finanças
 
 ## Problema
 
@@ -129,13 +129,13 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 >
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
 
-## Persona1
+## Persona 1
  ![Persona](images/persona1.png)
 
- ## Persona2
+ ## Persona 2
  ![Persona](images/persona2.png)
 
- ## Persona3
+ ## Persona 3
  ![Persona](images/persona3.png)
 >
 > **Orientações**:
@@ -153,7 +153,7 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-| EU COMO...`PERSONA`                                            | QUERO/PRECISO ...`FUNCIONALIDADE`                 | PARA ...`MOTIVO/VALOR`                                            |
+| EU COMO                                                        | QUERO/PRECISO                                     | PARA                                                              |
 | -------------------------------------------------------------- | --------------------------------------            | ----------------------------------------------------------------- |
 | Alguém que sofre com dívidas                                   | Lembretes de vencimento de contas                 | Evitar pagar juros não essenciais                                 |
 | Alguém que não tem muito tempo                                 | Painel de fluxo de caixa com relatórios visuais   | Gastar menos tempo organizando minhas finanças                    |
