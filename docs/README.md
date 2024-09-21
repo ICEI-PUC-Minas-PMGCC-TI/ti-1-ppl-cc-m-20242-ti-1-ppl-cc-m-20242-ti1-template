@@ -7,10 +7,10 @@ Informações básicas do projeto.
 * **Membros da equipe:**
 
   * Alessandro Andrade de Oliveira(https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * Pedro Henrique Cardoso Maia(https://github.com/cicrano)
-  * André Almeida Costa(https://github.com/cicrano)
+  * Pedro Henrique Cardoso Maia https://github.com/pedro-maia1337
+  * André Almeida Costa(https://github.com/cicrano
   * Samuel Padua Ramos(https://github.com/cicrano)
-  * Davi Manoel Bernardes (https://github.com/cicrano)
+  * Davi Manoel Bernardes https://github.com/DaviManoelB
   * Tiago Santos Nogueira https://github.com/TiagoSNogueira
   * Felipe Quites Lopes(https://github.com/cicrano)
   
