@@ -177,24 +177,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ![Requisitos](images/Requisitos.png)
 
-| ID     | Descrição do Requisito                                                                                                | Prioridade|
-| ------ | ----------------------------------------------------------------------------------------------------------------------|-----------|
-| RF-001 | O sistema deverá manter registro da entrada e saída do dinheiro mensal                                                | ALTA      |
-| RF-002 | O sistema deverá mostra um relatório com todo o gasto e lucro do usuário em cada mês                                  | ALTA      |
-| RF-003 | O sistema deverá ter um grafico de juros para saber quanto do valor do produto está sendo cobrado a mais              | MÉDIA     |
-| RF-004 | O sistema deverá ter um calendário para lembrar o usuário do vencimento de contas cadastradas                         | ALTA      |
-| RF-005 | O sistema deverá permitir colocar um nome fantasia na fatura do estabelecimento para ter uma identificação facilitada | MÉDIA     |
-| RF-006 | Um sistema de cofre para saber quando uma meta específica será alcançada                                              | MÉDIA     |
-| RF-007 | O sistema deverá ter uma divisão para cada tipo de gastos para maior organização financeira                           | ALTA      |
-| RF-008 | O sitema deverá ter alertas quando um tipo de gasto esta alto                                                         | MÉDIA     |
-| RF-009 | O sitema deverá ter acesso a conteúdos sobre educação financeira                                                      | MÉDIA     |
-| RF-010 | O sistema deverá ter uma calculadora para mostra o gastos pro divida em cada mês.                                     | MÉDIA     |
+| ID      | Descrição dos Requisitos                                                                                                | Prioridade|
+| ------  | ----------------------------------------------------------------------------------------------------------------------|-----------|
+| RF-001  | O sistema deverá manter registro da entrada e saída do dinheiro mensal                                                | ALTA      |
+| RF-002  | O sistema deverá mostra um relatório com todo o gasto e lucro do usuário em cada mês                                  | ALTA      |
+| RF-003  | O sistema deverá ter um grafico de juros para saber quanto do valor do produto está sendo cobrado a mais              | MÉDIA     |
+| RF-004  | O sistema deverá ter um calendário para lembrar o usuário do vencimento de contas cadastradas                         | ALTA      |
+| RF-005  | O sistema deverá permitir colocar um nome fantasia na fatura do estabelecimento para ter uma identificação facilitada | MÉDIA     |
+| RF-006  | Um sistema de cofre para saber quando uma meta específica será alcançada                                              | MÉDIA     |
+| RF-007  | O sistema deverá ter uma divisão para cada tipo de gastos para maior organização financeira                           | ALTA      |
+| RF-008  | O sitema deverá ter alertas quando um tipo de gasto esta alto                                                         | MÉDIA     |
+| RF-009  | O sitema deverá ter acesso a conteúdos sobre educação financeira                                                      | MÉDIA     |
+| RF-010  | O sistema deverá ter uma calculadora para mostra o gastos pro divida em cada mês.                                     | MÉDIA     |
 
 ### Requisitos não Funcionais
 
 ![Requisitos Não Funcionais](images/RequisitosN.png)
 
-| ID      | Descrição do Requisito                                                                                        | Prioridade |
+| ID      | Descrição dos Requisitos Não Funcionais                                                                       | Prioridade |
 | ------- | ------------------------------------------------------------------------------------------------------------- | ---------- |
 | RNF-001 | O aplicativo deve estar disponível tanto para versão web quanto para versão mobile                            | MÉDIA      |
 | RNF-002 | O aplicativo deve ser capaz decarregar a página principal com resumo financeiro do usuário en até 2 segundos  | MÉDIA      |
@@ -204,10 +204,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ![Restrições](images/Restriçoes.png)
 
-| ID      | Descrição do Requisito                                                                         | Prioridade |
-| ------- | -----------------------------------------------------------------------------------------------| ---------- |
-| RE-001  | O usuário só pode criar um número limitado de categorias de gastos (por exemplo, no máxomp 30) | MÉDIA      |
-| RE-002  | O aplicativo pode impor uma restrição de gasto diário                                          | MÉDIA      |
+| ID      | Descrição das Restrições                                                                        | Prioridade |
+| ------- | ----------------------------------------------------------------------------------------------- | ---------- |
+| RE-001  | O usuário só pode criar um número limitado de categorias de gastos (por exemplo, no máxomp 30)  | MÉDIA      |
+| RE-002  | O aplicativo pode impor uma restrição de gasto diário                                           | MÉDIA      |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
@@ -288,13 +288,13 @@ Detalhes sobre a organização do grupo e o ferramental empregado.
 
 Relação de ferramentas empregadas pelo grupo durante o projeto.
 
-| Ambiente                    | Plataforma | Link de acesso                                     |
-| --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
-|                             |            |                                                    |
+| Ambiente                    | Plataforma | Link de acesso                                                                         |
+| --------------------------- | ---------- | -------------------------------------------------------------------------------------- |
+| Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKoWGKUQ=/                                               |
+| Repositório de código       | GitHub     | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-organizacao-financeira  |
+| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️                                         |
+| Protótipo Interativo        | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️                                           |
+|                             |            |                                                                                        |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
