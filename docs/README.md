@@ -6,10 +6,10 @@ Informações básicas do projeto.
 * **Repositório GitHub: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-investimento.git
 * **Membros da equipe:
 
-  * Victor Seretni - 
+  * Victor Seretni - https://github.com/Sansirow55
   * Pedro Siqueira - 
-  * Filipe Estopa - 
-  * Felipe Gabriel - 
+  * Filipe Estopa - https://github.com/FilipeEstopa19
+  * Felipe Gabriel - https://github.com/FelipeCarva2
   * Tallys Assis -
 
 A documentação do projeto é estruturada da seguinte forma:
@@ -22,37 +22,30 @@ A documentação do projeto é estruturada da seguinte forma:
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](files/processo-dt.pdf)
+✅ [Documentação de Design Thinking (MIRO)](https://miro.com/app/board/uXjVKoWHu1A=/)
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+O principal objetivo deste software é democratizar o acesso ao conhecimento sobre investimentos, facilitando a entrada de novos investidores no mercado. A aplicação visa proporcionar uma experiência educativa e intuitiva, permitindo que usuários sem experiência prévia possam tomar decisões informadas e seguras sobre onde e como investir seu dinheiro.
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+Atualmente, muitas pessoas desejam investir, mas sentem-se inseguras ou sobrecarregadas pela quantidade de informações disponíveis. A falta de clareza sobre os tipos de investimentos, riscos associados e estratégias eficazes cria um ambiente onde potenciais investidores acabam não agindo ou fazendo escolhas ruins. A dificuldade em encontrar recursos acessíveis e compreensíveis contribui para essa inércia. Sua aplicação é especialmente destinada a pessoas físicas que desejam dar os primeiros passos na jornada de investimentos. Reconhecendo que muitas pessoas se sentem inseguras ou sobrecarregadas com a quantidade de informações disponíveis, o software oferece uma solução prática e acessível.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
+Primeiramente, ele proporcionará uma educação interativa, oferecendo tutoriais e cursos que explicam conceitos básicos de forma clara e acessível.A interface amigável será um diferencial importante, com um design intuitivo que facilita a navegação e a compreensão das informações.A inclusão de ferramentas de monitoramento de metas permitirá que os usuários definam e acompanhem suas metas de investimento, promovendo um compromisso com a prática regular. Juntamente com isso, o software fornecerá informações atualizadas sobre o mercado financeiro, incluindo notícias e análises que ajudarão os usuários a tomar decisões informadas.
+
 
 ## Objetivos
+
+O objetivo geral deste software é democratizar o acesso ao conhecimento sobre investimentos, facilitando a entrada de novos investidores no mercado. A aplicação visa proporcionar uma experiência educativa e intuitiva, permitindo que usuários sem experiência prévia possam tomar decisões informadas e seguras sobre onde e como investir seu dinheiro. 
 
 **✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
