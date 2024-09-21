@@ -7,8 +7,8 @@
   * [Gabriel Matos Nogueira](https://github.com/GabrielMatosNogueira)
   * [Gustavo Lopes Oliveira](https://github.com/GustavoLopesOliveira)
   * [Isabel Cristina Borges](https://github.com/isabelcbrg)
-  * João Paulo de Deus Natividade Oliveira Saraiva
-  * Nayron Campos Soares
+  * [João Paulo de Deus Natividade Oliveira Saraiva](https://github.com/Jpdnos)
+  * [Nayron Campos Soares](https://github.com/1567164)
   * [Lawer Böuch Soncin Rocha](https://github.com/la-wer)
   * [Rafael Guimaraes Matos](https://github.com/RafaelgMatos)
 
