@@ -10,7 +10,7 @@ Informações básicas do projeto.
   * Pedro Siqueira - 
   * Filipe Estopa - https://github.com/FilipeEstopa19
   * Felipe Gabriel - https://github.com/FelipeCarva2
-  * Tallys Assis -
+  * Tallys Assis - https://github.com/Talkys
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -26,55 +26,63 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-O principal objetivo deste software é democratizar o acesso ao conhecimento sobre investimentos, facilitando a entrada de novos investidores no mercado. A aplicação visa proporcionar uma experiência educativa e intuitiva, permitindo que usuários sem experiência prévia possam tomar decisões informadas e seguras sobre onde e como investir seu dinheiro.
+O contexto para o desenvolvimento deste software de investimentos é marcado por uma crescente demanda por acesso à educação financeira e à democratização do mercado de capitais. Nos últimos anos, observou-se um aumento significativo no interesse da população por investimentos, impulsionado pela popularização de plataformas digitais e pela necessidade de diversificação de fontes de renda. No entanto, muitas pessoas ainda enfrentam barreiras ao iniciar sua jornada como investidores, principalmente devido à falta de conhecimento e à complexidade das informações disponíveis.
+
+A aplicação será projetada para atender principalmente pessoas físicas que desejam iniciar sua vida como investidores, oferecendo uma solução prática e acessível.Em um ambiente onde a desinformação pode levar a decisões financeiras ruins, o software se posiciona como um recurso valioso, unindo educação e prática de forma intuitiva. Com uma interface amigável, os usuários poderão monitorar suas carteiras e gastos, além de ter acesso a informações sobre oportunidades de investimento em alta.
 
 ## Problema
 
 Atualmente, muitas pessoas desejam investir, mas sentem-se inseguras ou sobrecarregadas pela quantidade de informações disponíveis. A falta de clareza sobre os tipos de investimentos, riscos associados e estratégias eficazes cria um ambiente onde potenciais investidores acabam não agindo ou fazendo escolhas ruins. A dificuldade em encontrar recursos acessíveis e compreensíveis contribui para essa inércia. Sua aplicação é especialmente destinada a pessoas físicas que desejam dar os primeiros passos na jornada de investimentos. Reconhecendo que muitas pessoas se sentem inseguras ou sobrecarregadas com a quantidade de informações disponíveis, o software oferece uma solução prática e acessível.
 
-
-Primeiramente, ele proporcionará uma educação interativa, oferecendo tutoriais e cursos que explicam conceitos básicos de forma clara e acessível.A interface amigável será um diferencial importante, com um design intuitivo que facilita a navegação e a compreensão das informações.A inclusão de ferramentas de monitoramento de metas permitirá que os usuários definam e acompanhem suas metas de investimento, promovendo um compromisso com a prática regular. Juntamente com isso, o software fornecerá informações atualizadas sobre o mercado financeiro, incluindo notícias e análises que ajudarão os usuários a tomar decisões informadas.
-
-
 ## Objetivos
 
-O objetivo geral deste software é democratizar o acesso ao conhecimento sobre investimentos, facilitando a entrada de novos investidores no mercado. A aplicação visa proporcionar uma experiência educativa e intuitiva, permitindo que usuários sem experiência prévia possam tomar decisões informadas e seguras sobre onde e como investir seu dinheiro. 
+O objetivo geral deste software é democratizar o acesso ao conhecimento sobre investimentos, facilitando a entrada de novos investidores no mercado. A aplicação visa proporcionar uma experiência educativa e intuitiva, permitindo que usuários sem experiência prévia possam tomar decisões informadas e seguras sobre onde e como investir seu dinheiro.
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O primeiro objetivo específico é desenvolver uma interface amigável que permita ao usuário visualizar facilmente sua carteira de investimentos e seus gastos. Com essa ferramenta, o usuário poderá ter um controle completo sobre suas finanças, facilitando a gestão de seus investimentos e promovendo uma tomada de decisão mais consciente.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Outro objetivo específico é apresentar as opções de investimento em alta no momento, acompanhadas de detalhes relevantes sobre cada uma. Dessa forma, o usuário terá acesso a informações atualizadas que o ajudarão a identificar oportunidades promissoras, permitindo que ele tome decisões mais embasadas e estratégicas para seus futuros investimentos.
 
+A interface amigável será um diferencial importante, com um design intuitivo que facilita a navegação e a compreensão das informações.A inclusão de ferramentas de monitoramento de metas permitirá que os usuários definam e acompanhem suas metas de investimento, promovendo um compromisso com a prática regular. Juntamente com isso, o software fornecerá informações atualizadas sobre o mercado financeiro, incluindo notícias e análises que ajudarão os usuários a tomar decisões informadas.
+
+Esses objetivos visam não apenas simplificar o processo de acompanhamento financeiro, mas também capacitar o usuário com informações valiosas que podem otimizar seus resultados no mercado.
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+A motivação para trabalhar com esta aplicação é profundamente ligada ao desejo de democratizar o acesso a informações financeiras e capacitar indivíduos a se tornarem investidores confiantes. Em um cenário onde a educação financeira ainda é limitada, muitos potenciais investidores se sentem perdidos e inseguros. Desenvolver um software que simplifique esse processo e forneça as ferramentas necessárias é uma contribuição significativa para o empoderamento financeiro. 
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Nesse contexto, a criação de uma interface amigável é um objetivo fundamental. Ao permitir que os usuários visualizem facilmente suas carteiras de investimentos e gastos, garantimos um controle efetivo sobre suas finanças. Essa experiência de usuário positiva não apenas facilita a gestão do dinheiro, mas também aumenta a confiança dos usuários em suas decisões financeiras.
+
+Simultaneamente, a apresentação de opções de investimento em alta, acompanhadas de detalhes relevantes, é crucial para que os usuários identifiquem oportunidades promissoras. Em um mercado em constante mudança, o acesso a dados atualizados permite que os investidores façam escolhas informadas, minimizando riscos e maximizando potenciais retornos. Esse aspecto é especialmente importante para iniciantes, que podem não ter conhecimento prévio sobre quais investimentos considerar.
+
+Nossos objetivos e a escolha de aprofundar em certos aspectos da aplicação não apenas refletem a necessidade do mercado, mas também a missão de transformar a experiência de investimento em algo mais acessível, educativo e empoderador.
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O público-alvo da nossa aplicação é composto por pessoas que não possuem conhecimento prévio em investimentos, um grupo significativo e em crescimento na sociedade atual. Este segmento inclui jovens adultos, profissionais que estão entrando no mercado de trabalho, e até mesmo indivíduos mais velhos que, por diferentes razões, nunca tiveram a oportunidade de aprender sobre o mundo financeiro.O público-alvo da nossa aplicação é composto por indivíduos sem conhecimento prévio em investimentos, que podem ser categorizados em diferentes personas. Aqui estão algumas exemplos:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+1. João, 24 anos - Jovem Profissional
+
+Perfil: Recém-formado em Administração, começou a trabalhar em uma startup. Tem interesse em fazer seu dinheiro render, mas não sabe por onde começar.
+
+Desafios: Se sente perdido com jargões financeiros e teme perder dinheiro em investimentos arriscados.
+
+Objetivos: Quer aprender a investir para ter segurança financeira e, eventualmente, realizar um sonho de comprar um apartamento.
+
+2. Maria, 35 anos - Mãe e Empreendedora
+
+Perfil: Proprietária de um pequeno negócio, tem uma rotina cheia e pouco tempo para se dedicar a aprender sobre finanças.
+
+Desafios: Está preocupada em garantir um futuro financeiro estável para seus filhos, mas não entende como os investimentos funcionam.
+
+Objetivos: Busca uma solução prática que a ajude a entender o básico sobre investimentos e que possa ser gerenciada de forma simples e rápida.
+
+3. Carlos, 50 anos - Profissional em Transição de Carreira
+
+Perfil: Trabalhou por anos em uma carreira estável, mas está mudando para uma área diferente e deseja diversificar suas fontes de renda.
+
+Desafios: Sente que está atrasado em relação às novas tendências de investimento e tem receio de não conseguir se adaptar.
+
+Objetivos: Deseja aprender sobre investimentos para complementar sua renda e garantir uma aposentadoria tranquila.
 
 # Product Discovery
 
