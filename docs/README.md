@@ -284,7 +284,7 @@ A organização da equipe foi divida em quatro grupos, cada um responsáveis pel
 O grupo foi dividido em:
 
 * **Github** - Lawer, Gabriel, Rafael;
-* **Figma** - Lawer, Gabriel, João, Gustavo, Rafael;
+* **Figma** - Lawer, Gabriel, João, Gustavo, Rafael, Nayron;
 * **PowerPoint** - Isabel e Nyron;
 * **Miro** - João e Nyron.
 
