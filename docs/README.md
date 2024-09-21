@@ -206,7 +206,7 @@ Onde o usuário poderá consultar materiais de estudo disponíveis.
 
 #### TELA DE CONCURSOS
 
-Onde o usuário poderá consultar os concurasos disponíveis.
+Onde o usuário poderá consultar os concursos disponíveis.
 
 ![Concursos](https://f.feridinha.com/dvMwK.png)
 
@@ -214,7 +214,7 @@ Onde o usuário poderá consultar os concurasos disponíveis.
 
 Onde o usuário poderá conferir os editais dos cursos disponíveis.
 
-![Editais](https://f.feridinha.com/p78A8.png)\
+![Editais](https://f.feridinha.com/p78A8.png)
 
 #### TELA DE CALENDÁRIO
 
