@@ -169,9 +169,13 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ## Requisitos
 
+
+
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
+
+![proposta de valor](images/Requisitos.png)
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
@@ -179,6 +183,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
 
 ### Requisitos não Funcionais
+
+![proposta de valor](images/RequisitosN.png)
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
@@ -188,6 +194,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Os requisitos de um projeto são classificados em dois grupos:
+>
+> ![proposta de valor](images/Retriçoes.png)
 >
 > - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
 >   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
