@@ -38,7 +38,7 @@ O objetivo é desenvolver um software com uma interface mais intuitiva e mais li
 
 ## Justificativa
 
-O salário médio no Brasil em Julho de 2024 é de aproximadamente R$3.187,00. Enquanto o menor salário do Concurso Público Nacional Unificado é R$4.008,24 podendo chegar a R$22.921,71. Cerca de 1% da população se inscreveu para o Concurso Público Nacional Unificado. Com o acesso à informação e divulgação de forma mais simples esse número vai ser maior.
+O salário médio no Brasil em 2023, mensalmente, é de aproximadamente R2 979,00 de acordo com o IBGE. Enquanto o menor salário do Concurso Público Nacional Unificado, de acordo com o site "blog.grancursosonline.com.br" é R$5.212,29 podendo chegar a R$20.924,80. Cerca de 1% da população se inscreveu para o Concurso Público Nacional Unificado, de acordo com o site "www.acheconcursos.com.br". Com o acesso à informação e divulgação de forma mais simples esse número vai ser maior.
 
 ## Público-Alvo
 
