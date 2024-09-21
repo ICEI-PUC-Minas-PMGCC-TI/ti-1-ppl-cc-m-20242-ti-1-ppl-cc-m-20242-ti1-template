@@ -128,6 +128,9 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | Player Casual         | Divulgar meus horários disponíveis para jogos  | Encontrar pessoas para jogar com horario compativel com o            |
 | Influencer         | Divulgar meus "highlights"       | Ganhar seguidores e visibilidade no cenário de games |
 | Player Competitivo         | Divulgar meu estilo de jogo        | Achar estilos de jogo compativel para montar uma equipe |
+| Estudante        | Encontrar diversidade de jogos        | Passar o tempo |
+| "Newbie"         | Encontrar suporte/Tutoriais de jogos        | Aprender a jogar diversos jogos |
+| Player        | Divulgar minha conta        | Revender itens/skins dentro dos jogos |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
