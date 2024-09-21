@@ -104,7 +104,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ![Guilherme](https://f.feridinha.com/2x2wm.png)
 
-##### Proposta para Roberto
+##### Proposta para Roberta
 
 ![Roberto](https://f.feridinha.com/R9e0u.png)
 
