@@ -175,7 +175,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-![proposta de valor](images/Requisitos.png)
+![Requisitos](images/Requisitos.png)
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
@@ -184,18 +184,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-![proposta de valor](images/RequisitosN.png)
+![Requisitos Não Funcionais](images/RequisitosN.png)
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
 | RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
 
+
+### Restrições do Projeto
+
+![Restrições](images/Restriçoes.png)
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Os requisitos de um projeto são classificados em dois grupos:
 >
-> ![proposta de valor](images/Retriçoes.png)
+> 
 >
 > - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
 >   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
