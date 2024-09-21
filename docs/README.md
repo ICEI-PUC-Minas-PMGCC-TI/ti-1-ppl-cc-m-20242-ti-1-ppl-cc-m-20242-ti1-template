@@ -101,6 +101,8 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 ### Personas
 
 **✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
+![1726959087309-d7eaecba-1375-4b2b-8d2b-967cdf8fd347_1](https://github.com/user-attachments/assets/a4fa874c-b263-4175-ab88-55ce085aede2)
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
