@@ -267,7 +267,13 @@ Onde o usuário poderá conhecer um pouco mais sobre a história do aplicativo.
 
 # Metodologia
 
-Detalhes sobre a organização do grupo e o ferramental empregado.
+A organização da equipe foi divida em quatro grupos, cada um responsáveis pelas funções requisitadas para a entrega das atividades: Github, Figma, PowerPoint e Miro.
+O grupo foi dividido em:
+Github - Lawer, Gabriel, Rafael;
+Figma - Lawer, Gabriel, João, Gustavo, Rafael;
+PowerPoint - Isabel e Nyron;
+Miro - João e Nyron.
+
 
 ## Ferramentas
 
