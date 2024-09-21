@@ -106,6 +106,10 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
    ![Nossa Entrevista](images/entrevista_quali3.png)
    ![Nossa Entrevista](images/entrevista_quali4.png)
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+>  ![Nossa Highlights](images/high1.png)
+   ![Nossa Highlights](images/high2.png)
+   ![Nossa Highlights](images/high3.png)
+   ![Nossa Highlights](images/high4.png)
 
 ## Etapa de Definição
 
