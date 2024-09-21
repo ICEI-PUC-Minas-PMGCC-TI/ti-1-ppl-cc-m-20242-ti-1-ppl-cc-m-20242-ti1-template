@@ -28,7 +28,7 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+**Nosso projeto resolverá problemas como incompatibilidade de personalidades, funções, pensamentos de jogos e outras coisas. O efeito causado nos jogadores fará com que a experiencia de jogo se torne algo muito mais agradável. Jogadores casuais poderão jogar seus jogos favoritos com outros jogadores casuais com a mesma personalidade, o que fará com que o jogo se torne muito mais divertido para ambos. Jogadores que buscam jogar no mais alto nível do jogo poderão se encontrar com outros jogadores com o mesmo objetivo, aumentando sua probabilidade de vitória e alcançar níveis cada vez mais altos.**
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
@@ -54,8 +54,7 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Justificativa
 
-**Buscamos solucionar as dores de pessoas que tem como paixão os jogos onlines, seja para diversão ou como forma de jogo competitivo. Frequentemente, essas pessoas desejam encontrar pessoas que compartilham do mesmo estilo (casual/competitivo) para formar novas amizades e ter um boa jogatina.
-**
+**Buscamos solucionar as dores de pessoas que tem como paixão os jogos onlines, seja para diversão ou como forma de jogo competitivo. Frequentemente pessoas são emparelhadas com outras pessoas aleatórias durante sua jogatina, podendo encontrar pessoas que não compartilham da mesma ideia de jogo ou pessoas que não tenham uma personalidade compatível (jogadores tóxicos, chatos ou inconvenientes). Foi pensando em solucionar esse incompatibilidade de pensamentos que criamos este projeto.**
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
