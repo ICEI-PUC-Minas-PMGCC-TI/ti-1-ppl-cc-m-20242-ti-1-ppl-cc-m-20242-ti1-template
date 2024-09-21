@@ -9,7 +9,7 @@ Informações básicas do projeto.
   * Alessandro Andrade de Oliveira(https://github.com/fulano) ⚠️ EXEMPLO ⚠️
   * Pedro Henrique Cardoso Maia https://github.com/pedro-maia1337
   * André Almeida Costa(https://github.com/cicrano
-  * Samuel Padua Ramos(https://github.com/cicrano)
+  * Samuel Padua Ramos https://github.com/samuelpr0
   * Davi Manoel Bernardes https://github.com/DaviManoelB
   * Tiago Santos Nogueira https://github.com/TiagoSNogueira
   * Felipe Quites Lopes https://github.com/FelipeQLopes
@@ -102,13 +102,21 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 > ![Nossa Mapa](images/MapaStakeholders.png)
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
 >  ![Nossa Entrevista](images/entrevista_quali1.png)
+
    ![Nossa Entrevista](images/entrevista_quali2.png)
+   
    ![Nossa Entrevista](images/entrevista_quali3.png)
+   
    ![Nossa Entrevista](images/entrevista_quali4.png)
+   
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+> * 
 >  ![Nossa Highlights](images/high1.png)
+
    ![Nossa Highlights](images/high2.png)
+   
    ![Nossa Highlights](images/high3.png)
+   
    ![Nossa Highlights](images/high4.png)
 
 ## Etapa de Definição
@@ -139,10 +147,18 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-| EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
-| --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
+| EU COMO...`PERSONA`                                            | QUERO/PRECISO ...`FUNCIONALIDADE`                 | PARA ...`MOTIVO/VALOR`                                            |
+| -------------------------------------------------------------- | --------------------------------------            | ----------------------------------------------------------------- |
+| Alguém que sofre com dívidas                                   | Lembretes de vencimento de contas                 | Evitar pagar juros não essenciais                                 |
+| Alguém que não tem muito tempo                                 | Painel de fluxo de caixa com relatórios visuais   | Gastar menos tempo organizando minhas finanças                    |
+| Alguém desorganizado                                           | Painel de fluxo de caixa com gastos classificados | Saber as minhas maiores fontes de gastos                          |
+| Alguém sem conhecimento de finanças pessoais                   | Dicas e aulas sobre finanças                      | Viver uma vida confortavel sem se preocupar com dinheiro          |
+| Alguém que compra muito parcelado                              | Gráfico com o valor dos juros mensais             | Saber quanto estou gastando a mais em um produto                  |
+| Alguém que quer viajar                                         | Registro de quanto estou juntando                 | Saber em quanto tempo vou ter o dinheiro suficiente               |
+| Alguém que gastar valores muitos altos                         | Registrar quando gasta muito                      | Alerta quando o gasto esta muito alto                             |
+| Usa muito cartão                                               | Colocar apelidos nos estabelecimentos na fatura   | Identificar de forma mais fácil na fatura qual foi o gasto e onde |
+| Quero registrar e categorizar meus gastos diários facilmente   |Ferramentas de controle                            | Poder ter um maior controle do gasto mensal                       |
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
