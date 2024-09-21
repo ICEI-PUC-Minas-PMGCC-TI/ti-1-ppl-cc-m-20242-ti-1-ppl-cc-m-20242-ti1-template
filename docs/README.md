@@ -2,13 +2,15 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
-* **Membros da equipe:**
+* **Projeto:** Dificuldade em escolher opções de investimentos
+* **Repositório GitHub: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-investimento.git
+* **Membros da equipe:
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * Victor Seretni - 
+  * Pedro Siqueira - 
+  * Filipe Estopa - 
+  * Felipe Gabriel - 
+  * Tallys Assis -
 
 A documentação do projeto é estruturada da seguinte forma:
 
