@@ -2,14 +2,14 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
+* **Projeto:** Criar e Retirar Hábitos
 * **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
 * **Membros da equipe:**
 
   * [Thiago Gomes](https://github.com/Thigogomes)
-  * [Tiago Morais]()
+  * [Tiago Costa](https://github.com/Tiagomcosta10)
   * [Felipe](https://github.com/ilipehwd)
-  * [Ricardo]()
+  * [Ricardo](https://github.com/RicardoGuidi)
   * [Diego](https://github.com/Diegogeladin)
 
 A documentação do projeto é estruturada da seguinte forma:
