@@ -2,8 +2,8 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Projeto:** Dificuldade em encontrar pessoas para jogar
+* **Repositório GitHub:** [[LINK PARA O REPOSITÓRIO NO GITHUB]](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g2-encontrar-pessoas-para-jogar)
 * **Membros da equipe:**
 
   * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
