@@ -397,7 +397,7 @@ Esta seção apresenta os módulos e APIs utilizados na solução
 
 **Fonts:**
 
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+* Kanit - [https://fonts.google.com/specimen/Kanit](https://fonts.google.com/specimen/Kanit)
 
 **Scripts:**
 
