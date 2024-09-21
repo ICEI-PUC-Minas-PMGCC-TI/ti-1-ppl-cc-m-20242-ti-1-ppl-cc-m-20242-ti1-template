@@ -54,7 +54,8 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+**Buscamos solucionar as dores de pessoas que tem como paixão os jogos onlines, seja para diversão ou como forma de jogo competitivo. Frequentemente, essas pessoas desejam encontrar pessoas que compartilham do mesmo estilo (casual/competitivo) para formar novas amizades e ter um boa jogatina.
+**
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
