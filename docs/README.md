@@ -280,8 +280,6 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 ## Gerenciamento do Projeto
 
-Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
-
 A organização da equipe foi divida em quatro grupos, cada um responsáveis pelas funções requisitadas para a entrega das atividades: Github, Figma, PowerPoint e Miro.
 O grupo foi dividido em:
 
