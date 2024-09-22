@@ -99,7 +99,8 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 ### Personas
 
 **✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
-![1726959087309-d7eaecba-1375-4b2b-8d2b-967cdf8fd347_1](https://github.com/user-attachments/assets/a4fa874c-b263-4175-ab88-55ce085aede2)
+![Captura de tela 2024-09-21 220520](https://github.com/user-attachments/assets/ae1daf5f-2481-40fc-acf4-2b3579aa9321)
+![Captura de tela 2024-09-21 220640](https://github.com/user-attachments/assets/b80f876b-b9ba-4fef-a362-7a5dbdb532eb)
 
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
