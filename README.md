@@ -1,7 +1,9 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15963454&assignment_repo_type=AssignmentRepo)
 # Descontrole financeiro
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Nosso projeto tem como principal objetivo facilitar a gestão financeira diária e o planejamento mensal dos usuários, promovendo maior controle e organização das finanças. Utilizamos gráficos interativos e tabelas dinâmicas para oferecer uma experiência visual clara, que simplifica o entendimento dos dados financeiros. A plataforma foi cuidadosamente projetada para ser intuitiva e acessível, permitindo uma navegação fluida. 
+
+Com funcionalidades pensadas tanto para quem está dando os primeiros passos na vida financeira quanto para quem já tem um histórico consolidado, buscamos oferecer uma ferramenta completa e adaptável às diversas fases e necessidades financeiras.
 
 ## Alunos integrantes da equipe
 
