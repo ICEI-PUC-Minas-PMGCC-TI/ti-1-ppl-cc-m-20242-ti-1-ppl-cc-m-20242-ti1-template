@@ -35,9 +35,10 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Objetivos
 
+Objetivo geral:
+Nosso software tem como objetivo principal criar um ambiente inclusivo e eficiente para conectar jogadores que possuam os mesmos objetivos.
 
-Nosso software tem como objetivo principal criar um ambiente inclusivo e eficiente para conectar jogadores que possuam os mesmos objetivos 
-
+Objetivos específicos:
 Queremos facilitar a vida dos jogadores competitivos, ajudando-os a encontrar outras pessoas com o mesmo foco e determinação, possibilitando a formação de equipes que realmente buscam evoluir e alcançar altos níveis de performance nos jogos.
 
 Estamos atentos às necessidades dos jogadores casuais também. Muitos deles têm horários mais restritos devido ao trabalho ou outras responsabilidades e enfrentam dificuldades para encontrar companheiros de jogo que estejam disponíveis nos mesmos períodos. Nosso software permitirá que esses jogadores se conectem com outros que compartilham horários e objetivos semelhantes, tornando a experiência mais leve e divertida.
@@ -81,6 +82,8 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 ## Etapa de Entendimento
 
 **✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
+![1726964377150-a2b5f128-2302-4077-9601-dd1fe51e6fc9 de encontrar pessoas para jogar_1](https://github.com/user-attachments/assets/b0e6d78f-d325-4810-9bb5-366ef8ad2a30)
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
