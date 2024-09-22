@@ -64,7 +64,7 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 
 **✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+
 >
 > Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
 >
@@ -85,7 +85,7 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 
 
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+
 >
 > Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
 >
@@ -103,7 +103,7 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 ![Captura de tela 2024-09-21 220640](https://github.com/user-attachments/assets/b80f876b-b9ba-4fef-a362-7a5dbdb532eb)
 
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+
 >
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
 >
