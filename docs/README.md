@@ -167,14 +167,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| RF-001 | Permite criação e personalização de perfil para os players | ALTA       |
+| RF-002 | Criação de "tags" personalizaveis para filtragem na hora da pesquisa | MÉDIA     |
+| RF-003 | Criação de chat para comunicação entre os usuarios | MÉDIA     |
+| RF-004 | O site deve incluir abas para diversos jogos, contendo o conteúdo e divulgação do perfil do player | ALTA     |
+| RF-005 | Permitir a introdução de links para divulgar "highlights" em sites externos | BAIXA     |
+| RF-006 | Permite que os usuarios possam avaliar uns aos outros | MEDIA     |
+| RF-007 | Criação de um ranking de avaliação para cada perfil, e os que tiverem maiores notas serão indicados com mais frequencia | BAIXA     |
+| RF-008 | O site terá um filtro para que o jogador escolha o jogo de sua preferência para as recomendações serem de acordo com o seu jogo | ALTA     |
+
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| RNF-001 | O site deverá estar disponível 7/24 ( 7 dias por semana / 24 horas por dia ) | ALTA     |
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
