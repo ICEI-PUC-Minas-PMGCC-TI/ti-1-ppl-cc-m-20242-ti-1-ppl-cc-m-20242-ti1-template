@@ -175,58 +175,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
+
+
 ## Projeto de Interface
 
 Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
 
 ### Wireframes
 
-Estes são os protótipos de telas do sistema.
+Tela de LogIn: (images\projetos_de_interface/LogIn) https://drive.google.com/file/d/1xI8KGTN-qhlbyPV30JGxwmsT9TCWWfE3/view?usp=drive_link
+Descrição: É uma tela simples para o usuário acessar a aplicação
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+Tela Página Inicial: (images\projetos_de_interface/PaginaInicial) https://drive.google.com/file/d/1ztdtlLxMlhvE8NAu8UkGemZ4yglKyMsh/view?usp=drive_link
+Descrição: A página inicial apresenta um resumo das posições da pessoa, isto éo desempenho da carteira, no longo porazo , a variação do dia e a variação semanal bem como todos os ativos que o usuário possui.
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+Tela de Guia de Opções: (images\projetos_de_interface/GuiaDeOpcoes) https://drive.google.com/file/d/1lk0Akm2rd2uS2G59n-Q2KyxD7L8_5lHk/view?usp=drive_link
+Descrição: Mostra os gastos mensais a renda passiva e as ultimas noticias que são relevantes para aquele usuário
 
-Descrição para a tela XPTO
+Tela de Pesquisa: (images\projetos_de_interface/Pesquisa) https://drive.google.com/file/d/1m2k8Lye48LhNhkPi_JIFrP_9xgMksLBm/view?usp=drive_link
+Descrição: permite ver os investimentos mais "quentes" para aquele usuário, bem como outras opções separadas por categorias
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+Tela de Compra e Venda: (images\projetos_de_interface/CompraEVenda) https://drive.google.com/file/d/17zwa6ewL-0YHL4eJES8K3egVCZwWN3CW/view?usp=drive_link
+Descrição: mostra um resumo do ativo sendo negociado, nome data, quantidade, e um gráfico apresentado a variação
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+Tela de Informação: (images\projetos_de_interface/Informacoes) https://drive.google.com/file/d/15lHFgzsVvsAIJBOj5URxLwIKtDp1Iak3/view?usp=drive_link
+Descrição: Permite visualizar um texto expplicando qual o tipo de ativo em questão e como ele funciona
 
 ### User Flow
 
-**✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
-
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+Fluxo do Usuário: (images\projetos_de_interface/UserFlow) https://drive.google.com/file/d/1gpDfQjq1M1Xy0CT-nSugmxBMvkIOsODj/view?usp=drive_link
 
 ### Protótipo Interativo
 
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
+Protótipo Interativo: https://www.figma.com/proto/1h71UHyOybpnkzoGLf3YOm/Wireframe?node-id=11-4&node-type=canvas&t=9xajBFUhWF2jLOrF-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A4
 
 # Metodologia
 
