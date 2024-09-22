@@ -53,8 +53,7 @@ O público-alvo do nosso projeto são pessoas que enfrentam dificuldades em cont
 > * 
 >![Nossa Matriz](images/MatrizCSD.png)
 
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema.
-> * 
+> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema.> * 
 > ![Nossa Mapa](images/MapaStakeholders.png)
 
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas.
@@ -66,8 +65,7 @@ O público-alvo do nosso projeto são pessoas que enfrentam dificuldades em cont
    
    ![Nossa Entrevista](images/entrevista_quali4.png)
    
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
-> 
+> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.> 
 >  ![Nossa Highlights](images/high1.png)
 
    ![Nossa Highlights](images/high2.png)
