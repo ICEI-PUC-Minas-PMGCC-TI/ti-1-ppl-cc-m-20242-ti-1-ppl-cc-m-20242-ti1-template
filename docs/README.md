@@ -31,75 +31,33 @@ A documentação do projeto é estruturada da seguinte forma:
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Quando as pessoas começam a ter sua própria renda, é comum enfrentarem dificuldades para se organizar e planejar de forma eficiente como gastar e administrar seu dinheiro. Nosso projeto busca oferecer uma solução que ajudará essas pessoas a gerenciar melhor suas finanças, indicando como e quando gastar, onde investir e como controlar os gastos excessivos.
 
 ## Objetivos
 
-O objetivo desse aplicativo e ajudar pessoas que tem dificuldade para gerenciar suas finanças.
-
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo deste projeto é oferecer uma solução prática e eficaz para pessoas que enfrentam dificuldades em gerenciar suas finanças pessoais. Através de ferramentas intuitivas e personalizáveis, o aplicativo auxilia no controle dos gastos, planejamento de orçamento, acompanhamento de investimentos e na tomada de decisões financeiras mais conscientes. Queremos proporcionar uma experiência que simplifique o gerenciamento financeiro, ajudando os usuários a alcançar maior estabilidade e bem-estar econômico.
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A motivação para trabalhar com essa aplicação vem da crescente necessidade de educação financeira e controle eficiente de gastos, especialmente com a expansão do consumo digital. Escolhemos esses objetivos específicos para ajudar as pessoas a tomar decisões financeiras mais conscientes e evitar dívidas. Aprofundamos em aspectos como planejamento de orçamento e controle de investimentos porque são áreas-chave para promover estabilidade e segurança financeira no dia a dia.
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo do nosso projeto são pessoas que enfrentam dificuldades em controlar suas finanças, com idade entre 25 e 65 anos. Este grupo inclui indivíduos em diferentes fases da vida, desde jovens adultos que estão começando a lidar com responsabilidades financeiras até aqueles que buscam mais estabilidade e controle em suas finanças pessoais.
 
 # Product Discovery
 
 ## Etapa de Entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
-
-
 > * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas.
+> * 
 >![Nossa Matriz](images/MatrizCSD.png)
 
 > * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema.
+> * 
 > ![Nossa Mapa](images/MapaStakeholders.png)
 
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
+> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas.
 >  ![Nossa Entrevista](images/entrevista_quali1.png)
 
    ![Nossa Entrevista](images/entrevista_quali2.png)
