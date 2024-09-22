@@ -28,18 +28,9 @@ A documentação do projeto é estruturada da seguinte forma:
 
 O tema do projeto é a dificuldade de criar e se desfazer de hábitos, algo comum entre estudantes universitários, especialmente considerando as pressões acadêmicas e sociais. O objetivo do projeto é desenvolver um aplicativo que auxilie esses estudantes a melhorar sua rotina e hábitos diários, seja no abandono de comportamentos prejudiciais ou na adoção de práticas saudáveis. O público-alvo são estudantes universitários que lidam com questões como procrastinação, vícios e a organização do tempo. O aplicativo será desenvolvido em HTML e CSS, com foco em acessibilidade, interface intuitiva e ferramentas motivacionais.
 
-
 ## Problema
 
 Muitos estudantes universitários enfrentam dificuldades para criar e manter hábitos saudáveis, assim como para se livrar de vícios prejudiciais. Isso se deve a fatores como a sobrecarga acadêmica, a pressão social, a falta de orientação sobre como formar hábitos e a ausência de um sistema de apoio efetivo. Em ambientes universitários, problemas como procrastinação, vícios (tabagismo, apostas, etc.), desorganização de rotina e falta de motivação são comuns. Essas dificuldades impactam não só o desempenho acadêmico, mas também a saúde física e mental dos alunos, o que gera uma necessidade de ferramentas que auxiliem na gestão pessoal e no desenvolvimento de novos hábitos.
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -51,63 +42,41 @@ Criar um sistema de monitoramento diário que permita o acompanhamento do progre
 Implementar uma funcionalidade de comunidade que permita aos usuários compartilhar experiências e se motivar mutuamente, facilitando o suporte entre pares.
 Desenvolver um sistema de gamificação para incentivar o uso contínuo e o progresso do usuário, promovendo o engajamento através de desafios e recompensas personalizadas.
 
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
-## Justificativa
+# Justificativa
 
 O desenvolvimento deste aplicativo é importante devido ao impacto direto que a criação ou abandono de hábitos pode ter na vida dos estudantes universitários. Estudantes, como Edyvânia e João, enfrentam obstáculos para mudar comportamentos que afetam seu bem-estar e desempenho acadêmico. A solução proposta visa preencher a lacuna entre a teoria da formação de hábitos e sua aplicação prática no dia a dia dos usuários, por meio de uma plataforma acessível e intuitiva, que oferece motivação contínua e suporte. A decisão de incluir elementos de gamificação e uma comunidade de apoio baseia-se em entrevistas realizadas com estudantes, que indicaram a necessidade de um sistema de recompensas e de interação social para manter o engajamento.
-
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
 O público-alvo principal deste aplicativo são estudantes universitários de diversas áreas de estudo, com idades entre 18 e 30 anos, que enfrentam desafios relacionados à criação de hábitos saudáveis ou à eliminação de hábitos prejudiciais. Esses estudantes têm um nível intermediário de familiaridade com tecnologias e dispositivos móveis, utilizando aplicativos de maneira frequente, principalmente para organização pessoal, redes sociais e lazer. As personas criadas para representar esse público incluem Edyvânia, uma estudante extrovertida que quer parar de fumar e organizar melhor sua rotina, e João, um estudante introvertido que deseja largar o vício em apostas e melhorar sua saúde física frequentando a academia. Essas personas refletem a diversidade de perfis e motivações dos estudantes universitários, além de suas necessidades específicas.
 
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-
 # Product Discovery
 
 ## Etapa de Entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
+**Matriz CSD**
+![Matrizcsd](https://github.com/user-attachments/assets/ac82a42f-b708-4417-896f-bcbadf6ca9c7)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
->
-> * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas;
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+**Mapa de Stakeholders**<br>
+![Stakeholders](https://github.com/user-attachments/assets/34466d37-2a64-4e79-bbd4-b2adb00fd9a3)
+
+**Entrevistas qualitativas**
+![perguntas1e2](https://github.com/user-attachments/assets/c7a51d00-97fb-4525-8965-5132145bc970)
+![perguntas3e4](https://github.com/user-attachments/assets/4b3e1f36-91c0-4ea6-96f0-d431107623c7)
+![perguntas4e6](https://github.com/user-attachments/assets/3e1f6ea5-93d2-44b7-bcca-85cd2fd723d2)
+
+**Highlights de pesquisa**
+![Highlights](https://github.com/user-attachments/assets/a095cabe-0d14-4042-8516-50f74864ca29)
+
+
+
+
+
+
 
 ## Etapa de Definição
 
 ### Personas
-
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
 
 ##### Edyvania
 
@@ -140,8 +109,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |  Viciado em apostas esportivas   | Bloquear meu acesso a sites de aposta | Me impedir de jogar |
 
 ## Proposta de Valor
-
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
 
 ##### Proposta para Edyvania
 
@@ -181,22 +148,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-004 | O sistema deve estar disponível 24 horas por dia     | ALTA     |
 | RNF-005 |  As informações do usuário devem ser protegidas e armazenadas de forma segura | ALTA     |
 | RNF-006 |  O sistema deve responder rápidamente | ALTA     |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Os requisitos de um projeto são classificados em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Orientações**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Projeto de Interface
 
@@ -243,13 +194,8 @@ Descrição para a tela XPTO
 
 ### Protótipo Interativo
 
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
+Nós utilizamos a plataforma Figma para apresentar nosso protótipo interativo.<br>
+[Protótipo](https://www.figma.com/proto/yQJVH902D3Z9bOykY9xmuC/Projeto-ESCOLAR?node-id=16-68&node-type=canvas&t=PPPXkzISwDfMiGEX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A68)
 
 # Metodologia
 
@@ -267,29 +213,9 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Protótipo Interativo        | Figma      |  https://www.figma.com/design/yQJVH902D3Z9bOykY9xmuC/Projeto-ESCOLAR?node-id=0-1&node-type=canvas&t=Ga8tZvOvD7HfvKQQ-0  | 
 | Organização de tarefas      | Monday.com | https://ilipedesousas-team.monday.com/boards/7452019286|
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
-
 ## Gerenciamento do Projeto
 
-Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
-
-![Exemplo de Kanban](images/exemplo-kanban.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
->
-> **Orientações**:
->
-> - [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-> - [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-> - [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+O time se organizou por meio da plataforma Monday.com, que nos ajudou a atribuir tarefas a cada membro da equipe de forma simples e objetiva.
 
 # Solução Implementada
 
