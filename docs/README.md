@@ -6,12 +6,12 @@ Informações básicas do projeto.
 * **Repositório GitHub:** [[LINK PARA O REPOSITÓRIO NO GITHUB]](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g2-encontrar-pessoas-para-jogar)
 * **Membros da equipe:**
 
-  * [Arthur Monteiro ](https://github.com/fulano) ⚠️ 
-  * [Gustavo Henrique](https://github.com/beltrano) ⚠️ 
-  * [Lincoln Avancini](https://github.com/cicrano) ⚠️ 
-  * [Marcos Paulo](https://github.com/cicrano) ⚠️ 
-  * [Paulo Campos](https://github.com/cicrano) ⚠️ 
-  * [Vitor Luis ](https://github.com/cicrano) ⚠️ 
+  * [Arthur Monteiro ](https://github.com/fulano)  
+  * [Gustavo Henrique](https://github.com/beltrano)  
+  * [Lincoln Avancini](https://github.com/cicrano)  
+  * [Marcos Paulo](https://github.com/cicrano)  
+  * [Paulo Campos](https://github.com/cicrano)  
+  * [Vitor Luis ](https://github.com/cicrano)  
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -50,7 +50,7 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 
 **Buscamos solucionar as dores de pessoas que tem como paixão os jogos onlines, seja para diversão ou como forma de jogo competitivo. Frequentemente pessoas são emparelhadas com outras pessoas aleatórias durante sua jogatina, podendo encontrar pessoas que não compartilham da mesma ideia de jogo ou pessoas que não tenham uma personalidade compatível (jogadores tóxicos, chatos ou inconvenientes). Foi pensando em solucionar esse incompatibilidade de pensamentos que criamos este projeto.**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 >
@@ -131,7 +131,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | "Newbie"         | Encontrar suporte/Tutoriais de jogos        | Aprender a jogar diversos jogos |
 | Player        | Divulgar minha conta        | Revender itens/skins dentro dos jogos |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 >
@@ -155,7 +155,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
 
@@ -182,9 +182,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
 | RNF-001 | O site deverá estar disponível 7/24 ( 7 dias por semana / 24 horas por dia ) | ALTA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s  EXEMPLO           | BAIXA      |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Os requisitos de um projeto são classificados em dois grupos:
 >
@@ -210,13 +210,13 @@ Estes são os protótipos de telas do sistema.
 
 **✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+##### TELA XPTO  EXEMPLO 
 
 Descrição para a tela XPTO
 
 ![Exemplo de wireframe](images/exemplo-wireframe.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
 >
@@ -233,7 +233,7 @@ Descrição para a tela XPTO
 
 ![Exemplo de fluxo de telas](images/exemplo-userflow.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 >
@@ -247,9 +247,9 @@ Descrição para a tela XPTO
 
 **✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
 
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
+✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)   EXEMPLO 
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
 
@@ -263,13 +263,13 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX  EXEMPLO         |
+| Repositório de código     | GitHub     | https://github.com/XXXXXXX  EXEMPLO       |
+| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX  EXEMPLO  |
+| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX  EXEMPLO    |
 |                             |            |                                                    |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
 
@@ -279,7 +279,7 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 
 ![Exemplo de Kanban](images/exemplo-kanban.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
 >
@@ -299,11 +299,11 @@ Esta seção apresenta todos os detalhes da solução criada no projeto.
 
 ## Vídeo do Projeto
 
-O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
+O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.  EXEMPLO 
 
 [![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
 >
@@ -313,7 +313,7 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 
 Esta seção apresenta as funcionalidades da solução.Info
 
-##### Funcionalidade 1 - Cadastro de Contatos ⚠️ EXEMPLO ⚠️
+##### Funcionalidade 1 - Cadastro de Contatos  EXEMPLO 
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
