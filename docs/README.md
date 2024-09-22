@@ -6,9 +6,12 @@ Informações básicas do projeto.
 * **Repositório GitHub:** [[LINK PARA O REPOSITÓRIO NO GITHUB]](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g2-encontrar-pessoas-para-jogar)
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * [Arthur Monteiro ](https://github.com/fulano) ⚠️ 
+  * [Gustavo Henrique](https://github.com/beltrano) ⚠️ 
+  * [Lincoln Avancini](https://github.com/cicrano) ⚠️ 
+  * [Marcos Paulo](https://github.com/cicrano) ⚠️ 
+  * [Paulo Campos](https://github.com/cicrano) ⚠️ 
+  * [Vitor Luis ](https://github.com/cicrano) ⚠️ 
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -28,30 +31,22 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Problema
 
-**Nosso projeto resolverá problemas como incompatibilidade de personalidades, funções, pensamentos de jogos e outras coisas. O efeito causado nos jogadores fará com que a experiencia de jogo se torne algo muito mais agradável. Jogadores casuais poderão jogar seus jogos favoritos com outros jogadores casuais com a mesma personalidade, o que fará com que o jogo se torne muito mais divertido para ambos. Jogadores que buscam jogar no mais alto nível do jogo poderão se encontrar com outros jogadores com o mesmo objetivo, aumentando sua probabilidade de vitória e alcançar níveis cada vez mais altos.**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+**Atualmente, muitos jogadores enfrentam dificuldades para encontrar parceiros ideais para jogar online. A falta de conexão com outros jogadores no mesmo horário, a dificuldade em formar equipes com objetivos semelhantes, e a frustração em perder muitas partidas por não encontrar jogadores compatíveis são desafios comuns.**
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Nosso software tem como objetivo principal criar um ambiente inclusivo e eficiente para conectar jogadores que possuam os mesmos objetivos 
 
+Queremos facilitar a vida dos jogadores competitivos, ajudando-os a encontrar outras pessoas com o mesmo foco e determinação, possibilitando a formação de equipes que realmente buscam evoluir e alcançar altos níveis de performance nos jogos.
+
+Estamos atentos às necessidades dos jogadores casuais também. Muitos deles têm horários mais restritos devido ao trabalho ou outras responsabilidades e enfrentam dificuldades para encontrar companheiros de jogo que estejam disponíveis nos mesmos períodos. Nosso software permitirá que esses jogadores se conectem com outros que compartilham horários e objetivos semelhantes, tornando a experiência mais leve e divertida.
+
+Também buscamos criar um espaço seguro e acolhedor para mulheres que, por vezes, se sentem inseguras ao jogar com homens. A ideia é facilitar a conexão entre jogadoras que desejam se divertir e fazer novas amizades, formando uma comunidade onde elas possam se sentir confortáveis e à vontade para jogar juntas.
+
+Outro ponto importante é a visibilidade dos jogadores. Sabemos que muitos têm dificuldades para ganhar destaque no cenário gamer, e nosso software vai ajudar esses players a promover seus conteúdos, permitindo que eles mostrem suas habilidades e atraiam a atenção da comunidade. Queremos que talentos sejam reconhecidos e que jogadores de todos os níveis tenham a oportunidade de se destacar.
+
+Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os usuários a novas experiências e ajudando-os a explorar diferentes títulos, ampliando ainda mais suas jornadas no mundo dos games.
 ## Justificativa
 
 **Buscamos solucionar as dores de pessoas que tem como paixão os jogos onlines, seja para diversão ou como forma de jogo competitivo. Frequentemente pessoas são emparelhadas com outras pessoas aleatórias durante sua jogatina, podendo encontrar pessoas que não compartilham da mesma ideia de jogo ou pessoas que não tenham uma personalidade compatível (jogadores tóxicos, chatos ou inconvenientes). Foi pensando em solucionar esse incompatibilidade de pensamentos que criamos este projeto.**
