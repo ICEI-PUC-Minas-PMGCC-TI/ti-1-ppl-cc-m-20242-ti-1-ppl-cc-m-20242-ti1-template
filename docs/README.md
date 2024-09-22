@@ -50,15 +50,6 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 
 **Buscamos solucionar as dores de pessoas que tem como paixão os jogos onlines, seja para diversão ou como forma de jogo competitivo. Frequentemente pessoas são emparelhadas com outras pessoas aleatórias durante sua jogatina, podendo encontrar pessoas que não compartilham da mesma ideia de jogo ou pessoas que não tenham uma personalidade compatível (jogadores tóxicos, chatos ou inconvenientes). Foi pensando em solucionar esse incompatibilidade de pensamentos que criamos este projeto.**
 
->  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
