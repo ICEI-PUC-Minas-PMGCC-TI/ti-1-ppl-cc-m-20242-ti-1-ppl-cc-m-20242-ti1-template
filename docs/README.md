@@ -7,7 +7,7 @@ Informações básicas do projeto.
 * **Membros da equipe:
 
   * Victor Seretni - https://github.com/Sansirow55
-  * Pedro Siqueira - 
+  * Pedro Siqueira - https://github.com/Psiqueira97
   * Filipe Estopa - https://github.com/FilipeEstopa19
   * Felipe Gabriel - https://github.com/FelipeCarva2
   * Tallys Assis - https://github.com/Talkys
@@ -88,33 +88,24 @@ Objetivos: Deseja aprender sobre investimentos para complementar sua renda e gar
 
 ## Etapa de Entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
+Com o intuito de melhor entender as as complicações do que será trabalhado nesta aplicação foi utilizada a metodologia de Design Thinking e assim foram elaborados os seguintes mapas:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
->
-> * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas;
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+1. Matriz CSD: https://drive.google.com/file/d/1qrScHkPCrZAjKkVJN9Sz7hEyFijDGQKU/view?usp=drive_link
+2. Mapa de stakeholders: https://drive.google.com/file/d/1nBCTmJ9lnKxdz-P13Mx6myoKxr2lIxgz/view?usp=drive_link
+3. Entrevistas qualitativas: https://drive.google.com/file/d/1wr7rOxe-G_K8VsTl69wAJ7wvgrv-dCIw/view?usp=drive_link
+4. Highlights de pesquisa: https://drive.google.com/file/d/1Exi30g6jLxqJpCj3KW0wfgzscNkXxahN/view?usp=drive_link
+
+Essas metodologias possibilitam a organização e estruturação de informações fundamentais para a tomada de decisões estratégicas e para a compreensão aprofundada de problemas, por meio da identificação e análise de atores-chave, validação de suposições com base em diálogos diretos e coleta de dados qualitativos. A partir disso, formam-se insights valiosos que facilitam a comunicação entre as partes envolvidas e o desenvolvimento de soluções mais adequadas às necessidades identificadas.
 
 ## Etapa de Definição
 
 ### Personas
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
+As seguintes personas foram idealizadas para a aplicação:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+1. Persona: (imagens/personas/PERSONA_1_CARLOS_FARIA_LIMA.png) https://drive.google.com/file/d/1rHkxN8lY-1GI45XmGPMLtkSHnrhxvAG_/view?usp=drive_link
+2. Persona: (imagens/personas/PERSONA_2_ANA MARIA_FIGUEIREDO.png) https://drive.google.com/file/d/1Y8-kemHij1NhQ9QbFnHOJ9xX0BRJU_fS/view?usp=drive_link
+3. Persona: (imagens/personas/PERSONA_3_CHARLES_ROBERTO_FILHO.png) https://drive.google.com/file/d/1PQi8bDqHcQV-0tdL1N2xuAwJ4tHTMr7g/view?usp=drive_link
 
 # Product Design
 
@@ -247,15 +238,16 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
+| Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKoWHu1A=/           |
+| Repositório de código       | GitHub     | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-investimento      |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+| Protótipo Interativo        | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
 |                             |            |                                                    |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
+Editor de Código: Visual Studio Code;
+Ferramentas de comunicação: WhatsApp, Google Meet;
+\\Ferramenta de diagramação:
+\\Plataforma de Hospedagem:
 
 ## Gerenciamento do Projeto
 
