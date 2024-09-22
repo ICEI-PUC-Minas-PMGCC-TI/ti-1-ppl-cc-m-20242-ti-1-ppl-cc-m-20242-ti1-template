@@ -5,10 +5,13 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+  * [Rafael Henrique](https://github.com/Rafaelhs2005) 
+  * [Joao Pedro](https://github.com/Jopefv) 
+  * [Kamily Vitória](https://github.com/kamivss)
+  * [Bruna Noely](https://github.com/brunanoely)
+  * [Gabriel Lucas](https://github.com/Gabriellsmm)
+  * [Caio Fernandes](https://github.com/caionesess)
+  * [Julia Santos](https://github.com/ajuliasantos)
 
 ## Professores responsáveis
 

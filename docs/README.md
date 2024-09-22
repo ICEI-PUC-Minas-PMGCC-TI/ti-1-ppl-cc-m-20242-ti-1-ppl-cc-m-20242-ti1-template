@@ -172,6 +172,12 @@ Tela inicial para usuarios cadastrados como produtores com as mesmas funcionalid
 
 ![telaInicialProdutor](images/inicialProdutor.png)
 
+### Descrição dos eventos
+
+Tela que mostra a descrição do evento
+
+![DescEvento](images/descEvento.png)
+
 ### Area Produtor
 
 Tela para o controle das divulgaçoes dos produtores
