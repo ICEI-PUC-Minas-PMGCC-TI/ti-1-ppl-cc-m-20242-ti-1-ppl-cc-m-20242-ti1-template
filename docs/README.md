@@ -3,7 +3,7 @@
 Informações básicas do projeto.
 
 * **Projeto:** Criar e Retirar Hábitos
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g6-criar-e-desfazer-habitos/tree/master)
 * **Membros da equipe:**
 
   * [Thiago Gomes](https://github.com/Thigogomes)
@@ -157,40 +157,41 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 Estes são os protótipos de telas do sistema.
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+**Página inicial**<br>
+Onde o usuário visualizará as tarefas que ele tem para o dia para manter seus hábitos.
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+![paginainicial](https://github.com/user-attachments/assets/fb80975c-a87f-4913-8d58-fc91d23ff537)
 
-Descrição para a tela XPTO
+**Pagina de criação de hábitos**<br>
+Telas que permitem a criação de um novo hábito para o usuário, podendo personalizar seus detalhes.
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+![novohabito](https://github.com/user-attachments/assets/9f313ddd-1948-4cd2-8bef-b5babc34e84a)
+![novohabito2](https://github.com/user-attachments/assets/89cbd08e-48a6-438f-806b-06d1a1240812)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+**Calendário**<br>
+Tela que permite o usuário checar seus hábitos ao longo dos dias.
+
+![calendario](https://github.com/user-attachments/assets/69fecb2a-6157-498b-ac2a-7658eb47c29b)
+
+**Notificações**<br>
+Tela que permite o usuário checar suas notificações.
+
+![notificacoes](https://github.com/user-attachments/assets/6e0c0f4d-e64b-44db-8d5d-4298a755bc8a)
+
+**Perfil de usuário**<br>
+Tela que permite o usuário checar seu perfil.
+
+![perfil1](https://github.com/user-attachments/assets/9ac1664f-aa93-42ff-ad65-db9d86d19c60)
+![perfil2](https://github.com/user-attachments/assets/b7ba56f4-5604-45e3-bc1b-8db22ae32db0)
+
+
+
 
 ### User Flow
 
-**✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
+![userflow](https://github.com/user-attachments/assets/8311a15f-c602-405a-bc3e-80552a22978f)
 
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ### Protótipo Interativo
 
