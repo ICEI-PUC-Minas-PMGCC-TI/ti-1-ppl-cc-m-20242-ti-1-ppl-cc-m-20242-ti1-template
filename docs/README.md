@@ -7,11 +7,11 @@ Informações básicas do projeto.
 * **Membros da equipe:**
 
   * [Arthur Monteiro ](https://github.com/fulano)  
-  * [Gustavo Henrique]([https://github.com/beltrano](https://github.com/Gxsta777))  
-  * [Lincoln Avancini]([https://github.com/cicrano](https://github.com/lincolnavancini))  
-  * [Marcos Paulo]([https://github.com/cicrano](https://github.com/MarcosVettel))  
-  * [Paulo Campos]([https://github.com/cicrano](https://github.com/PauloCampos1908))  
-  * [Vitor Luis ]([https://github.com/cicrano](https://github.com/VitorLuisLobo))  
+  * [Gustavo Henrique](https://github.com/Gxsta777)  
+  * [Lincoln Avancini](https://github.com/lincolnavancini)  
+  * [Marcos Paulo](https://github.com/MarcosVettel)  
+  * [Paulo Campos](https://github.com/PauloCampos1908)  
+  * [Vitor Luis ](https://github.com/VitorLuisLobo)  
 
 A documentação do projeto é estruturada da seguinte forma:
 
