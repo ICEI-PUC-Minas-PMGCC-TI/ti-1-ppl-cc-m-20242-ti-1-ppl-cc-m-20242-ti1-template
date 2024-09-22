@@ -52,7 +52,7 @@ O público-alvo do nosso projeto são pessoas que enfrentam dificuldades em cont
 > * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas.
 >![Nossa Matriz](images/MatrizCSD.png)
 
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema.> * 
+> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema.
 > ![Nossa Mapa](images/MapaStakeholders.png)
 
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas.
