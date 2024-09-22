@@ -231,7 +231,7 @@ Descrição para a tela XPTO
 
 ![User Flow](images/User_FLow.png)
 
-***Para uma melhor visualização do User Flow acesse esse link: https://miro.com/app/board/uXjVLdtXMKg=/
+Para uma melhor visualização do User Flow acesse esse link: https://miro.com/app/board/uXjVLdtXMKg=/
 
 ### Protótipo Interativo
 
