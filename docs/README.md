@@ -59,7 +59,6 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 
 ## Etapa de Entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
 ![1726964377150-a2b5f128-2302-4077-9601-dd1fe51e6fc9 de encontrar pessoas para jogar_1](https://github.com/user-attachments/assets/b0e6d78f-d325-4810-9bb5-366ef8ad2a30)
 ![1726966813221-4752b3ca-bf7d-4175-975b-02555759f5d9_1](https://github.com/user-attachments/assets/8f1f3130-1b56-48d0-b429-f0db75656427)
 
@@ -70,7 +69,6 @@ Além disso, pretendemos incentivar a descoberta de novos jogos, conectando os u
 
 ### Personas
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
 ![Captura de tela 2024-09-21 220520](https://github.com/user-attachments/assets/ae1daf5f-2481-40fc-acf4-2b3579aa9321)
 ![Captura de tela 2024-09-21 220640](https://github.com/user-attachments/assets/b80f876b-b9ba-4fef-a362-7a5dbdb532eb)
 
@@ -94,8 +92,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 
 ## Proposta de Valor
-
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
 
 ##### Proposta para Persona Letícia
 
@@ -143,8 +139,6 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 ### Wireframes
 
 Estes são os protótipos de telas do sistema.
-
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 
 ##### TELA XPTO  EXEMPLO 
 
