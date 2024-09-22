@@ -144,9 +144,16 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 **✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
+##### Proposta para Persona Letícia
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+![image](https://github.com/user-attachments/assets/a31cdea6-b532-4aae-a9bb-5c8e274b7ff6)
+
+
+##### Proposta para Persona Bernardo Ferreira
+
+![image](https://github.com/user-attachments/assets/0f668fc0-3ade-4b28-a5dc-f1779f42f760)
+
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
