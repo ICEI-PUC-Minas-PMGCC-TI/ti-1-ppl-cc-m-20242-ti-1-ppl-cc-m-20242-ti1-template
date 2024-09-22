@@ -64,7 +64,7 @@ O público-alvo do nosso projeto são pessoas que enfrentam dificuldades em cont
    
    ![Nossa Entrevista](images/entrevista_quali4.png)
    
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.> 
+> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 >  ![Nossa Highlights](images/high1.png)
 
    ![Nossa Highlights](images/high2.png)
