@@ -35,10 +35,8 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Objetivos
 
-Objetivo geral
 Nosso software tem como objetivo principal criar um ambiente inclusivo e eficiente para conectar jogadores que possuam os mesmos objetivos.
 
-Objetivos específicos
 Queremos facilitar a vida dos jogadores competitivos, ajudando-os a encontrar outras pessoas com o mesmo foco e determinação, possibilitando a formação de equipes que realmente buscam evoluir e alcançar altos níveis de performance nos jogos.
 
 Estamos atentos às necessidades dos jogadores casuais também. Muitos deles têm horários mais restritos devido ao trabalho ou outras responsabilidades e enfrentam dificuldades para encontrar companheiros de jogo que estejam disponíveis nos mesmos períodos. Nosso software permitirá que esses jogadores se conectem com outros que compartilham horários e objetivos semelhantes, tornando a experiência mais leve e divertida.
