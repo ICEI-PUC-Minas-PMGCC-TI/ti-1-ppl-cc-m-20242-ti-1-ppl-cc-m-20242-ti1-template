@@ -132,9 +132,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
 | RNF-001 | O site deverá estar disponível 7/24 ( 7 dias por semana / 24 horas por dia ) | ALTA     |
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s  EXEMPLO           | BAIXA      |
-| RNF-002 | O processo de desenvolvimento (utilizar HTML e CSS)           | BAIXA      |
-| RNF-002 | O site deve ser publicado na internet (Repl.it, Github, Heroku)           | ALTA      |
-| RNF-002 | O site poderá ser visualizado no celular e em computadores           | BAIXA      |
+| RNF-003 | O processo de desenvolvimento (utilizar HTML e CSS)           | BAIXA      |
+| RNF-004 | O site deve ser publicado na internet (Repl.it, Github, Heroku)           | ALTA      |
+| RNF-005 | O site poderá ser visualizado no celular e em computadores           | BAIXA      |
 
 ## Projeto de Interface
 
