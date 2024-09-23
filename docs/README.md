@@ -140,26 +140,33 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 Estes são os protótipos de telas do sistema.
 
-##### TELA XPTO  EXEMPLO 
+##### TELA DE CADASTRO 
 
-Descrição para a tela XPTO
+Nessa tela o usuário poderá cadastrar uma nova conta para acessar ao site e suas funcionalidades.
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+![image](https://github.com/user-attachments/assets/30d6090a-4116-4d9f-a119-e3e71eae5748)
 
->  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+
+##### TELA DE CHAT 
+
+Nessa tela o usuário poderá conversar com seus amigos já adicionados ou novas pessoas para iniciarem a jogatina.
+
+![image](https://github.com/user-attachments/assets/bafff5f7-8b25-4d99-8dcb-47e530ebd485)
+
+
+
+##### TELA DE ESCOLHA 
+
+Nessa tela o usuário poderá escolher seu jogo de preferencia e filtrar a busca para pessoas que desejam jogar o mesmo jogo.
+
+![image](https://github.com/user-attachments/assets/bafff5f7-8b25-4d99-8dcb-47e530ebd485)
+
+
 
 ### User Flow
 
-![image](https://github.com/user-attachments/assets/ab2888d1-7c50-45d3-8bb9-3e42f23c19cd)
+![image](https://github.com/user-attachments/assets/83494e4b-2fa3-4e7c-98b7-08f95227d25d)
+
 
 
 ### Protótipo Interativo
