@@ -159,13 +159,14 @@ Nessa tela o usuário poderá conversar com seus amigos já adicionados ou novas
 
 Nessa tela o usuário poderá escolher seu jogo de preferencia e filtrar a busca para pessoas que desejam jogar o mesmo jogo.
 
-![image](https://github.com/user-attachments/assets/bafff5f7-8b25-4d99-8dcb-47e530ebd485)
+![image](https://github.com/user-attachments/assets/127be3a6-b55c-4eec-9c06-6a73af3e5b04)
 
 
 
 ### User Flow
 
-![image](https://github.com/user-attachments/assets/83494e4b-2fa3-4e7c-98b7-08f95227d25d)
+![image](https://github.com/user-attachments/assets/33d8bbc2-bd43-4f0f-bd6e-6c681439c811)
+
 
 
 
