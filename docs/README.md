@@ -196,10 +196,6 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Protótipo Interativo       | MarvelApp  | https://marvelapp.com/prototype/6jb9hi0/screen/95601517    |
 |                             |            |                                                    |
 
->  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
-
 ## Gerenciamento do Projeto
 
 Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
