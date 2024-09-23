@@ -6,7 +6,7 @@ Informações básicas do projeto.
 * **Repositório GitHub:** [[LINK PARA O REPOSITÓRIO NO GITHUB]](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g2-encontrar-pessoas-para-jogar)
 * **Membros da equipe:**
 
-  * [Arthur Monteiro ](https://github.com/fulano)  
+  * [Arthur Monteiro ](https://github.com/Monteeiro11)  
   * [Gustavo Henrique](https://github.com/Gxsta777)  
   * [Lincoln Avancini](https://github.com/lincolnavancini)  
   * [Marcos Paulo](https://github.com/MarcosVettel)  
