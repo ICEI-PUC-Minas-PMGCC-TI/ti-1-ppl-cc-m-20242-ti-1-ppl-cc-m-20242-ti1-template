@@ -190,10 +190,10 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX  EXEMPLO         |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX  EXEMPLO       |
+| Processo de Design Thinking | Miro       | [https://miro.com/XXXXXXX  EXEMPLO](https://miro.com/app/board/uXjVKoW4WNs=/)         |
+| Repositório de código     | GitHub     | [https://github.com/XXXXXXX  EXEMPLO](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g2-encontrar-pessoas-para-jogar/tree/master/codigo)       |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX  EXEMPLO  |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX  EXEMPLO    |
+| Protótipo Interativo       | MarvelApp  | [https://marvelapp.com/XXXXXXX  EXEMPLO](https://discord.com/channels/1275591548074987592/1275591548515647528/1287586847517704212)    |
 |                             |            |                                                    |
 
 >  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
