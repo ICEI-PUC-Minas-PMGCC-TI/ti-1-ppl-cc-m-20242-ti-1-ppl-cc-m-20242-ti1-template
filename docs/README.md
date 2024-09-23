@@ -109,37 +109,15 @@ As seguintes personas foram idealizadas para a aplicação:
 
 # Product Design
 
-Nesse momento, vamos transformar os insights e validações obtidos em soluções tangíveis e utilizáveis. Essa fase envolve a definição de uma proposta de valor, detalhando a prioridade de cada ideia e a consequente criação de wireframes, mockups e protótipos de alta fidelidade, que detalham a interface e a experiência do usuário.
+No design do software de investimento visa criar uma experiência envolvente e educativa, onde os usuários se sintam confiantes em suas decisões financeiras. A combinação de um layout intuitivo, recursos avançados e ênfase na segurança resulta em uma plataforma que não apenas atende, mas supera as expectativas dos investidores.
 
 ## Histórias de Usuários
 
-Com base na análise das personas foram identificadas as seguintes histórias de usuários:
-
-| EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
-| --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+https://drive.google.com/file/d/1v14SJVU80u2SbQdOTJKfM6Pv6qm4h66q/view?usp=sharing
 
 ## Proposta de Valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
-
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
-
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
+https://drive.google.com/file/d/1ffD0cBgtJkm_M0l8ip68fHfB7r2XQswx/view?usp=sharing
 
 ## Requisitos
 
@@ -147,35 +125,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+* O sistema deve permitir o usuário registrar uma conta, com e-mail e senha - alta
+* O sistema deve permitir o usuário o acesso direto de compra e venda de estoques, ações, títulos, entre outros de empresas e instituições financeiras - alta
 
 ### Requisitos não Funcionais
 
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Os requisitos de um projeto são classificados em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Orientações**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
+* O sistema deve estar disponível na maior parte do tempo, mas caso caia deve alertar o usuário - média
+* A interface do sistema deve ter feedback visual para as ações do usuário, demonstrando o que está acontecendo - média
 
 ## Projeto de Interface
 
@@ -232,23 +188,7 @@ Ferramentas de comunicação: WhatsApp, Google Meet;
 
 ## Gerenciamento do Projeto
 
-Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
-
-![Exemplo de Kanban](images/exemplo-kanban.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
->
-> **Orientações**:
->
-> - [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-> - [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-> - [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+https://drive.google.com/file/d/1ljVmaKDLgybSwhS0-2o3jVezN-jKLW8j/view?usp=sharing
 
 # Solução Implementada
 
