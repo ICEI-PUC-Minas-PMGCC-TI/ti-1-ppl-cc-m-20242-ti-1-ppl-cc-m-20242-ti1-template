@@ -186,17 +186,13 @@ Detalhes sobre a organização do grupo e o ferramental empregado.
 
 Relação de ferramentas empregadas pelo grupo durante o projeto.
 
-| Ambiente                    | Plataforma | Link de acesso                                                                         |
-| --------------------------- | ---------- | -------------------------------------------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKoWGKUQ=/                                               |
-| Repositório de código       | GitHub     | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-organizacao-financeira  |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️                                         |
-| Protótipo Interativo        | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️                                           |
-|                             |            |                                                                                        |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
+| Ambiente                    | Plataforma | Link de acesso                                                                        |
+| --------------------------- | ---------- | --------------------------------------------------------------------------------------|
+| Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKoWGKUQ=/                                              |
+| Repositório de código       | GitHub     | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-organizacao-financeira |
+| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️                                        |
+| Protótipo Interativo        | MarvelApp  | https://marvelapp.com/prototype/fe0ehf8                                               |
+|                             |            |                                                                                       |
 
 ## Gerenciamento do Projeto
 
