@@ -144,14 +144,16 @@ Estes são os protótipos de telas do sistema.
 
 Nessa tela o usuário poderá cadastrar uma nova conta para acessar ao site e suas funcionalidades.
 
-![image](https://github.com/user-attachments/assets/30d6090a-4116-4d9f-a119-e3e71eae5748)
+![image](https://github.com/user-attachments/assets/b40d53ff-a8db-4fe6-806b-fe4416500a6f)
+
 
 
 ##### TELA DE CHAT 
 
 Nessa tela o usuário poderá conversar com seus amigos já adicionados ou novas pessoas para iniciarem a jogatina.
 
-![image](https://github.com/user-attachments/assets/bafff5f7-8b25-4d99-8dcb-47e530ebd485)
+![image](https://github.com/user-attachments/assets/2c610671-87cf-4638-b44b-777524a23e2f)
+
 
 
 
@@ -159,7 +161,8 @@ Nessa tela o usuário poderá conversar com seus amigos já adicionados ou novas
 
 Nessa tela o usuário poderá escolher seu jogo de preferencia e filtrar a busca para pessoas que desejam jogar o mesmo jogo.
 
-![image](https://github.com/user-attachments/assets/127be3a6-b55c-4eec-9c06-6a73af3e5b04)
+![image](https://github.com/user-attachments/assets/c5eb0b04-06f6-40dd-bc34-8b13aae51cef)
+
 
 
 
