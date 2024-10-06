@@ -5,21 +5,33 @@
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "email": "admin@abc.com",
+      "favoritos": [
+        "evento A",
+        "evento B"
+      ]
     },
     {
       "id": 2,
       "login": "user",
       "senha": "123",
       "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "email": "user@abc.com",
+      "favoritos": [
+        "evento A",
+        "evento B"
+      ]
     },
     {
       "id": 3,
       "login": "rommel",
       "senha": "123",
       "nome": "Rommel",
-      "email": "rommel@gmail.com"
+      "email": "rommel@gmail.com",
+      "favoritos": [
+        "evento A",
+        "evento B"
+      ]
     }
   ],
 
