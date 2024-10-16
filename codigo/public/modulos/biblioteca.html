@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
     <link rel="stylesheet" href="../assets/css/styleBiblioteca.css">
 </head>
+
 <body>
     <header id="bib">
-        <h1 id="titulo">BIBLIOTECA</h1> 
+        <h1 id="titulo">BIBLIOTECA</h1>
     </header>
+    
+    <main>
+        <div class="setaVolta">
+            <a href="/codigo/public/index.html"><img src="" alt="Voltar"></a>
+        </div>
 
-    <div class="setaVolta">
-        <a href="/codigo/public/index.html"><img src="" alt="Voltar"></a>
-    </div>
+        <div class="barraPesquisa">
+            <img src="" alt="lupa">
+            <p>Procure por um material</p>
+            <img src="" alt="X">
+        </div>
 
-    <div class="barraPesquisa">
-        <img src="" alt="lupa">
-        <p>Procure por um material</p>
-        <img src="" alt="X">
-    </div>
+        <div class="filtros">
+            <img src="" alt="barraFiltros">
+            <p>Filtros</p>
+            <img src="" alt="X">
+        </div>
 
-    <div class="filtros">
-        <img src="" alt="barraFiltros">
-        <p>Filtros</p>
-        <img src="" alt="X">
-    </div>
+        <div id="form-cadastro">
+            <h2>Cadastrar Livro</h2>
+            <input type="text" id="titulo" placeholder="Título do Livro" required>
+            <input type="text" id="descricao" placeholder="Descrição do Livro" required>
+            <button onclick="cadastrarLivro()">Cadastrar</button>
+        </div>
 
-    <div id="form-cadastro">
-        <h2>Cadastrar Livro</h2>
-        <input type="text" id="titulo" placeholder="Título do Livro" required>
-        <input type="text" id="descricao" placeholder="Descrição do Livro" required>
-        <button onclick="cadastrarLivro()">Cadastrar</button>
-    </div>
-
-    <div id="livros-cadastrados">
-        <h2>Livros Cadastrados</h2>
-    </div>
+        <div id="livros-cadastrados">
+            <h2>Livros Cadastrados</h2>
+        </div>
+    </main>
 </body>
+
 </html>
