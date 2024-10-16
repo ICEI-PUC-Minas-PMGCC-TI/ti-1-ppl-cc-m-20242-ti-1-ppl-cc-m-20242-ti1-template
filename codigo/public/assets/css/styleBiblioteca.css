@@ -1,0 +1,13 @@
+/* Reset */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#bib,h1{
+    height: 40%;
+    padding: 10px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
