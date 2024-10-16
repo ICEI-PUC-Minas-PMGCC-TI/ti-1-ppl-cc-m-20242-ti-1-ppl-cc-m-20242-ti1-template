@@ -21,5 +21,39 @@
       "email": "rommel@gmail.com",
       "id": 3
     }
+  ],
+
+  "livros": [
+    {
+      "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
+      "materia":"Matemática",
+      "editora":"Ciência Moderna",
+      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em álgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio."
+    },
+    {
+      "titulo": "Gramática completa para concursos e vestibulares",
+      "materia": "Portugues",
+      "editora": "Saraiva",
+      "descricao": "Gramática completa para concursos e vestibulares traz a teoria gramatical completa explicada de um modo simples e mais de 500 testes de múltipla escolha selecionados de concursos públicos e vestibulares promovidos por diversas instituições brasileiras, constantes em uma lista no final do volume. Esta obra foi pensada para tornar o estudo da Gramática uma atividade mais prazerosa, distanciando-a daquela idéia de informações maçantes difíceis de decifrar."
+    },
+    {
+      "titulo": "Matemática e lógica para concursos",
+      "materia": "Matemática",
+      "editora": "Saraiva",
+      "descricao": "Esta edição já está de acordo com a nova ortografia.Você acha matemática complicada e não se lembra mais do que estudou? Acaba se atrapalhando quando o assunto é Raciocínio Lógico? Quer brigar por um cargo público (auditor fiscal, oficial de justiça, agente de polícia, técnico da Receita Federal, analista de finanças etc.)? Você sabe que vai precisar direcionar bem os seus estudos. A competição é acirrada e qualquer ponto pode fazer a diferença.Matemática e Lógica para Concursos, elaborada pelo professor José Luiz de Morais, especialista em preparação de candidatos a concursos públicos, reúne toda a teoria necessária e muito cobrada em concursos, para ajudar você a se preparar melhor nos estudos."
+    },
+    {
+      "titulo": "Matemática Para Vencer",
+      "materia": "Matemática",
+      "editora":"Ciência Moderna",
+      "descricao":"Um curso de matemática que começa do zero, desde a tabuada, e leva o aluno a dominar toda a matemática básica que faz falta nas séries superiores. Esta matemática básica permite até mesmo ao adultos, terem autonomia para realizar com sucesso, curso s de matemática financeira e de matemática mais avançada, necessárias em concursos públicos. "
+    },
+    {
+      "titulo": "Manual Completo de Informática para Concursos",
+      "materia":"Informática",
+      "editora":"Foco",
+      "descricao": "Por que você está diante de um MANUAL COMPLETO DE INFORMÁTICA para Concursos?Porque este MANUAL não se limita a trazer a TEORIA acerca do que é cobrado nos concursos públicos. Ele vai além e traz, também, número expressivo de QUESTÕES COMENTADAS , assuntos atuais e escrita de fácil entendimento.Quanto aos TEMAS ABORDADOS , foram selecionados aqueles de maior relevância e incidência em provas de concurso de todo o país, visando uma preparação mais objetiva do concursando. É importante salientar que nem todo tema será abordado de forma profunda, uma vez que frequentemente é requisitado um conhecimento geral sobre a Informática."
+    }
   ]
+
 }
