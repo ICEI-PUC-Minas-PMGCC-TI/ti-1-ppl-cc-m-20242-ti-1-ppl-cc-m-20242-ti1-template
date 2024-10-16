@@ -1,0 +1,11 @@
+{
+  "usuarios": [
+    {
+      "nome": "Teste123",
+      "data_nascimento": "2024-10-16",
+      "senha": "123123",
+      "endereco": "Rua Foda",
+      "id": "1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="blue_block">
+        <h1 id="titulo">SUA CONTA</h1> 
+    </div>
+    <div id="gray_box">
+        <div id="seta"></div>
+        <div id="circle">
+            <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <form id="usuarioForm">
+            <input type="text" class="input-field" placeholder="Nome do usuário" required>
+            <input type="date" class="input-field" placeholder="Data de nascimento" required>
+            <input type="password" class="input-field" placeholder="Senha" required autocomplete="current-password">
+            <input type="text" class="input-field" placeholder="Endereço" required>
+            <button id="atualizarButton" class="atualizar-button" type="button">ATUALIZAR</button>
+        </form>
+    </div>
+    <div id="linha"></div>
+    <script src="app.js"></script>
+</body>
+</html>
