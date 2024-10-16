@@ -1,6 +1,6 @@
 # Código Fonte
 
-Essa é a pasta para a manter o programa que vocês vão construir no contexto dessa disciplina. 
+Essa é a pasta para a manter o programa que vocês vão construir no contexto dessa disciplina. oi rommel 
 
 Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
 
