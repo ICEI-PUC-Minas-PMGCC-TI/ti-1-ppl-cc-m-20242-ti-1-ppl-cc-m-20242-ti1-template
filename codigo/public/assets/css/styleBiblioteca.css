@@ -1,8 +1,4 @@
-/* Reset */
-*{
-    padding: 0px;
-    margin: 0px;
-}
+@import url('./style.css');
 
 #bib,h1{
     height: 40%;

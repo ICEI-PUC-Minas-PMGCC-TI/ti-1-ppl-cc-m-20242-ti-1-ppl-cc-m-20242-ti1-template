@@ -12,7 +12,7 @@
     </header>
 
     <div class="setaVolta">
-        <a href="/codigo/public/index.html"><img src="" alt=""></a>
+        <a href="/codigo/public/index.html"><img src="" alt="Voltar"></a>
     </div>
 
     <div class="barraPesquisa">
@@ -27,18 +27,50 @@
         <img src="" alt="X">
     </div>
 
-    <div class="livro1">
-        <h5>Cálculo 1</h5>
-        <p>Livro para aprender ou revisar</p>
-        <p>Cálculo Diferencial e Integral</p>
+    <div id="form-cadastro">
+        <h2>Cadastrar Livro</h2>
+        <input type="text" id="titulo" placeholder="Título do Livro" required>
+        <input type="text" id="descricao" placeholder="Descrição do Livro" required>
+        <button onclick="cadastrarLivro()">Cadastrar</button>
     </div>
 
-    <div class="livro2">
-        <h5>Matemática para Vencer</h5>
-        <p>Livro de Aritmética para Concursos</p>
+    <div id="livros-cadastrados">
+        <h2>Livros Cadastrados</h2>
+        <!-- Livros cadastrados aparecerão aqui -->
     </div>
 
+    <script>
+        let livros = [];
 
-       
+        function cadastrarLivro() {
+            const titulo = document.getElementById('titulo').value;
+            const descricao = document.getElementById('descricao').value;
+
+            if (titulo && descricao) {
+                const livro = {
+                    titulo: titulo,
+                    descricao: descricao
+                };
+
+                livros.push(livro);
+                document.getElementById('titulo').value = '';
+                document.getElementById('descricao').value = '';
+                mostrarLivros();
+            } else {
+                alert('Por favor, preencha todos os campos.');
+            }
+        }
+
+        function mostrarLivros() {
+            const container = document.getElementById('livros-cadastrados');
+            container.innerHTML = '<h2>Livros Cadastrados</h2>'; // Limpa a lista antes de mostrar
+            livros.forEach((livro, index) => {
+                const div = document.createElement('div');
+                div.classList.add('livro');
+                div.innerHTML = `<h5>${livro.titulo}</h5><p>${livro.descricao}</p>`;
+                container.appendChild(div);
+            });
+        }
+    </script>
 </body>
 </html>
