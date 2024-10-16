@@ -1,0 +1,42 @@
+.search-container {
+    position: relative;
+    width: 300px; /* Ajuste conforme necessário */
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 40px 10px 30px; /* Espaçamento para ícone e botão de limpar */
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#search-input:focus {
+    border-color: #666;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+}
+
+.clear-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;   
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+    display: none;
+}
+
+.search-container:hover .clear-btn, .search-container:focus-within .clear-btn {
+    display: block;
+}

@@ -8,5 +8,5 @@ searchInput.addEventListener('input', () => {
 clearBtn.addEventListener('click', () => {
     searchInput.value = '';
     clearBtn.style.display = 'none';
-    searchInput.focus(); 
+    searchInput.focus();
 });
