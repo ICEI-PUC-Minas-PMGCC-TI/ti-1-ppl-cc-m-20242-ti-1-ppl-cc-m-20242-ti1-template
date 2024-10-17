@@ -29,13 +29,15 @@ async function carregarLivros() {
 function cadastrarLivro(event) {
     event.preventDefault(); // Evita o recarregamento da página
     const titulo = document.getElementById('titulo-livro').value;
+    const materia = document.getElementById('materia-livro').value;
+    const editora = document.getElementById('editora-livro').value;
     const descricao = document.getElementById('descricao-livro').value;
 
     // Aqui, você pode fazer uma requisição POST ao servidor ou apenas manipular localmente
     const novoLivro = {
         titulo: titulo,
-        materia: "A definir", // Pode ser alterado para um valor dinâmico
-        editora: "A definir", // Pode ser alterado para um valor dinâmico
+        materia: materia,
+        editora: editora, 
         descricao: descricao
     };
 
