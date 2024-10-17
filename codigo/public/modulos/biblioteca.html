@@ -5,42 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
-    <link rel="stylesheet" href="../assets/css/styleBiblioteca.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
-    <header id="bib">
-        <h1 id="titulo">BIBLIOTECA</h1>
-    </header>
+    <div id="blue_block">
+        <h1 id="titulo">Biblioteca</h1> 
+    </div>
     
-    <main>
-        <div class="setaVolta">
-            <a href="/codigo/public/index.html"><img src="" alt="Voltar"></a>
-        </div>
-
-        <div class="barraPesquisa">
-            <img src="" alt="lupa">
-            <p>Procure por um material</p>
-            <img src="" alt="X">
-        </div>
-
-        <div class="filtros">
-            <img src="" alt="barraFiltros">
-            <p>Filtros</p>
-            <img src="" alt="X">
-        </div>
-
-        <div id="form-cadastro">
-            <h2>Cadastrar Livro</h2>
-            <input type="text" id="titulo" placeholder="Título do Livro" required>
-            <input type="text" id="descricao" placeholder="Descrição do Livro" required>
-            <button onclick="cadastrarLivro()">Cadastrar</button>
-        </div>
-
-        <div id="livros-cadastrados">
-            <h2>Livros Cadastrados</h2>
-        </div>
-    </main>
+    <div id="gray_box">
+        <div id="seta"></div>
+    
+        <main>
+            <div class="barraPesquisa">
+                <img src="" alt="lupa">
+                <p>Procure por um material</p>
+                <img src="" alt="X">
+            </div>
+    
+            <div class="filtros">
+                <img src="" alt="barraFiltros">
+                <p>Filtros</p>
+                <img src="" alt="X">
+            </div>
+    
+            <!-- Formulário para cadastrar novo livro -->
+            <form id="usuarioForm">
+                <h2>Cadastrar Livro</h2>
+                <input type="text" id="titulo-livro" placeholder="Título do Livro" required>
+                <input type="text" id="descricao-livro" placeholder="Descrição do Livro" required>
+                <button type="submit" onclick="cadastrarLivro(event)">Cadastrar</button>
+            </form>
+    
+            <!-- Área onde os livros cadastrados serão exibidos -->
+            <div id="livros-cadastrados">
+                <h2>Livros Cadastrados</h2>
+                <div id="lista-livros"></div>
+            </div>
+        </main>
+    
+        <!-- Importando o arquivo JS -->
+        <script src="/codigo/public/assets/js/bib.js"></script>
+    </div>
+    
 </body>
-
 </html>
