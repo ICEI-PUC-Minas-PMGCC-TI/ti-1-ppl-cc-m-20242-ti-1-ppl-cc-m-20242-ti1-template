@@ -1,53 +1,69 @@
 {
+  "favoritos":[
+    {
+      "id": 1,
+      "nome": "evento A",
+      "id_usuario": 1
+      
+    },
+
+    {
+      "id": 2,
+      "nome": "evento B",
+      "id_usuario": 2
+      
+    }
+  ],
+  
+  
   "usuarios": [
     {
       "id": 1,
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
-      "email": "admin@abc.com",
-      "favoritos": [
-        "evento A",
-        "evento B"
-      ]
+      "email": "admin@abc.com"
+      
     },
     {
       "id": 2,
       "login": "user",
       "senha": "123",
       "nome": "Usuario Comum",
-      "email": "user@abc.com",
-      "favoritos": [
-        "evento A",
-        "evento B"
-      ]
+      "email": "user@abc.com"
+      
     },
     {
       "id": 3,
       "login": "rommel",
       "senha": "123",
       "nome": "Rommel",
-      "email": "rommel@gmail.com",
-      "favoritos": [
-        "evento A",
-        "evento B"
-      ]
+      "email": "rommel@gmail.com"     
     }
+  ],
+
+  "produtor": [
+
   ],
 
   "locais": [
     {
       "id": 1,
       "nome": "Centro de Convenções Belo Horizonte",
-      "endereco": {
-        "rua": "Av. das Nações Unidas",
-        "numero": 1234,
-        "bairro": "Brooklin",
-        "cidade": "Belo Horizonte",
-        "estado": "MG",
-        "cep": "04578-000"
-      }
+      "endereco_id": 1 
     }
+  ],
+
+  "endereco": [
+    {
+      "id": 1,
+      "rua": "Av. das Nações Unidas",
+      "numero": 1234,
+      "bairro": "Brooklin",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "04578-000"
+    }  
   ],
 
   "eventos": [
@@ -57,12 +73,7 @@
       "data": "19-10-2024",
       "descricao": "Não perca esse festival incrível com os maiores sucessos do momento!",
       "categoria": "Show",
-      "produtor": {
-        "id": 1,
-        "nome": "Carlos Eduardo",
-        "email": "cadu@produtor.com.br",
-        "telefone": "34-98888-7777"
-      },
+      "id_usuario": 1,
       "status": "ativo"
     }
   ]
