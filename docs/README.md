@@ -14,13 +14,13 @@ Informações básicas do projeto.
 
 A documentação do projeto é estruturada da seguinte forma:
 
-1. Introdução
-2. Contexto
-3. Product Discovery
-4. Product Design
-5. Metodologia
-6. Solução
-7. Referências Bibliográficas
+1. Introdução.
+2. Contexto.
+3. Product Discovery.
+4. Product Design.
+5. Metodologia.
+6. Solução.
+7. Referências Bibliográficas.
 
 ✅ [Documentação de Design Thinking (MIRO)](files/processo-dt.pdf)
 
