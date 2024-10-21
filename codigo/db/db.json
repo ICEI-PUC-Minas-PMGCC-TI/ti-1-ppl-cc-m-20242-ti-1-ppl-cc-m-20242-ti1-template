@@ -3,7 +3,8 @@
     {
       "id": 1,
       "nome": "evento A",
-      "id_usuario": 1
+      "id_usuario": 1,
+      "id_evento": 1
       
     },
 
