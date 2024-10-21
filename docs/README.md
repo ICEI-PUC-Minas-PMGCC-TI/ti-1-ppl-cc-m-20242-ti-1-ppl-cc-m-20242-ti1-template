@@ -26,7 +26,7 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-O tema do projeto é a dificuldade de criar e se desfazer de hábitos, algo comum entre estudantes universitários, especialmente considerando as pressões acadêmicas e sociais. O objetivo do projeto é desenvolver um aplicativo que auxilie esses estudantes a melhorar sua rotina e hábitos diários, seja no abandono de comportamentos prejudiciais ou na adoção de práticas saudáveis. O público-alvo são estudantes universitários que lidam com questões como procrastinação, vícios e a organização do tempo. O aplicativo será desenvolvido em HTML e CSS, com foco em acessibilidade, interface intuitiva e ferramentas motivacionais.
+O tema do projeto é a dificuldade de criar e se desfazer de hábitos, algo comum entre estudantes universitários, especialmente considerando as pressões acadêmicas e sociais. O objetivo do projeto é desenvolver um aplicativo que auxilie esses estudantes a melhorar sua rotina e hábitos diários, seja no abandono de comportamentos prejudiciais ou na adoção de práticas saudáveis. O público-alvo são estudantes universitários que lidam com questões como procrastinação, vícios e a organização do tempo. O aplicativo será desenvolvido em HTML e CSS, com foco em acessibilidade, interface intuitiva e ferramentas  motivacionais.
 
 ## Problema
 
