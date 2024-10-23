@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link href="assets/css/notificacoes.css" rel="stylesheet">
-    <script src="assets/js/notificacoes.js"></script>
     <link rel="shortcut icon" type="image/png" href="assets/images/packard-bell.png">
     <title>Notificações</title>
 </head>
 
 <body>
-    <div class="container">
+    <script src="assets/js/notificacoes.js"></script>
+    <div class="container" id="container">
         <div class="tabs">
             <button class="tab">TUDO</button>
             <button class="tab">N. LIDO</button>
@@ -21,6 +21,12 @@
             <p id="horario">07:00</p>
             <p id="situacao">Lido</p>
         </div>
+    </div>
+    <div id="novaNotif">
+        <input type="text" id="txtNome" placeholder="Nome">
+        <input type="text" id="txtHorario" placeholder="Horário">
+        <input type="text" id="txtSituacao" placeholder="Situação">
+        <button id="btnNovaNotif">Criar Notificação</button>
     </div>
 </body>
 
