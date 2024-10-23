@@ -1,0 +1,54 @@
+//Isso é uma ideia, não considerar
+{
+    "artigos": [
+      {
+        "id": 1,
+        "titulo": "Tipos de Investimento",
+        "subtitulo": "Ações",
+        "autor": {
+          "nome": "Felipe Gabriel",
+          "email": "testemail@email.com"
+        },
+        "data_publicacao": "2024-10-01",
+        "conteudos": [
+          {
+            "tipo": "texto",
+            "texto": "Aqui fala um pouco de forma introdutoria e simplificada sobre ação"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Já neste aqui apresenta o testo mais informativo e incorpado sobre ações."
+          }
+        ],
+        "imagem": {
+          "url": "https://exemplo.com/imagem-json.jpg",
+          "descricao": "Imagen ou video informando algo sobre tema "
+        }
+      },{
+"id": 2,
+        "titulo": "Analise de Investimento",
+        "subtitulo": "Analise Fundamentalista",
+        "autor": {
+          "nome": "Gabriel Itinerario",
+          "email": "itiner@email.com"
+        },
+        "data_publicacao": "2024-10-15",
+        "conteudos": [
+          {
+            "tipo": "texto",
+            "texto": "Aqui fala um pouco de forma introdutoria e simplificada sobre a analise fundamentalista."
+          },
+          {
+            "tipo": "texto",
+            "texto": "Já neste aqui apresenta o testo mais informativo e incorpado sobre a analise fundamentalista."
+          }
+        ],
+        "imagem": {
+          "url": "https://exemplo.com/imagem-json.jpg",
+          "descricao": "Imagen ou video informando algo sobre tema "
+        }
+
+      }
+    ]
+  }
+  

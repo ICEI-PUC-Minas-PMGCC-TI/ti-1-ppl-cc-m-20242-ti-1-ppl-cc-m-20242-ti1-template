@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    background-color:grey;
+    justify-content: center; 
+    margin: 1%;   
+}
+
+h2{
+    font-size: 20px;
+}
+
+label.subt{
+    font-size: 100px;
+}
+
+.form-group{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.artigo{
+    background-color: rgb(162, 184, 212);
+    padding: 4%;
+    border-radius: 15px;  
+    width: 100%;
+}
+
+#imagemPreview {
+    display: none; /* Esconder a prévia inicialmente */
+    margin-top: 20px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.iimag{
+justify-content: center;
+}
+
+#mostra{
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+div button a{
+    text-decoration: none;
+    color: white;
+}
