@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+
+        <div class="text-center">
+            <h2 class="display-5 mb-5" class="title-form"><strong>Receitas</strong></h2>
+        </div>
+
+        <div class="main row justify-content-center">
+            <form action="" id="video-form" class="row justify-content-center mb-4" autocomplete="off">
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Descrição</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Descrição">
+                    <!--<small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small> -->
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Valor</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Valor">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Categoria</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Categoria">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Conta</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Conta">
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </form>
+
+            <div class="col-12 col-md-10 mt-5">
+                <table class="table table-striped table-primary" id="crudTable">
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Categoria</th>
+                            <th>Conta</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
