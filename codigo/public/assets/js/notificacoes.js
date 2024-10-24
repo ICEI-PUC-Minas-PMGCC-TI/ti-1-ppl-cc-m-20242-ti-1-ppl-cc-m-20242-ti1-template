@@ -39,8 +39,9 @@ function exibirNotificacoes(data){
         </div>
         `;
 
-        document.getElementById("container").innerHTML = notificacoesHTML;
+        
     }
+    document.getElementById("container").innerHTML += notificacoesHTML;
 }
 
 function init (){
