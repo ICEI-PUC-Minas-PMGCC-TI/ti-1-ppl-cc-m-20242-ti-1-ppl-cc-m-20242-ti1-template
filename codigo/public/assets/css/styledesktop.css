@@ -33,3 +33,16 @@ footer {
     font-size: 14px;
     margin-top: auto;
 }
+
+.botao{
+    display: flex;
+
+    padding: 10px;
+    margin: auto;
+    background-color: orange;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: black;
+    color: white;
+}
