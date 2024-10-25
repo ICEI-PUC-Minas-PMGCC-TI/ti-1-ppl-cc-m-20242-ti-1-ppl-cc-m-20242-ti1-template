@@ -17,6 +17,7 @@ body{
     height: auto;
     margin-right: auto;
 }
+.cabecalho .aparencia,
 .cabecalho .config,
 .cabecalho .conta,
 .cabecalho .notificacao {
