@@ -54,6 +54,19 @@
       "editora":"Foco",
       "descricao": "Por que você está diante de um MANUAL COMPLETO DE INFORMÁTICA para Concursos?Porque este MANUAL não se limita a trazer a TEORIA acerca do que é cobrado nos concursos públicos. Ele vai além e traz, também, número expressivo de QUESTÕES COMENTADAS , assuntos atuais e escrita de fácil entendimento.Quanto aos TEMAS ABORDADOS , foram selecionados aqueles de maior relevância e incidência em provas de concurso de todo o país, visando uma preparação mais objetiva do concursando. É importante salientar que nem todo tema será abordado de forma profunda, uma vez que frequentemente é requisitado um conhecimento geral sobre a Informática."
     }
+  ],
+
+  "concursos":[
+  {
+    "nome":"Concurso MPU",
+    "dataInscricao": "12/06/2024",
+    "data" :"28/12/2024",
+    "salario":9052.54,
+    "nivelEnsino": "nível superior",
+    "localizacao":  "Minas Gerais"
+  }
   ]
+
+  
 
 }
