@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -46,27 +46,26 @@
             <!-- Data -->
             <div class="form-group">
                 <label for="data">Data:</label>
-                <textarea class="form-control" id="data" placeholder="Digite aqui" rows="1" required></textarea>
+                <input type="date" class="form-control" id="data" required>
             </div>
             <!-- Imagem -->
             <div class="form-group">
-                <label for="imagem">Inserir Imagens:</label>
-                <input type="file" class="form-control-file" id="imagem" accept="image/*"
-                    onchange="mostrarImagem(event)">
-                <img id="imagemPreview" src="#" alt="Prévia da Imagem" class="img-fluid border border-light">
+                <label for="linkImagem">Inserir Imagem (URL):</label>
+                <input type="text" class="form-control" id="linkImagem" placeholder="Cole o link da imagem aqui">
+                <img id="imagemPreview" src="#" alt="Prévia da Imagem" class="img-fluid border border-light mt-2" style="display:none;">
             </div>
-            <!--Botões-->
+            <!-- Botões -->
             <div class="botoes">
-                <button type="button" class="btn btn-primary" id="btnVoltar"><a href="#">Voltar</a></button> <!--Inserir o link da página inicial ou criar um script para voltar para a página incial-->
-                <button type="button" class="btn btn-primary" id="btnMostrar">Mostrar Artigos</button><!--Mostra uma previa do artigo-->
-                <button type="submit" class="btn btn-primary" id="btnSalvar">Salvar</button><!--Botão para salvar as alterações-->
+                <button type="button" class="btn btn-primary" id="btnVoltar"><a href="#" class="text-white">Voltar</a></button>
+                <button type="button" class="btn btn-primary" id="btnMostrar">Mostrar Artigos</button>
+                <button type="submit" class="btn btn-primary" id="btnSalvar">Salvar</button>
             </div>
         </form>
         <div id="resultado" class="mt-4"></div>
     </div>
-    <!--Deixar a referência js no fim do código-->
-    <div id="tela"> </div>
     <script src="cadastro.js"></script>
+
+ 
 </body>
 
 </html>

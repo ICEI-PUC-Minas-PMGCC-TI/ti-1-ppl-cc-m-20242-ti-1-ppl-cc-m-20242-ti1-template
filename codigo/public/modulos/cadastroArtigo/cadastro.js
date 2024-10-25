@@ -1,34 +1,59 @@
-// Mostra a Imagem que está sendo inserida
-function mostrarImagem(event) {
+// Mostra a Imagem a partir do link inserido
+document.getElementById('linkImagem').addEventListener('input', function() {
     const imagemPreview = document.getElementById('imagemPreview');
-    const arquivo = event.target.files[0];
+    const url = this.value;
 
-    if (arquivo) {
-        const leitor = new FileReader();
-        leitor.onload = function(e) {
-            imagemPreview.src = e.target.result; // Define a imagem da prévia
-            imagemPreview.style.display = 'block'; // Mostra a prévia
-        }
-        leitor.readAsDataURL(arquivo); // Lê o arquivo como URL
+    if (url) {
+        imagemPreview.src = url; // Define a imagem da prévia
+        imagemPreview.style.display = 'block'; // Mostra a prévia
+    } else {
+        imagemPreview.style.display = 'none'; // Esconde se não houver URL
     }
-}
+});
+
 
 // Função para salvar dados no localStorage
 function salvarDados() {
+    const titulo = document.getElementById('titulo').value;
+    const subTitulo = document.getElementById('subTitulo').value;
+    const contAp = document.getElementById('contAp').value;
+    const contIn = document.getElementById('contIn').value;
+    const autoria = document.getElementById('autoria').value;
+    const data = document.getElementById('data').value;
+    const imagem = document.getElementById('linkImagem').value; // Pega a URL da imagem
+
+    // Verifica se todos os campos obrigatórios estão preenchidos
+    if (!titulo || !subTitulo || !contAp || !contIn || !autoria || !data) {
+        alert('Por favor, preencha todos os campos obrigatórios!');
+        return; // Não permite salvar se os campos obrigatórios não estão preenchidos
+    }
+
     const dados = {
-        titulo: document.getElementById('titulo').value,
-        subTitulo: document.getElementById('subTitulo').value,
-        contAp: document.getElementById('contAp').value,
-        contIn: document.getElementById('contIn').value,
-        autoria: document.getElementById('autoria').value,
-        data: document.getElementById('data').value,
-        imagem: document.getElementById('imagemPreview').src
+        titulo,
+        subTitulo,
+        contAp,
+        contIn,
+        autoria,
+        data,
+        imagem 
     };
 
     const db = leDados(); // Lê os dados existentes
     db.artigos.push(dados); // Adiciona o novo artigo
     salvaDados(db); // Salva os dados atualizados
+
+    // Limpa os campos do formulário
+    document.getElementById('titulo').value = '';
+    document.getElementById('subTitulo').value = '';
+    document.getElementById('contAp').value = '';
+    document.getElementById('contIn').value = '';
+    document.getElementById('autoria').value = '';
+    document.getElementById('data').value = '';
+    document.getElementById('linkImagem').value = '';
+    document.getElementById('imagemPreview').style.display = 'none'; // Esconde a prévia
 }
+
+
 
 // Função para ler dados do localStorage
 function leDados() {
@@ -82,7 +107,8 @@ textareas.forEach(textarea => {
 });
 
 // Adiciona evento para salvar dados ao clicar em "Salvar"
-document.getElementById('btnSalvar').addEventListener('click', function() {
+document.getElementById('btnSalvar').addEventListener('click', function(event) {
+    event.preventDefault(); // Evita o envio do formulário
     salvarDados();
-    alert('Dados salvos no localStorage!');
+    
 });
