@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>Cadastro - Valor A+</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="assets/images/logo.png" alt="Logo do site" class="logo">
+            <h1>Valor A+</h1>
+        </div>
+    </header>
+    <form method="post" id="form_cdastro">
+        <div class="input">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" id="usuario">
+        </div>
+        <div class="input">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <div class="input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="input">
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo">
+                <option value="">Selecione uma Opção</option>
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="tipo">Tipo de Usuário</label>
+            <select name="tipo" id="tipo" onchange="mostrarCampos()">
+                <option value="">Selecione uma Opção</option>
+                <option value="an">Analista</option>
+                <option value="in">Investidor</option>
+            </select>
+        </div>
+        <div id="campos-analista" style="display:none;">
+            <div class="input">
+                <label>Certificações</label>
+                <div class="checkbox-group">
+                    <label for="cpa10">
+                        <input type="checkbox" id="cpa10" name="certificacoes" value="CPA-10"> CPA-10
+                    </label>
+                    <label for="cpa20">
+                        <input type="checkbox" id="cpa20" name="certificacoes" value="CPA-20"> CPA-20
+                    </label>
+                    <label for="cea">
+                        <input type="checkbox" id="cea" name="certificacoes" value="CEA"> CEA
+                    </label>
+                    <label for="cga">
+                        <input type="checkbox" id="cga" name="certificacoes" value="CGA"> CGA
+                    </label>
+                    <label for="cnpi">
+                        <input type="checkbox" id="cnpi" name="certificacoes" value="CNPI"> CNPI
+                    </label>
+                </div>
+            </div>
+            <div class="input">
+                <label for="investidores">Investidores</label>
+                <select name="investidores" id="investidores">
+                    <option value="">Selecione uma Opção</option>
+                    <option value="i1">Investidor1</option>
+                    <option value="i2">Investidor2</option>
+                </select>
+            </div>
+        </div>
+        <div id="campos-investidor" style="display:none;">
+            <div class="input">
+                <label for="objetivo">Objetivo</label>
+                <select name="objetivo" id="objetivo">
+                    <option value="">Selecione uma Opção</option>
+                    <option value="ap">Aposentadoria</option>
+                    <option value="lf">Liberdade Financeira</option>
+                    <option value="cp">Compra</option>
+                    <option value="vg">Viagem</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="horizonte_tempo">Horizonte de Tempo</label>
+                <select name="horizonte_tempo" id="horizonte_tempo">
+                    <option value="">Selecione uma Opção</option>
+                    <option value="-5">Menos de 5 anos</option>
+                    <option value="5">5 anos</option>
+                    <option value="10">10 anos</option>
+                    <option value="15">15 anos</option>
+                    <option value="+15">Mais de 15 anos</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="toreancia_risco">Tolerância ao Risco</label>
+                <input type="number" name="tolerancia_risco" id="tolerancia_risco">
+            </div>
+        </div>
+        <div class="input">
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+    <!-- <script src="assets/js/script_login.js"></script> <!-- Caso utilize um arquivo externo -->
+</body>
+<script>
+    const form = document.getElementById("form_cdastro");
+    
+    form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        const newUser = {
+            nome: document.getElementById('usuario').value,
+            senha: document.getElementById('senha').value,
+            email: document.getElementById('email').value,
+            sexo: document.getElementById('sexo').value,
+            tipo: document.getElementById('tipo').value,
+            investidores: document.getElementById('investidores').value,
+            objetivo: document.getElementById('objetivo').value,
+            horizonte_tempo: document.getElementById('horizonte_tempo').value,
+            tolerancia_risco: document.getElementById('tolerancia_risco').value
+        };
+
+        try {
+            const response = await fetch('http://localhost:3000/usuario', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newUser)
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                console.log(data);
+            } else {
+                console.log('DEU RUIM');
+            }
+        } catch (error) {
+            console.log('DEU MUITO RUIM!');s
+        }
+    })
+</script>
+</html>
