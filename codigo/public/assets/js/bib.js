@@ -56,7 +56,11 @@ function cadastrarLivro(event) {
     // Limpa os campos do formulário
     document.getElementById('titulo-livro').value = '';
     document.getElementById('descricao-livro').value = '';
+    document.getElementById('materia-livro').value = '';
+    document.getElementById('editora-livro').value = '';    
 }
 
 // Chama a função quando a página carrega
 window.onload = carregarLivros;
+
+

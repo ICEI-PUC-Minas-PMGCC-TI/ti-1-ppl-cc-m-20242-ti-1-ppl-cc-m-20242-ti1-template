@@ -56,16 +56,49 @@
     }
   ],
 
-  "concursos":[
+  "concursos": [
   {
-    "nome":"Concurso MPU",
-    "dataInscricao": "12/06/2024",
-    "data" :"28/12/2024",
-    "salario":9052.54,
+    "nome": "Concurso IBGE",
+    "dataInscricao": "15/07/2024",
+    "data": "10/11/2024",
+    "salario": 3500.00,
+    "nivelEnsino": "nível médio",
+    "localizacao": "São Paulo"
+  },
+  {
+    "nome": "Concurso PF",
+    "dataInscricao": "01/08/2024",
+    "data": "05/12/2024",
+    "salario": 12000.00,
     "nivelEnsino": "nível superior",
-    "localizacao":  "Minas Gerais"
+    "localizacao": "Brasília"
+  },
+  {
+    "nome": "Concurso TRE",
+    "dataInscricao": "20/05/2024",
+    "data": "30/09/2024",
+    "salario": 8000.00,
+    "nivelEnsino": "nível superior",
+    "localizacao": "Rio de Janeiro"
+  },
+  {
+    "nome": "Concurso Receita Federal",
+    "dataInscricao": "10/09/2024",
+    "data": "15/01/2025",
+    "salario": 15000.00,
+    "nivelEnsino": "nível superior",
+    "localizacao": "Distrito Federal"
+  },
+  {
+    "nome": "Concurso Banco do Brasil",
+    "dataInscricao": "05/10/2024",
+    "data": "20/01/2025",
+    "salario": 6000.00,
+    "nivelEnsino": "nível médio",
+    "localizacao": "Paraná"
   }
-  ]
+]
+
 
   
 

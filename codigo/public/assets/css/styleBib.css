@@ -39,11 +39,12 @@ body .cabecalho h1{
 #livros-cadastrados{
     background-color: rgba(34, 77, 122, 1);
     border-radius: 30px;
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 
 #livros-cadastrados h2{
+    padding-top: 10px;
     color: white;
     text-align: center;
     margin-top: 30px;
@@ -52,5 +53,21 @@ body .cabecalho h1{
 #lista-livros{
     padding: 20px;
     text-align: justify;
-    width: 100%;
+    width: 90%;
+}
+
+#lista-livros h3{
+    color: white;
+    text-align: center;
+}
+
+#lista-livros p{
+    color: white;
+}
+
+
+
+
+footer{
+    margin-top: 10px;
 }
