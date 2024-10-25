@@ -16,11 +16,11 @@ main h1{
     text-align: center;
     padding: 10px;
 }
-
-.cadastroConcursos input{
+footer {
+    background-color: rgba(34, 77, 122, 1);
+    color: white;
+    text-align: center;
     padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    border: solid 1px black;
-    
+    font-size: 14px;
+    margin-top: auto;
 }
