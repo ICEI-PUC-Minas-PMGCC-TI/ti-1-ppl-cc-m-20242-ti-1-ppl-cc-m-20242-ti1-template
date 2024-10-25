@@ -93,3 +93,76 @@ ul li.item-menu a .icon > i{
     font-size:30px;
     margin-left: 10px;
 }
+
+.cabeçalho{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    padding: 10px;
+    font-size:24px ;
+}
+
+header{
+    background-color: var(--gray);
+    width: 100%;
+}
+
+.chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.titulo-container {
+    margin-bottom: 10px;
+}
+
+.titulo-semanal {
+    font-size: 24px;
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: var(--gray);
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+
+* {
+    box-sizing: border-box; 
+    font-family:"Poppins", sans-serif;
+}
+
+.chart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    padding: 10px;
+}
+
+.chart-container {
+    width: 100%; 
+    max-width: 900px;
+    aspect-ratio: 16 / 9; 
+    border: 3px solid #28a745;
+    padding: 20px;
+    background-color: var(--gray);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
