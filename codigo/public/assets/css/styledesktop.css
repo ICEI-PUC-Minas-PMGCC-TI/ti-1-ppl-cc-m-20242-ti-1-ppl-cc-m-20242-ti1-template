@@ -25,3 +25,11 @@ body{
     height: auto;
     margin-left: 5px;
 }
+footer {
+    background-color: rgba(34, 77, 122, 1);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: auto;
+}
