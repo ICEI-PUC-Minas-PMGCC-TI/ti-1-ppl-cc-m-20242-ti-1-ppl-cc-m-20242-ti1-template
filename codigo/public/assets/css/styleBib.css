@@ -1,0 +1,56 @@
+body .cabecalho h1{
+    text-align: center;
+}
+
+/*Cadastro dos Livros*/
+#usuarioForm{
+    text-align: center;
+    
+}
+
+#usuarioForm input{
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid black;
+}
+#usuarioForm input:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    
+}
+.botao{
+    display: flex;
+
+    padding: 10px;
+    margin: auto;
+    background-color: orange;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Livros Cadastrados*/
+
+#livros-cadastrados{
+    background-color: rgba(34, 77, 122, 1);
+    border-radius: 30px;
+    max-width: 80%;
+    margin: auto;
+}
+
+#livros-cadastrados h2{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#lista-livros{
+    padding: 20px;
+    text-align: justify;
+    width: 100%;
+}
