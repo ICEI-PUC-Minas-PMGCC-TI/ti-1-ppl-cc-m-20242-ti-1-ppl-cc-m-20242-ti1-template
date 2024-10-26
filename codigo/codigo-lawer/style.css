@@ -28,9 +28,9 @@ main h1{
     height: 150px;
 }
 input{
-    margin: 10px;
+    margin: auto;
     text-align: center;
-    padding: 2px;
+    padding: 4px;
     border-radius: 20px;
     width: 200px;
    
@@ -45,9 +45,7 @@ input{
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    
 }
 
 
