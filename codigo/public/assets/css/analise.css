@@ -34,6 +34,7 @@ nav.menu-lateral{
 
 nav.menu-lateral.expandir{
     width:300px;
+
 }
 
 .btn-expandir{
@@ -68,7 +69,7 @@ ul li.item-menu a{
     color: var(--white);
     text-decoration: none;
     font-size: 20px;
-    padding: 2opx 4%;
+    padding: 20px 4%;
     display:flex;
     margin-bottom: 20px;
     line-height: 40px;
@@ -136,12 +137,6 @@ header{
     display: inline-block;
 }
 
-
-* {
-    box-sizing: border-box; 
-    font-family:"Poppins", sans-serif;
-}
-
 .chart-wrapper {
     display: flex;
     justify-content: center;
@@ -155,7 +150,7 @@ header{
     width: 100%; 
     max-width: 900px;
     aspect-ratio: 16 / 9; 
-    border: 3px solid #28a745;
+    border: 3px solid var(--green);
     padding: 20px;
     background-color: var(--gray);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -166,3 +161,44 @@ canvas {
     height: 100% !important;
 }
 
+/*Gráfico expecifico*/
+
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--black);
+    height: 100vh;
+}
+
+.custom-habit-card {
+    width: 300px;
+    background-color: var(--gray);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-habit-card:hover {
+    background-color: var(--green);
+}
+
+.custom-chart-container {
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    border: 3px solid var(--green);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--gray);
+    display: none;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
