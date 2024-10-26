@@ -30,7 +30,6 @@ body {
     height: auto;
     margin-left: 10px;
     }
-    
 footer {
     background-color: rgba(34, 77, 122, 1);
     color: white;
@@ -48,19 +47,19 @@ footer {
 }
 
 .linha {
-    display: flex;
+    display: table-column;
     justify-content: center;
     gap: 20px;
-    width: 100%;
+    width: 150%;
     max-width: 800px;
-    margin-bottom: 15px;
 }
 
 .caixa {
     background-color: #3498db;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 35px;
 }
 
 .caixa button {
@@ -69,4 +68,10 @@ footer {
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+.concursos {
+    height: 20px;
+}
+.concursos {
+    font-size: small;
 }
