@@ -1,4 +1,4 @@
-document.getElementById('atualizarButton').addEventListener('click', function() {
+document.getElementById('botao').addEventListener('click', function() {
     const nome = document.querySelector('input[placeholder="Nome do usuário"]').value;
     const dataNascimento = document.querySelector('input[placeholder="Data de nascimento"]').value;
     const senha = document.querySelector('input[placeholder="Senha"]').value;
