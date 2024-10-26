@@ -1,9 +1,17 @@
-body {
-    background-color: rgba(224, 224, 224, 1);
+html, body {
+    height: 100%;
     margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    }
-    
+    background-color: rgba(224, 224, 224, 1);
+}
+.dark-theme {
+    background-color: black;
+    color: white;
+}
 .cabecalho {
     background-color: rgba(34, 77, 122, 1);
     color: white;
@@ -12,24 +20,106 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    }
-.cabecalho .logo {
-    width: 120px;
-    height: auto;
-    margin-right: auto;
-    }
-.cabecalho .icones {
-        display: flex;
-        align-items: center;
-    }
+}
 .cabecalho .aparencia,
 .cabecalho .config,
 .cabecalho .conta,
 .cabecalho .notificacao {
-    width: 40px;
-    height: auto;
+    width: 40px; 
+    height: 40px; 
     margin-left: 10px;
-    }
+}
+.cabecalho .logo {
+    width: 120px;
+    height: auto;
+    margin-right: auto;
+}
+.cabecalho .icones {
+    display: flex;
+    align-items: center;
+}
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+button img {
+    display: block; 
+    width: 30px; 
+    height: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100vh;
+}
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+}
+.linhaespecial {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+}
+.caixa {
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 250px;
+}
+.caixaespecial {
+    background-color: rgba(255, 153, 0, 1);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 250px;
+}
+.caixa img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.caixa a {
+    display: flex;
+    text-decoration: none; 
+    color: white; 
+    height: 100%; 
+    width: 100%; 
+    align-items: center; 
+}
+.caixaespecial img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.caixaespecial b {
+    display: flex;
+    text-decoration: none; 
+    color: white; 
+    height: 100%; 
+    width: 100%; 
+    align-items: center; 
+}
+
 footer {
     background-color: rgba(34, 77, 122, 1);
     color: white;
@@ -37,59 +127,13 @@ footer {
     padding: 10px;
     font-size: 14px;
     margin-top: auto;
-}
-.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 60px;
 }
 
-.linha {
-    display: table-column;
-    justify-content: center;
-    gap: 20px;
-    width: 150%;
-    max-width: 800px;
-}
-.caixa {
-    background-color: #3498db;
-    padding: 10px;
-    border-radius: 20px;
-    text-align: left;
-    margin-bottom: 35px;
-}
-
-.caixa a {
-    display: block; 
-    text-decoration: none; 
-    color: white; 
-    height: 100%; 
-    width: 100%; 
-}
-.caixa button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-.concursos {
-    height: 20px;
-}
-.provasesimulados {
-    height: 20px;
-}
-.CRONOGRAMA {
-    height: 20px;
-}
-.calendarioicon {
-    height: 20px;
-}
-.BIBLIOTECAICON {
-    height: 20px;
-}
-.mapadeconcursosproximos {
-    height: 20px;
+footer p {
+    margin: 0;
 }

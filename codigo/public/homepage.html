@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="/codigo/public/assets/css/homepage.css">
+    <script src="/codigo/public/assets/js/aparencia.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -13,44 +14,61 @@
             <a href="suaconta.html"><img src="/codigo/public/assets/images/suaconta.png" class="conta"></a>
             <a href="config.html"><img src="/codigo/public/assets/images/config.png" class="config"></a>
             <a href="notificacao.html"><img src="/codigo/public/assets/images/notificacoes.png" class="notificacao"></a>
-            <img src="/codigo/public/assets/images/darktheme.png" class="aparencia">
+            <button id="darkThemeButton">
+                <img src="/codigo/public/assets/images/darktheme.png" class="aparencia" alt="Dark Theme">
+            </button>
         </div>
     </header>
-    <div class="container">
-        <div class="linha">
-            <div class="caixa">
-                <a href="concurso.html">
-                    <img src="/codigo/public/assets/images/concursos.png" class="concursos">                CONCURSOS
-                </a>
+<main>
+        <div class="container">
+            <div class="linha">
+                <div class="caixa">
+                    <a href="concurso.html">
+                        <img src="/codigo/public/assets/images/concursos.png" class="concursos"> CONCURSOS
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="provasesimulados.html">
+                        <img src="/codigo/public/assets/images/Provas e Simuladosicon.png" class="provasesimulados"> PROVAS E SIMULADOS
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="cronograma.html">
+                        <img src="/codigo/public/assets/images/cronograma.png" class="CRONOGRAMA"> CRONOGRAMA
+                    </a>
+                </div>
             </div>
-            <div class="caixa">
-                <a href="provasesimulados.html">
-                    <img src="/codigo/public/assets/images/Provas e Simuladosicon.png" class="provasesimulados">                PROVAS E SIMULADOS
-                </a>
-            </div>
-            <div class="caixa">
-                <a href="cronograma.html">
-                    <img src="/codigo/public/assets/images/cronograma.png" class="CRONOGRAMA">              CRONOGRAMA
-                </a>
-            </div>
-            <div class="caixa">
-                <a href="calendario.html">
-                    <img src="/codigo/public/assets/images/calendario.png" class="calendarioicon">              CALENDÁRIO
-                </a>
-            </div>
-            <div class="caixa">
-                <a href="biblioteca.html">
-                    <img src="/codigo/public/assets/images/BIBLIOTECAICON.png" class="BIBLIOTECAICON">              BIBLIOTECA
-                </a>
-            </div>
-            <div class="caixa">
-                <a href="mapa.html">
-                    <img src="/codigo/public/assets/images/mapadeconcursosproximos.png" class="mapadeconcursosproximos">                                    MAPA DE CONCURSOS PRÓXIMOS
-                </a>
+            <div class="linha">
+                <div class="caixa">
+                    <a href="calendario.html">
+                        <img src="/codigo/public/assets/images/calendario.png" class="calendarioicon"> CALENDÁRIO
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="biblioteca.html">
+                        <img src="/codigo/public/assets/images/BIBLIOTECAICON.png" class="BIBLIOTECAICON"> BIBLIOTECA
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="mapa.html">
+                        <img src="/codigo/public/assets/images/mapadeconcursosproximos.png" class="mapadeconcursosproximos"> MAPA DE CONCURSOS PRÓXIMOS
+                    </a>
+                </div>
+                <div class="linhaespecial">
+                    <div class="caixaespecial">
+                        <b href="cadastrodelivro.html">
+                            <img src="/codigo/public/assets/images/cadastrodelivro.png" class="cadastrodelivro"> CADASTRO DE LIVROS
+                        </b>
+                    </div>
+                    <div class="caixaespecial">
+                        <b href="cadastrodeconcurso.html">
+                            <img src="/codigo/public/assets/images/cadastrodeconcurso.png" class="cadastrodelivro"> CADASTRO DE CONCURSOS
+                        </b>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    
+    </main>
     <footer>
         <p>&copy; 2024 VagaCerta. Todos os direitos reservados.</p>
         <p>Contato: vagacerta@gmail.com</p>
