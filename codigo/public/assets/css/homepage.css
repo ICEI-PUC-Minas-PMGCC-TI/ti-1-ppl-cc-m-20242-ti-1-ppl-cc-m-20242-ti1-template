@@ -111,7 +111,7 @@ button img {
     margin-right: 10px;
     vertical-align: middle;
 }
-.caixaespecial b {
+.caixaespecial a {
     display: flex;
     text-decoration: none; 
     color: white; 
