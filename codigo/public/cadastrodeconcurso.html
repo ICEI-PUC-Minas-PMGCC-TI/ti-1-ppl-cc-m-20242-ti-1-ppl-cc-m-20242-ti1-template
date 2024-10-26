@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concursos</title>
+    <link rel="stylesheet" href="/codigo/public/assets/css/style.css">
+    <link rel="stylesheet" href="/codigo/public/assets/css/styleConcursos.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="homepage.html"><img src="/codigo/public/assets/images/logo.png" class="logo"></a>
+        <div class="icones">
+            <a href="suaconta.html"><img src="/codigo/public/assets/images/suaconta.png" class="conta"></a>
+            <a href="config.html"><img src="/codigo/public/assets/images/config.png" class="config"></a>
+            <a href="notificacao.html"><img src="/codigo/public/assets/images/notificacoes.png" class="notificacao"></a>
+            <button id="darkThemeButton">
+                <img src="/codigo/public/assets/images/darktheme.png" class="aparencia" alt="dark-theme">
+            </button>
+        </div>
+    </header>
+    <main>
+        <h1>Cadastro de Concursos</h1>
+        <div class="cadastro">
+            <form class="cadastroConcursos">
+                <input id= "concurso-nome" type="text" name="nome" placeholder="Nome">
+                <input id = "concurso-inscricao" type="text" name="data-inscricao" placeholder = "Data inscrição">
+                <input id = "concurso-prova" type="date" name="data-prova" placeholder = "Data Prova">
+                <input id = "concurso-Ensino" type="text" name="nivelEnsino" placeholder="Nível de ensino">
+                <input id = "concurso-localizacao" name="localizacao" placeholder="Localização">
+                <button class="botao" onclick= cadastrarConcurso(event) >Cadastrar</button>
+            </form>
+        </div>
+
+        <h1>Concursos Cadastrados</h1>
+
+        <div id="concursos-cadastrados">
+            <div id="lista-concursos">
+                
+            </div>
+        </div>    
+    </main>
+
+    <footer>
+        <p>&copy; 2024 VagaCerta. Todos os direitos reservados.</p>
+        <p>Contato: vagacerta@gmail.com</p>
+    </footer>
+
+    
+    <script src="/codigo/public/assets/js/concursos.js"></script>
+
+</body>
+<script src="/codigo/public/assets/js/darktheme.js"></script>
+</html>
