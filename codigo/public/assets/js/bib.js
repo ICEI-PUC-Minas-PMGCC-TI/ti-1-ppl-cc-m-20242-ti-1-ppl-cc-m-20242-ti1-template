@@ -47,9 +47,9 @@ function cadastrarLivro(event) {
     livroElement.classList.add('livro');
     livroElement.innerHTML = `
         <h3>${novoLivro.titulo}</h3>
-        <p><strong>Matéria:</strong> ${novoLivro.materia}</p>
-        <p><strong>Editora:</strong> ${novoLivro.editora}</p>
-        <p><strong>Descrição:</strong> ${novoLivro.descricao}</p>
+        <p><strong class = "mini-titulo" >Matéria:</strong> ${novoLivro.materia}</p>
+        <p><strong class = "mini-titulo" >Editora:</strong> ${novoLivro.editora}</p>
+        <p><strong class = "mini-titulo" >Descrição:</strong> ${novoLivro.descricao}</p>
     `;
     listaLivros.appendChild(livroElement);
 
