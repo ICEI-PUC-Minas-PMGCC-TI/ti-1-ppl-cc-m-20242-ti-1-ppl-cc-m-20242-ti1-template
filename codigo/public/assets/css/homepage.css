@@ -53,15 +53,21 @@ footer {
     width: 150%;
     max-width: 800px;
 }
-
 .caixa {
     background-color: #3498db;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     text-align: left;
     margin-bottom: 35px;
 }
 
+.caixa a {
+    display: block; 
+    text-decoration: none; 
+    color: white; 
+    height: 100%; 
+    width: 100%; 
+}
 .caixa button {
     background: none;
     border: none;
@@ -72,6 +78,18 @@ footer {
 .concursos {
     height: 20px;
 }
-.concursos {
-    font-size: small;
+.provasesimulados {
+    height: 20px;
+}
+.CRONOGRAMA {
+    height: 20px;
+}
+.calendarioicon {
+    height: 20px;
+}
+.BIBLIOTECAICON {
+    height: 20px;
+}
+.mapadeconcursosproximos {
+    height: 20px;
 }
