@@ -43,14 +43,15 @@ body .cabecalho h1{
 /*Livros Cadastrados*/
 
 #livros-cadastrados{
-    max-width: 90%;
+    margin: 0px;
+    width: 90%;
     margin: auto;
 }
 
 #livros-cadastrados h2{
     color: black;
     text-align: center;
-    margin: 30px;
+    margin-top:  30px;  
 }
 
 /*Lista dos Livros*/
