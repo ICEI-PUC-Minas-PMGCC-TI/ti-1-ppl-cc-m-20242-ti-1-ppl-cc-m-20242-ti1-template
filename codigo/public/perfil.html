@@ -10,14 +10,14 @@
 </head>
 <body>
     <div class="container mt-5">
+        <!-- Perfil Card -->
         <div class="card mx-auto" style="width: 18rem;">
             <img src="default-profile.png" class="card-img-top" alt="Foto do usuário">
             <div class="card-body text-center">
                 <h5 class="card-title" id="nome-usuario">Nome do Usuário</h5>
-                <p class="card-text" id="bio">Descrição breve do Usuário</p>
+                <p class="card-text" id="bio">Descrição breve do jogador</p>
                 <p class="card-text" id="categoria-jogo">Categoria: Casual / Competitivo</p>
                 <p class="card-text" id="jogos">Jogos Preferidos: </p>
-                <!-- Links para redes e plataformas -->
                 <div id="social-links">
                     <a href="#" class="btn btn-outline-dark btn-sm mx-1">Discord</a>
                     <a href="#" class="btn btn-outline-dark btn-sm mx-1">Steam</a>
@@ -25,6 +25,46 @@
                 </div>
             </div>
             <button id="edit-btn" class="btn btn-primary mt-2">Editar Perfil</button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editProfileModalLabel">Editar Perfil</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="editProfileForm">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="bio">Descrição</label>
+                            <textarea class="form-control" id="bio-text" placeholder="Descrição breve"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="categoria">Categoria</label>
+                            <select class="form-control" id="categoria">
+                                <option>Casual</option>
+                                <option>Competitivo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="jogos">Jogos Preferidos</label>
+                            <input type="text" class="form-control" id="jogos" placeholder="Exemplo: CS:GO, Fortnite">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" id="saveProfile" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
         </div>
     </div>
 
