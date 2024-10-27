@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#edit-btn {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#social-links a {
+    margin-top: 10px;
+}

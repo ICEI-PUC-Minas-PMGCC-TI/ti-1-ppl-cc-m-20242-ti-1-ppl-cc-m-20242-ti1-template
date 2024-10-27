@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Jogador</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="default-profile.png" class="card-img-top" alt="Foto do usuário">
+            <div class="card-body text-center">
+                <h5 class="card-title" id="nome-usuario">Nome do Usuário</h5>
+                <p class="card-text" id="bio">Descrição breve do jogador</p>
+                <p class="card-text" id="categoria-jogo">Categoria: Casual / Competitivo</p>
+                <p class="card-text" id="jogos">Jogos Preferidos: </p>
+                <!-- Links para redes e plataformas -->
+                <div id="social-links">
+                    <a href="#" class="btn btn-outline-dark btn-sm mx-1">Discord</a>
+                    <a href="#" class="btn btn-outline-dark btn-sm mx-1">Steam</a>
+                    <a href="#" class="btn btn-outline-dark btn-sm mx-1">Epic Games</a>
+                </div>
+            </div>
+            <button id="edit-btn" class="btn btn-primary mt-2">Editar Perfil</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
