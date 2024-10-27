@@ -5,36 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <title>Despesas</title>
 </head>
 
 <body>
     <div class="container mt-5">
 
         <div class="text-center">
-            <h2 class="display-5 mb-5" class="title-form"><strong>Despesas</strong></h2>
+            <h2 class="display-5 mb-5 title-form"><strong>Despesa</strong></h2>
         </div>
 
         <div class="main row justify-content-center">
             <form action="" id="video-form" class="row justify-content-center mb-4" autocomplete="off">
 
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Descrição</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Descrição">
-                    <!--<small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small> -->
+                    <label for="inputDescrição" class="from-label">Descrição</label>
+                    <input type="text" class="form-control" id="exampleInputDescricao" placeholder="Descricao">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Valor</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Valor">
+                    <label for="InputValor" class="from-label">Valor</label>
+                    <input type="text" class="form-control" id="exampleInputValor" placeholder="Valor">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Categoria</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Categoria">
+                    <label for="exampleInputCategoria" class="from-label">Categoria</label>
+                    <input type="text" class="form-control" id="exampleInputCategoria" placeholder="Categoria">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Conta</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Conta">
+                    <label for="exampleInputConta">Conta</label>
+                    <input type="text" class="form-control" id="exampleInputConta" placeholder="Conta">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Foi Pago?</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Salvar</button>
             </form>
@@ -47,7 +50,7 @@
                             <th>Valor</th>
                             <th>Categoria</th>
                             <th>Conta</th>
-                            <th></th>
+                            <th>Foi Pago</th>
                             <th></th>
                         </tr>
                     </thead>
