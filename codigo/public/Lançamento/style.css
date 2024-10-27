@@ -5,7 +5,7 @@
 }
 
 .title-form{
-    color: red; 
+    color: green; 
     font-weight: bold;
     font-size: 2em;
     text-align: center;
@@ -27,8 +27,8 @@
 }
 
 .btn-primary {
-    background-color: red;
-    border-color: red;
+    background-color: reen;
+    border-color: green;
     color:black; 
     box-shadow: nome;
     font-weight: bold;
