@@ -1,4 +1,3 @@
-// app.js
 // Função para navegar para outra página
 function navigateTo(page) {
     alert(`Navegando para: ${page}`);
