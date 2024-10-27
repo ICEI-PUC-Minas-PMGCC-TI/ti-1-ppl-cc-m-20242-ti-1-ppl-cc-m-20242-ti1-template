@@ -11,7 +11,6 @@
 .search-container:hover {
     border-color: #007bff;
 }
-
 #search-input {
     border: none;
     outline: none;
@@ -34,4 +33,27 @@
 
 .clear-btn:hover {
     color: #ff0000;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#search-input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.clear-btn {
+    cursor: pointer;
 }

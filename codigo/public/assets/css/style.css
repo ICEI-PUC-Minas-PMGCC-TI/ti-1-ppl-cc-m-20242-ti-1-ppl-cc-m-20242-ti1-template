@@ -105,3 +105,14 @@ button img {
     width: 100%; 
     align-items: center; 
 }
+footer {
+    background-color: rgba(34, 77, 122, 1);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: auto;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
