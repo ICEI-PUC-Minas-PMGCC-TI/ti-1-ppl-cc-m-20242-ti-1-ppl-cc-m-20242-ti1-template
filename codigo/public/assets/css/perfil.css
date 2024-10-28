@@ -1,29 +1,67 @@
-body {
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#profile-image {
+    width: 500px;
+    height: 500px;
+}
+
+
+.perfil-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil-lateral {
     background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
 
-.card {
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+.perfil-lateral img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
-.card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.perfil-principal {
+    background-color: #ffffff;
+    padding: 20px;
 }
 
-.card-title {
+.bio-section, .jogos-section {
+    margin-bottom: 30px;
+}
+
+.bio-section h3, .jogos-section h3 {
     font-size: 1.5rem;
+    color: #333;
+}
+
+#nome-usuario {
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
-#edit-btn {
-    width: 100%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+#categoria-jogo {
+    font-size: 1.1rem;
+    color: #666;
 }
 
-#social-links a {
-    margin-top: 10px;
+/* Botão Editar Perfil */
+#edit-btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Estilo para o Modal */
+.modal-body input, .modal-body textarea {
+    font-size: 1rem;
 }
