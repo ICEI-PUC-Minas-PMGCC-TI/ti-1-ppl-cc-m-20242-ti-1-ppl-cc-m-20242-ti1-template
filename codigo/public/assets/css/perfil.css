@@ -1,67 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body, html {
     height: 100%;
-    margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #black;
 }
-
-#profile-image {
-    width: 500px;
-    height: 500px;
-}
-
 
 .perfil-container {
-    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    border: 1px solid #ddd;
 }
 
-.perfil-lateral {
-    background-color: #f8f9fa;
+.capa {
+    width: 100%;
+    height: 200px;
+    background-color: #1da1f2;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    margin-top: -75px;
+}
+
+.perfil-info {
     padding: 20px;
+    width: 100%;
     text-align: center;
 }
 
-.perfil-lateral img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 15px;
+.perfil-info h2 {
+    font-size: 28px;
+    color: #f3f3f3;
+    margin: 10px 0;
 }
 
-.perfil-principal {
-    background-color: #ffffff;
-    padding: 20px;
+.perfil-info p {
+    color: #f3f3f3;
+    margin: 5px 0;
 }
 
-.bio-section, .jogos-section {
-    margin-bottom: 30px;
-}
-
-.bio-section h3, .jogos-section h3 {
-    font-size: 1.5rem;
-    color: #333;
-}
-
-#nome-usuario {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-#categoria-jogo {
-    font-size: 1.1rem;
-    color: #666;
-}
-
-/* Botão Editar Perfil */
 #edit-btn {
-    width: 100%;
-    font-size: 1rem;
-    padding: 10px;
-    background-color: #007bff;
-    color: #ffffff;
+    color: #ee4646;
+    border-color: #ee4646;
 }
 
-/* Estilo para o Modal */
-.modal-body input, .modal-body textarea {
-    font-size: 1rem;
+/* Modal ajustes */
+.modal-content {
+    border-radius: 8px;
+}
+
+/* Para dispositivos maiores, centraliza e ajusta a altura */
+@media (min-height: 600px) {
+    .perfil-container {
+        height: 100vh;
+    }
 }

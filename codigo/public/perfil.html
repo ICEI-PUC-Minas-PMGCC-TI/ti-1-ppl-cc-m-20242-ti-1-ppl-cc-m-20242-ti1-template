@@ -1,62 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil do Usuário</title>
-    <!-- Link para o CSS do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Link para o CSS personalizado -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/perfil.css">
 </head>
 <body>
+    <div class="container perfil-container">
+        <!-- Seção de capa -->
+        <div class="capa"></div>
 
-<div class="container-fluid perfil-container">
-    <div class="row">
-        <div class="col-md-3 perfil-lateral">
-            <img id="profile-image" src="assets/images/default-pp.jpg" alt="Imagem de perfil" class="img-fluid rounded-circle">
+        <!-- Foto de perfil e informações principais -->
+        <div class="perfil-info text-center">
+            <img src="assets/images/default-pp.jpg" alt="Foto de Perfil" class="foto-perfil">
             <h2 id="nome-usuario">Nome do Usuário</h2>
-            <p id="categoria-jogo">Categoria: Casual</p>
-        </div>
-        <div class="col-md-9 perfil-principal">
-            <div class="bio-section">
-                <h3>Sobre</h3>
-                <p id="bio">Descrição breve do jogador</p>
-            </div>
-            <div class="jogos-section">
-                <h3>Jogos Preferidos</h3>
-                <p id="jogos">Lista de jogos</p>
-            </div>
-            <button id="edit-btn" class="btn btn-secondary mt-4">Editar Perfil</button>
+            <p id="bio">Descrição breve do jogador.</p>
+            <p id="categoria-jogo">Categoria: N/A</p>
+            <p id="jogos">Jogos Preferidos: Nenhum selecionado</p>
+            <button id="edit-btn" class="btn btn-outline-primary mt-3">Editar Perfil</button>
         </div>
     </div>
-</div>
 
-<!-- Modal de Edição -->
-<div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="editProfileModalLabel">Editar Perfil</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <input type="text" id="nome" class="form-control mb-3" placeholder="Nome">
-                <textarea id="bio-text" class="form-control mb-3" placeholder="Sobre"></textarea>
-                <input type="text" id="categoria" class="form-control mb-3" placeholder="Categoria (Casual/Competitivo)">
-                <input type="text" id="jogos" class="form-control mb-3" placeholder="Jogos Preferidos">
-            </div>
-            <div class="modal-footer">
-                <button type="button" id="saveProfile" class="btn btn-primary">Salvar</button>
+    <!-- Modal de Edição -->
+    <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editProfileModalLabel">Editar Perfil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" id="nome" class="form-control mb-3" placeholder="Nome">
+                    <textarea id="bio-text" class="form-control mb-3" placeholder="Sobre"></textarea>
+                    <input type="text" id="categoria" class="form-control mb-3" placeholder="Categoria (Casual/Competitivo)">
+                    <input type="text" id="jogos" class="form-control mb-3" placeholder="Jogos Preferidos">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="saveProfile" class="btn btn-primary">Salvar</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/perfil.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/perfil.js"></script>
 </body>
 </html>
