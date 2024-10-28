@@ -1,8 +1,7 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,69 +15,48 @@ body {
 
 .container {
     width: 100%;
-    max-width: 400px;
+    max-width: 550px;
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
-.container h1{
-    margin: 20px 40px;
-    font-family: 'Times New Roman', Times, serif;
+.title-form{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
     text-align: center;
-    color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
-.form-group {
-    margin-bottom: 15px;
+#Update {
+    display: none;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
+
+
+.btn-button1 {
+    background-color: green;
+    border-color: green;
+    color:black; 
+    box-shadow: nome;
+    font-weight: bold;
 }
 
-input[type="text"],
-input[type="date"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
+.btn-button2 {
+    background-color: red;
+    border-color: red;
+    color:black; 
+    box-shadow: nome;
+    font-weight: bold;
 }
 
-textarea {
-    resize: vertical;
-    height: 100px;
+.btn-button1, .btn-button2 {
+    padding: 5px 10px; 
+    font-size: 0.9em; 
+    width: auto; 
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #034AA6;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
 
-button:hover {
-    background-color: #034AA6;
-}
-
-.form-group input[type="checkbox"] {
-    width: auto;
-    transform: scale(1.5); /*Aumenta o tamanho do checkbox*/
-    margin-left: 5px;
-}
-
-.form-select{
-    margin: 0px 0px 15px;
-    font-family: 'Times New Roman', Times, serif;
-}
