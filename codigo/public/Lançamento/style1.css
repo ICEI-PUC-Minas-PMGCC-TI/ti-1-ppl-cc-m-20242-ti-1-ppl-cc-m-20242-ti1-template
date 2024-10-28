@@ -4,8 +4,27 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #edf3fb;
+ 
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
 .title-form{
-    color: red;
+    color: green; 
     font-weight: bold;
     font-size: 2em;
     text-align: center;
@@ -16,20 +35,24 @@
     display: none;
 }
 
-.link-style {
-    text-decoration: none;
-    cursor: pointer;
-    color: #118ADB;
-}
-
-.link-style:hover{
-    color: #073A5C;
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
 }
 
 .btn-primary {
-    background-color: red;
-    border-color: red;
+    background-color: green;
+    border-color: green;
     color:black; 
     box-shadow: nome;
     font-weight: bold;
+    padding: 5px 10px; 
+    font-size: 0.9em; 
+    width: auto; 
+    
 }
+
+
+
