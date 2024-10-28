@@ -5,31 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="/codigo/public/assets/css/styledesktop.css">
 </head>
 
 <body>
+    <header class="cabecalho">
+        <img src="/codigo/public/assets/images/logo.png" class="logo">
+        <img src="/codigo/public/assets/images/suaconta.png" class="conta">
+        <img src="/codigo/public/assets/images/config.png" class="config">
+        <img src="/codigo/public/assets/images/notificacoes.png" class="notificacao">
+    </header>
+    
     <div id="blue_block">
         <h1 id="titulo">Biblioteca</h1> 
     </div>
-    
+
     <div id="gray_box">
         <div id="seta"></div>
-    
+
         <main>
             <div class="barraPesquisa">
                 <img src="" alt="lupa">
                 <p>Procure por um material</p>
                 <img src="" alt="X">
             </div>
-    
+
             <div class="filtros">
                 <img src="" alt="barraFiltros">
                 <p>Filtros</p>
                 <img src="" alt="X">
             </div>
-    
+
+
             <!-- Formulário para cadastrar novo livro -->
             <form id="usuarioForm">
                 <h2>Cadastrar Livro</h2>
@@ -39,17 +46,17 @@
                 <input type="text" id="materia-livro" placeholder="Matéria do Livro" required>
                 <button type="submit" onclick="cadastrarLivro(event)">Cadastrar</button>
             </form>
-    
+
             <!-- Área onde os livros cadastrados serão exibidos -->
             <div id="livros-cadastrados">
                 <h2>Livros Cadastrados</h2>
                 <div id="lista-livros"></div>
             </div>
         </main>
-    
+
         <!-- Importando o arquivo JS -->
         <script src="/codigo/public/assets/js/bib.js"></script>
     </div>
-    
+
 </body>
 </html>
