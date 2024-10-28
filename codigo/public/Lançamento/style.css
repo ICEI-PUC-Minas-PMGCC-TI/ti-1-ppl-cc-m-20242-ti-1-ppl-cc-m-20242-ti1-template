@@ -1,35 +1,84 @@
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.title-form{
-    color: green; 
-    font-weight: bold;
-    font-size: 2em;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #edf3fb;
+ 
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1{
+    margin: 20px 40px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin-bottom: 35px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-#Update {
-    display: none;
+.form-group {
+    margin-bottom: 15px;
 }
 
-.link-style {
-    text-decoration: none;
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #034AA6;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-    color: #118ADB;
+    transition: background-color 0.3s;
 }
 
-.link-style:hover{
-    color: #073A5C;
+button:hover {
+    background-color: #034AA6;
 }
 
-.btn-primary {
-    background-color: reen;
-    border-color: green;
-    color:black; 
-    box-shadow: nome;
-    font-weight: bold;
+.form-group input[type="checkbox"] {
+    width: auto;
+    transform: scale(1.5); /*Aumenta o tamanho do checkbox*/
+    margin-left: 5px;
+}
+
+.form-select{
+    margin: 0px 0px 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
