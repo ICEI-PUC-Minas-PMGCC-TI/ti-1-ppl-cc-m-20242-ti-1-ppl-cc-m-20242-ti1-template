@@ -1,78 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js/login.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="banner">
-        <img src="./assets/images/banner_ti.png" alt="" />
-      </div>
-      <div class="barra-info">
-        <nav class="menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">Sobre nós</a></li>
-          </ul>
-        </nav>
-        <div class="dados-usuario">
-          <span id="userInfo"></span>
-        </div>
-      </div>
-    </header>
-    <main>
-        <h3>Boas vindas</h3>
-        <p>Sejam bem-vindos à home-page do projeto de TI 1 - Trabalho
-        Interdisciplinar</p>
-        <p>Esse conteúdo que você está lendo foi criado para exemplificar como
-        criar o seu site integrado com o ambiente de login e o back end que
-        utiliza o JSON Server.</p>
-        <p>Ao criar o seu site, você deve adaptar esse código para sua neessidade ou começar do zero, excluindo todo esse conteúdo.
-        </p>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Hábitos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Criar Hábito</h1>
+        <form id="habitForm">
+            <label for="habitName">Nome do Hábito:</label>
+            <input type="text" id="habitName" required>
 
-        <h3>Arquivos do site (Front End)</h3>
-        <p>Para montar seu site, edite os arquivos existentes e crie novos arquivos na pasta <code>public</code> que mantem todos os arquivos da parte de Front End do site, a interface que é vista pelo usuário no navegador.</p>
+            <label for="frequency">Frequência:</label>
+            <select id="frequency">
+                <option> </option>
+                <option value="diário">Diário</option>
+                <option value="semanal">Semanal</option>
+                <option value="mensal">Mensal</option>
+            </select>
 
-        <p>Nesta pasta <code>public</code>, sugerimos que você organize os arquivos do seu site da seguinte maneira:</p>
-        <ul>
-            <li><strong>Pasta <code>assets</code></strong>: os arquivos de formatação (CSS), os scripts (JS), as imagens utilizadas no site (JPG, PNG, GIF, SVG, etc), fontes (TTF) e outros arquivos gerais utilizados por todo o site.</li>
-            <li><strong>Pasta <code>modulos</code></strong>: os arquivos utilizados na implementação das funcionalidades do site. Separe uma sub-pasta para cada novo módulo ou funcionalidade. Pode também ser utilizado para dividir o trabalho de cada membro do grupo.</li>
-            <li><strong>Arquivo <code>index.html</code></strong>: arquivo que representa a "home page" do site.</li>
-        </ul>
+            <label for="motivo">Motivo:</label>
+            <input type="text" id="motivo" required>
 
-        <h3>Módulo de Login</h3>
-        <p>O módulo de login de usuário traz uma funcionalidade completa de registro de usuários e validação de login e senha.</p>
-        <h4>Integração do site com módulo de Login</h4>
-        <p>Para utilizar o módulo de login, basta incluir o script na sua página colocando a seguinte tag no HEAD</p>
-        <pre>&lt;script src="./assets/js/login.js"&gt&lt;script&gt;</pre>
-        <p>Ao incluir o script de login na sua página, caso o usuário ainda não tenha efetuado login, ao acessar a home-page do site, o navegador será direcionado para o formulário de <strong>Identificação de Usuário</strong>. Se o usuário informar corretamente o login e a senha, o navegador será direcionado para a Home-Page.</p>
-        <h4>Sessão do usuário logado</h4>
-        <p>Assim que o usuário se identifica e acessa a parte privada do site, o módulo de login cria uma chave do sessionStorage do navegador com o título <strong>usuarioCorrente</strong> e cujo conteúdo é um objeto com os atributos: id, nome, login, senha e email. </p>
-        <h4>Base de dados de usuários</h4>
-        <p>Inicialmente o módulo de login é configurado com dois usuários: </p>
-        <ul>
-            <li>admin - Senha: 123</li>
-            <li>user - Senha: 123</li>
-        </ul>
+            <button type="submit">Adicionar Hábito</button>
+        </form>
 
-        <h3>Servidor Web e API baseada no JSON Server (Back end)</h3>
-        <p>O ambiente de trabalho disponibilizado para suportar o Trabalho Interdisciplinar 1 é baseado no Node.js. A aplicação de back end utiliza o módulo JSON Server para criar um Servidor Web que prove duas estruturas separadas:
-        <ul>
-            <li><strong>Arquivos estáticos (Pasta <code>public</code>)</strong>: da acesso aos arquivos utilizados no front end (HTML, CSS e JavaScript).</li>
-            <li><strong>API RESTful (pasta <code>db</code>)</strong>: uma interface para acesso aos dados definidos no arquivo db.json.</li>
-        </ul></p>
+        <ul id="habitList"></ul>
+        <div id="successMessage" class="hidden">Hábito adicionado com sucesso!</div>
+    </div>
 
-        <h4>Arquitetura do site</h4>
-        <p>A imagem que se segue apresenta a arquitetura desse ambiente, mostrando as duas refletindo as pastas desse ambiente.</p>
-        <p><img class="img-fluid d-block w-75 m-auto" src="./assets/images/servidor.png" alt=""></p>
+    <!-- <script src="script.js"></script> -->
 
-        <h4>Arquivo db.json</h4>
-        <p>O arquivo JSON utilizado para definição das estruturas dos dados providos pela aplicação é localizado na pasta db e tem um formato como o mostrado no exemplo da figura a seguir. Esse arquivo define uma estrutura hipotética de contatos que descreve itens com os seguintes atributos: <code>id</code>, <code>nome</code> e <code>cidade</code>. para o JSON Server, é fundamental que toda estrutura tenha um atributo de identificador de nome <code>id</code>.</p>
-        <p><img class="img-fluid d-block w-50 m-auto" src="./assets/images/arquivo_json.png" alt=""></p>
-    </main>
-  </body>
+    <script>
+        let habitCount = 0;
+
+document.getElementById('habitForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    const nome = document.getElementById('habitName').value;
+    const frequencia = document.getElementById('frequency').value;
+    const motivo = document.getElementById('motivo').value;
+
+    if (nome && frequencia && motivo) {
+        habitCount++;
+        
+        const habitList = document.getElementById('habitList');
+        const habitItem = document.createElement('li');
+        habitItem.id = `habit-${habitCount}`;
+
+        habitItem.innerHTML = `
+            <div class="habit-info">
+                <strong>ID:</strong> ${habitCount}<br>
+                <strong>Nome:</strong> ${nome}<br>
+                <strong>Frequência:</strong> ${frequencia}<br>
+                <strong>Motivo:</strong> ${motivo}
+            </div>
+            <div class="habit-controls">
+                <span id="timer-${habitCount}" class="timer">00:00:00</span>
+                <button onclick="concluirHabit(this, ${habitCount})">Concluído</button>
+            </div>
+        `;
+
+        habitList.appendChild(habitItem);
+
+        const successMessage = document.getElementById('successMessage');
+        successMessage.classList.remove('hidden');
+        document.getElementById('habitForm').reset();
+
+        startTimer(habitCount);
+
+        setTimeout(() => {
+            successMessage.classList.add('hidden');
+        }, 3000);
+    } else {
+        alert('Preencha todos os campos antes de adicionar um hábito.');
+    }
+});
+
+function formatTime(days, hours, minutes, seconds) {
+    if (days > 0) {
+        return `${String(days).padStart(2, '0')}:${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+    } else if (hours > 0) {
+        return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    } else {
+        return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+    }
+}
+
+const timers = {};
+
+function startTimer(habitId) {
+    if (timers[habitId]) clearInterval(timers[habitId]);
+
+    let seconds = 0;
+    timers[habitId] = setInterval(() => {
+        seconds++;
+        const days = Math.floor(seconds / 86400);
+        const hours = Math.floor((seconds % 86400) / 3600);
+        const minutes = Math.floor((seconds % 3600) / 60);
+        const secs = seconds % 60;
+        document.getElementById(`timer-${habitId}`).textContent = formatTime(days, hours, minutes, secs);
+    }, 1000);
+}
+
+function resetTimer(habitId) {
+    clearInterval(timers[habitId]);
+    document.getElementById(`timer-${habitId}`).textContent = '00:00:00';
+}
+
+function concluirHabit(button, habitId) {
+    resetTimer(habitId);
+    const habitItem = button.closest('li');
+    habitItem.style.textDecoration = "line-through";
+    button.disabled = true;
+}
+
+    </script>
+</body>
 </html>
