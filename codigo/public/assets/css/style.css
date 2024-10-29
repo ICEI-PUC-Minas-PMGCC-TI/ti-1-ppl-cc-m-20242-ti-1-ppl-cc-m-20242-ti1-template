@@ -18,8 +18,11 @@ body {
     padding: 0 20px;
     align-items: center;
     height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 .cabecalho .aparencia,
 .cabecalho .config,
@@ -55,7 +58,7 @@ button img {
     align-items: center;
     justify-content: center;
     flex: 1;
-    height: auto;
+    height: 100vh;
 }
 .linha {
     display: flex;
@@ -112,6 +115,8 @@ footer {
     padding: 10px;
     font-size: 14px;
     margin-top: auto;
+    position:absolute;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
+    position: fixed;
 }
