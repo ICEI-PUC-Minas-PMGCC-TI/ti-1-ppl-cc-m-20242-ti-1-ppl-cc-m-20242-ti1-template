@@ -1,11 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+html, body {
+    height: 100%;
     margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(224, 224, 224, 1);
 }
 .dark-theme {
     background-color: black;
@@ -86,5 +87,5 @@ button {
 }
 
 button:hover {
-    background-color: #e67e22;
+    background-color: #e67e22;
 }
