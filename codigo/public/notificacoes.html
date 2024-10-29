@@ -18,11 +18,10 @@
         </div>
     </header>
     </head>
-    <script src="assets/js/notificacoes.js"></script>
     <div class="container" id="container">
         <div class="tabs">
-            <button class="tab">TUDO</button>
-            <button class="tab">N. LIDO</button>
+            <button class="tab" id="tudo" onclick="mostrarTudo()">TUDO</button>
+            <button class="tab" id="nlido" onclick="mostrarNLido()">N. LIDO</button>
         </div>
         <div class="content">
             <h2 id="nome">NOME</h2>
@@ -30,12 +29,7 @@
             <p id="situacao">Lido</p>
         </div>
     </div>
-    <div id="novaNotif">
-        <input type="text" id="txtNome" placeholder="Nome">
-        <input type="text" id="txtHorario" placeholder="Horário">
-        <input type="text" id="txtSituacao" placeholder="Situação">
-        <button id="btnNovaNotif">Criar Notificação</button>
-    </div>
+    <script src="assets/js/notificacoes.js"></script>
 </body>
 <nav class="menu-lateral">
     <div class="btn-expandir">

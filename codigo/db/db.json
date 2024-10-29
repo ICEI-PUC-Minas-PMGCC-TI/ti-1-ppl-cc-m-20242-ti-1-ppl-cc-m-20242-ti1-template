@@ -28,20 +28,26 @@
      "id": 1,
       "nome": "Teste 1",
       "horario": "07:00",
-      "situacao": "lido"
+      "situacao": "Lido"
     },
     {
       "id": 2,
       "nome": "Teste 2",
       "horario": "10:00",
-      "situacao": "lido"
+      "situacao": "Lido"
     },
     {
       "id": 3,
       "nome": "Teste 3",
       "horario": "13:00",
-      "situacao": "lido"
-    }
+      "situacao": "Não lido"
+    },
+    {
+      "id": 4,
+       "nome": "Teste 4",
+       "horario": "16:00",
+       "situacao": "Não lido"
+     }
   ],
   
   "habitos": [

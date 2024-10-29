@@ -147,3 +147,7 @@ header {
 .content h2 {
     margin: 0;
 }
+
+.tudo, .nlido {
+    display: none;
+}

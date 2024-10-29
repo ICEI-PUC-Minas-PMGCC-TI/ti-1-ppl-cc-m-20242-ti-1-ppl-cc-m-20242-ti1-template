@@ -24,7 +24,7 @@ btnExp.addEventListener('click', function(){
 
 //Gráfico
 
-fetch('data.json')
+fetch('../db/db.json')
     .then(response => response.json())
     .then(parsedData => {
         const porcentagensRealizadas = parsedData.habitosRealizados.map(habito => (habito / parsedData.habitosTotais) * 100);
