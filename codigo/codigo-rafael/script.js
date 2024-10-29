@@ -1,7 +1,16 @@
-const events = [
-    { "date": "2024-09-04", "event": "Concurso Petrobras" },
-    { "date": "2024-09-24", "event": "Concurso Banco do Brasil" }
-  ];
+let events = [];
+
+fetch('dados.json')
+  .then(response => response.json())
+  .then(data => {
+    events = data.concursos.map(concurso => ({
+      date: concurso.data.split('/').reverse().join('-'), 
+      event: `${concurso.nome} - ${concurso.localizacao}`
+    }));
+    generateCalendar(currentMonth, currentYear); 
+    loadEvents(); 
+  })
+  .catch(error => console.error('Erro ao carregar os dados dos concursos:', error));
 
   function generateCalendar(month, year) {
     const calendar = document.getElementById('calendar');
