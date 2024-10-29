@@ -47,9 +47,37 @@
                     <input type="file" id="foto-upload" class="form-control mb-3" accept="image/*">
 
                     <input type="text" id="nome" class="form-control mb-3" placeholder="Nome">
-                    <textarea id="bio-text" class="form-control mb-3" placeholder="Sobre"></textarea>
-                    <input type="text" id="categoria" class="form-control mb-3" placeholder="Categoria (Casual/Competitivo)">
-                    <input type="text" id="jogos" class="form-control mb-3" placeholder="Jogos Preferidos">
+                    <textarea id="bio-text" class="form-control mb-3" placeholder="Biografia"></textarea>
+                    <div class="mb-3">
+                        <label for="categoria" class="form-label">Selecione a Categoria:</label>
+                        <div>
+                            <input type="checkbox" id="categoria-casual" name="categoria" value="Casual">
+                            <label for="categoria-casual">Casual</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="categoria-competitivo" name="categoria" value="Competitivo">
+                            <label for="categoria-competitivo">Competitivo</label>
+                        </div>
+                    </div>
+                    <h5 class="mt-4">Jogos Preferidos:</h5>
+                    <div id="jogos-carrossel" class="jogos-container">
+                        <!-- Cards de jogos com checkboxes -->
+                        <div class="jogo-card">
+                            <input type="checkbox" id="jogo1" class="jogo-checkbox">
+                            <label for="jogo1">
+                                <img src="https://via.placeholder.com/100x100?text=Jogo+1" alt="Jogo 1" class="jogo-imagem">
+                                <p>Jogo 1</p>
+                            </label>
+                        </div>
+                        <div class="jogo-card">
+                            <input type="checkbox" id="jogo2" class="jogo-checkbox">
+                            <label for="jogo2">
+                                <img src="https://via.placeholder.com/100x100?text=Jogo+2" alt="Jogo 2" class="jogo-imagem">
+                                <p>Jogo 2</p>
+                            </label>
+                        </div>
+                        <!-- Adicione mais jogos conforme necessário -->
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" id="saveProfile" class="btn btn-primary">Salvar</button>
