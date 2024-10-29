@@ -19,5 +19,35 @@ fetch('dados.json')
         });
 
         nav.appendChild(container);
+
+        const campoPesquisa = document.getElementById('search-input');
+        const contResultados = document.createElement('div');
+        contResultados.className = 'cont-resultados';
+        nav.appendChild(contResultados);
+
+        campoPesquisa.addEventListener('input', () => {
+            const busca = campoPesquisa.value.toLowerCase();
+            contResultados.innerHTML = '';
+
+            const concursosFiltrados = data.concursos.filter(concurso =>
+                concurso.nome.toLowerCase().includes(busca) ||
+                concurso.instituicao.toLowerCase().includes(busca) ||
+                concurso.cargo.toLowerCase().includes(busca)
+            );
+
+            concursosFiltrados.forEach(concurso => {
+                const divConcurso = document.createElement('div');
+                divConcurso.className = 'concurso';
+                divConcurso.innerHTML = `
+                    <h3>${concurso.nome}</h3>
+                    <p><strong>Instituição:</strong> ${concurso.instituicao}</p>
+                    <p><strong>Cargo:</strong> ${concurso.cargo}</p>
+                    <p><strong>Salário:</strong> R$${concurso.salario.toLocaleString('pt-BR')}</p>
+                    <p><strong>Data de Inscrição:</strong> ${concurso.dataInscricao}</p>
+                    <p><strong>Localidade:</strong> ${concurso.localidade}</p>
+                `;
+                contResultados.appendChild(divConcurso);
+            });
+        });
     })
     .catch(error => console.error('Erro ao carregar o JSON:', error));
