@@ -81,3 +81,11 @@ body, html {
     position: absolute;
     bottom: 0;
 }
+
+footer {
+    position: fixed;
+}
+
+.cabecalho {
+    position: fixed;
+}
