@@ -49,13 +49,18 @@ body {
     width: 120px;
     height: auto;
 }
-
+.dark-theme {
+    background-color: black;
+    color: white;
+}
 .cabecalho .icones {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
-
+button {
+    background-color: rgba(34, 77, 122, 1);
+}
 footer {
     background-color: rgba(34, 77, 122, 1);
     color: white;
