@@ -21,7 +21,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     top: 0;
 }
 .cabecalho .aparencia,
@@ -115,8 +114,6 @@ footer {
     padding: 10px;
     font-size: 14px;
     margin-top: auto;
-    position:absolute;
     bottom: 0;
     width: 100vw;
-    position: fixed;
 }
