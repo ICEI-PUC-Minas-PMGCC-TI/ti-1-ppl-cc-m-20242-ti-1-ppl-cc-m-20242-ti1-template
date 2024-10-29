@@ -1,1 +1,97 @@
-lorem
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetivos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .objetivos, .acoes, .form-adicionar, .detalhes {
+            margin-bottom: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Objetivos</h1>
+    <div class="objetivos">
+        <h2>Lista de Objetivos</h2>
+        <ul>
+            <li>Objetivo 1</li>
+            <li>Objetivo 2</li>
+            <li>Objetivo 3</li>
+            <li>Objetivo 4</li>
+        </ul>
+    </div>
+
+    <div class="acoes">
+        <h2>Ações</h2>
+        <p>
+            <button onclick="document.getElementById('form-adicionar').style.display='block';">Novo Objetivo</button>
+        </p>
+        <p>
+            <button onclick="document.getElementById('detalhes').style.display='block';">Detalhes</button>
+        </p>
+    </div>
+
+    <div id="form-adicionar" class="form-adicionar" style="display:none;">
+        <h2>Novo Objetivo</h2>
+        <form>
+            <label for="nome">Nome do Objetivo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+            <button type="submit">Salvar Objetivo</button>
+        </form>
+        <p><button onclick="document.getElementById('form-adicionar').style.display='none';">Fechar</button></p>
+    </div>
+
+    <div id="detalhes" class="detalhes" style="display:none;">
+        <h2>Detalhes</h2>
+        <p>Você precisa poupar hoje <strong>R$ 1000,00</strong>.</p>
+        <p>Data do último depósito: <strong>01/10/2024</strong></p>
+        
+        <label for="deposito">Adicionar Depósito:</label>
+        <input type="number" id="deposito" name="deposito" placeholder="Valor do depósito" required>
+        <button type="submit">Adicionar</button>
+        <p><button onclick="document.getElementById('detalhes').style.display='none';">Fechar</button></p>
+    </div>
+
+</body>
+</html>
