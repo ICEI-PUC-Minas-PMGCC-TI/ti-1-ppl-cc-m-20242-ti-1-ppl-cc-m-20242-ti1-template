@@ -1,4 +1,22 @@
 {
+  "favoritos":[
+    {
+      "id": 1,
+      "nome": "evento A",
+      "id_usuario": 1,
+      "id_evento": 1
+      
+    },
+
+    {
+      "id": 2,
+      "nome": "evento B",
+      "id_usuario": 2,
+      "id_evento": 1
+    }
+  ],
+  
+  
   "usuarios": [
     {
       "id": 1,
@@ -6,6 +24,7 @@
       "senha": "123",
       "nome": "Administrador do Sistema",
       "email": "admin@abc.com"
+      
     },
     {
       "id": 2,
@@ -13,13 +32,50 @@
       "senha": "123",
       "nome": "Usuario Comum",
       "email": "user@abc.com"
+      
     },
     {
+      "id": 3,
       "login": "rommel",
       "senha": "123",
       "nome": "Rommel",
-      "email": "rommel@gmail.com",
-      "id": 3
+      "email": "rommel@gmail.com"     
+    }
+  ],
+
+  "produtor": [
+
+  ],
+
+  "locais": [
+    {
+      "id": 1,
+      "nome": "Centro de Convenções Belo Horizonte",
+      "endereco_id": 1 
+    }
+  ],
+
+  "endereco": [
+    {
+      "id": 1,
+      "rua": "Av. das Nações Unidas",
+      "numero": 1234,
+      "bairro": "Brooklin",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "04578-000"
+    }  
+  ],
+
+  "eventos": [
+    {
+      "id": 1,
+      "nome": "Festival Música Boa - 2ª edição",
+      "data": "19-10-2024",
+      "descricao": "Não perca esse festival incrível com os maiores sucessos do momento!",
+      "categoria": "Show",
+      "id_usuario": 1,
+      "status": "ativo"
     }
   ]
 }
