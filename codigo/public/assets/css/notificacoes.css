@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
 
-:root {
+:root { 
     --black: #2a2a2a;
-    --green: #19c463;
-    --gray: #3a3a3a;
-    --white: #fff;
+    --green: #19c463; 
+    --gray: #3a3a3a; 
+    --white: #fff; 
 }
 
 *{

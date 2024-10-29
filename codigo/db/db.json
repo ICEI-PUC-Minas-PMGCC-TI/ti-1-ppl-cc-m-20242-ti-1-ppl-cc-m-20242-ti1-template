@@ -8,11 +8,11 @@
       "email": "admin@abc.com"
     },
     {
-      "id": 2,
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+       "id": 2,
+       "login": "user",
+       "senha": "123",
+       "nome": "Usuario Comum",
+       "email": "user@abc.com"
     },
     {
       "login": "rommel",
