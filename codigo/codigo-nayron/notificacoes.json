@@ -1,0 +1,9 @@
+[{
+        "titulo": "Nova Mensagem",
+        "mensagem": "Você tem uma nova mensagem de João."
+    },
+    {
+        "titulo": "Atualização de Sistema",
+        "mensagem": "O sistema será atualizado em breve."
+    }
+]
