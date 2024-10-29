@@ -3,28 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../codigo/public/assets/css/style.css">
+    <title>Sua Conta</title>
+    <link rel="stylesheet" href="/codigo/codigo-lawer/style.css">
+    <link rel="stylesheet" href="/codigo/public/assets/css/styledesktop.css">
 </head>
 <body>
-    <div id="blue_block">
-        <h1 id="titulo">SUA CONTA</h1> 
-    </div>
-    <div id="gray_box">
-        <div id="seta"></div>
-        <div id="circle">
-            <i class="fa fa-user" aria-hidden="true"></i>
+
+    <header class="cabecalho">
+        <a href="homepage.html"><img src="/codigo/public/assets/images/logo.png" class="logo"></a>
+        <div class="icones">
+            <a href="suaconta.html"><img src="/codigo/public/assets/images/suaconta.png" class="conta"></a>
+            <a href="config.html"><img src="/codigo/public/assets/images/config.png" class="config"></a>
+            <a href="notificacao.html"><img src="/codigo/public/assets/images/notificacoes.png" class="notificacao"></a>
+            <img src="/codigo/public/assets/images/darktheme.png" class="aparencia">
         </div>
-        <form id="usuarioForm">
-            <input type="text" class="input-field" placeholder="Nome do usuário" required>
-            <input type="date" class="input-field" placeholder="Data de nascimento" required>
-            <input type="password" class="input-field" placeholder="Senha" required autocomplete="current-password">
-            <input type="text" class="input-field" placeholder="Endereço" required>
-            <button id="atualizarButton" class="atualizar-button" type="button">ATUALIZAR</button>
-        </form>
-    </div>
-    <div id="linha"></div>
-    <script src="app.js"></script>
+    </header>
+
+    <main>
+        <div class="fundo">
+            <h1>Sua Conta</h1>
+            <div class="img">
+                <img src="/codigo/public/assets/images/pessoa.png">
+            </div>
+            <div class="formulario">
+                <form id="usuarioForm">
+                    <input type="text" class="input-field" placeholder="Nome do usuário" required>
+                    <input type="date" class="input-field" placeholder="Data de nascimento" required>
+                    <input type="password" class="input-field" placeholder="Senha" required autocomplete="current-password">
+                    <input type="text" class="input-field" placeholder="Endereço" required>
+                    <button id="atualizarButton" class="botao" type="button">ATUALIZAR</button>
+                </form>
+            </div>
+        </div>
+        
+        
+        <!--
+        <div id="gray_box">
+            <div id="seta"></div>
+            <div id="circle">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <form id="usuarioForm">
+                <input type="text" class="input-field" placeholder="Nome do usuário" required>
+                <input type="date" class="input-field" placeholder="Data de nascimento" required>
+                <input type="password" class="input-field" placeholder="Senha" required autocomplete="current-password">
+                <input type="text" class="input-field" placeholder="Endereço" required>
+                <button id="atualizarButton" class="atualizar-button" type="button">ATUALIZAR</button>
+            </form>
+        </div>
+        -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 VagaCerta. Todos os direitos reservados.</p>
+        <p>Contato: vagacerta@gmail.com</p>
+    </footer>
+    <script src="/codigo/codigo-lawer/app.js"></script>
 </body>
 </html>

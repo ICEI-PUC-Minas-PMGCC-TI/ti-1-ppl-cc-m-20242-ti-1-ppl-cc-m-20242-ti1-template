@@ -1,0 +1,14 @@
+main{
+    margin: 10px;
+}
+.nossaFoto{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+.nossaFoto p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

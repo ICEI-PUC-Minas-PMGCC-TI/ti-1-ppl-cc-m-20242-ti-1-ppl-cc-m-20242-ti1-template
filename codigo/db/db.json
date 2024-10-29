@@ -54,6 +54,52 @@
       "editora":"Foco",
       "descricao": "Por que você está diante de um MANUAL COMPLETO DE INFORMÁTICA para Concursos?Porque este MANUAL não se limita a trazer a TEORIA acerca do que é cobrado nos concursos públicos. Ele vai além e traz, também, número expressivo de QUESTÕES COMENTADAS , assuntos atuais e escrita de fácil entendimento.Quanto aos TEMAS ABORDADOS , foram selecionados aqueles de maior relevância e incidência em provas de concurso de todo o país, visando uma preparação mais objetiva do concursando. É importante salientar que nem todo tema será abordado de forma profunda, uma vez que frequentemente é requisitado um conhecimento geral sobre a Informática."
     }
-  ]
+  ],
+
+  "concursos": [
+  {
+    "nome": "Concurso IBGE",
+    "dataInscricao": "15/07/2024",
+    "data": "10/11/2024",
+    "salario": 3500.00,
+    "nivelEnsino": "nível médio",
+    "localizacao": "São Paulo"
+  },
+  {
+    "nome": "Concurso PF",
+    "dataInscricao": "01/08/2024",
+    "data": "05/12/2024",
+    "salario": 12000.00,
+    "nivelEnsino": "nível superior",
+    "localizacao": "Brasília"
+  },
+  {
+    "nome": "Concurso TRE",
+    "dataInscricao": "20/05/2024",
+    "data": "30/09/2024",
+    "salario": 8000.00,
+    "nivelEnsino": "nível superior",
+    "localizacao": "Rio de Janeiro"
+  },
+  {
+    "nome": "Concurso Receita Federal",
+    "dataInscricao": "10/09/2024",
+    "data": "15/01/2025",
+    "salario": 15000.00,
+    "nivelEnsino": "nível superior",
+    "localizacao": "Distrito Federal"
+  },
+  {
+    "nome": "Concurso Banco do Brasil",
+    "dataInscricao": "05/10/2024",
+    "data": "20/01/2025",
+    "salario": 6000.00,
+    "nivelEnsino": "nível médio",
+    "localizacao": "Paraná"
+  }
+]
+
+
+  
 
 }

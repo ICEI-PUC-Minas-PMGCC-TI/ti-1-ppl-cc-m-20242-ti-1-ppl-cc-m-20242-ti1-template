@@ -4,14 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="/codigo/public/assets/css/styledesktop.css">
+    <link rel="stylesheet" href="/codigo/public/assets/css/homepage.css">
 </head>
 <body>
     <header class="cabecalho">
-            <img src="/codigo/public/assets/images/logo.png" class="logo">
-            <img src="/codigo/public/assets/images/suaconta.png" class="conta">
-            <img src="/codigo/public/assets/images/config.png" class="config">
-            <img src="/codigo/public/assets/images/notificacoes.png" class="notificacao">
+        <a href="homepage.html"><img src="/codigo/public/assets/images/logo.png" class="logo"></a>
+        <div class="icones">
+            <a href="suaconta.html"><img src="/codigo/public/assets/images/suaconta.png" class="conta"></a>
+            <a href="config.html"><img src="/codigo/public/assets/images/config.png" class="config"></a>
+            <a href="notificacao.html"><img src="/codigo/public/assets/images/notificacoes.png" class="notificacao"></a>
+            <button id="darkThemeButton">
+                <img src="/codigo/public/assets/images/darktheme.png" class="aparencia" alt="dark-theme">
+            </button>
+        </div>
     </header>
+<main>
+        <div class="container">
+            <div class="linha">
+                <div class="caixa">
+                    <a href="concurso.html">
+                        <img src="/codigo/public/assets/images/concursos.png" class="concursos"> CONCURSOS
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="provasesimulados.html">
+                        <img src="/codigo/public/assets/images/Provas e Simuladosicon.png" class="provasesimulados"> PROVAS E SIMULADOS
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="cronograma.html">
+                        <img src="/codigo/public/assets/images/cronograma.png" class="CRONOGRAMA"> CRONOGRAMA
+                    </a>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="caixa">
+                    <a href="calendario.html">
+                        <img src="/codigo/public/assets/images/calendario.png" class="calendarioicon"> CALENDÁRIO
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="biblioteca.html">
+                        <img src="/codigo/public/assets/images/BIBLIOTECAICON.png" class="BIBLIOTECAICON"> BIBLIOTECA
+                    </a>
+                </div>
+                <div class="caixa">
+                    <a href="mapa.html">
+                        <img src="/codigo/public/assets/images/mapadeconcursosproximos.png" class="mapadeconcursosproximos"> MAPA DE CONCURSOS PRÓXIMOS
+                    </a>
+                </div>
+                <div class="linhaespecial">
+                    <div class="caixaespecial">
+                         <a href="cadastrodelivro.html"><img src="/codigo/public/assets/images/cadastrodelivro.png" class="cadastrodelivro"> CADASTRO DE LIVROS</a>
+                    </div>
+                    <div class="caixaespecial">
+                            <a href="cadastrodeconcurso.html"><img src="/codigo/public/assets/images/cadastrodeconcurso.png" class="cadastrodelivro"> CADASTRO DE CONCURSOS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 VagaCerta. Todos os direitos reservados.</p>
+        <p>Contato: vagacerta@gmail.com</p>
+    </footer>
 </body>
+<script src="/codigo/public/assets/js/darktheme.js"></script>
 </html>

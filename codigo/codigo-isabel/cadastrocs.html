@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Concursos</title>
+    <link rel="stylesheet" href="aparencia.css"> 
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="/codigo/public/assets/images/logo.png" class="logo">
+        <img src="/codigo/public/assets/images/suaconta.png" class="conta">
+        <img src="/codigo/public/assets/images/config.png" class="config">
+        <img src="/codigo/public/assets/images/notificacoes.png" class="notificacao">
+        <img src="/codigo/public/assets/images/darktheme.png" class="aparencia">
+</header>
+<div class="container">
+    <h1>CADASTRO DE CONCURSOS</h1>
+    <form id="cadastro-form">
+        <div class="form-group upload-group">
+            <div class="upload-btn"></div>
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="nome" name="nome" placeholder="Nome">
+        </div>
+
+        <div class="form-group">
+            <input type="date" id="data-inscricao" name="data-inscricao" placeholder="Data inscrição">
+        </div>
+
+        <div class="form-group">
+            <input type="date" id="data-prova" name="data-prova" placeholder="Data prova">
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="categoria" name="categoria" placeholder="Categoria">
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="nivel-ensino" name="nivel-ensino" placeholder="Nível de ensino">
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="banca" name="banca" placeholder="Banca">
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="localizacao" name="localizacao" placeholder="Localização">
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="horario" name="horario" placeholder="Horário">
+        </div>
+
+        <div class="form-group">
+            <textarea id="descricao" name="descricao" placeholder="Descrição"></textarea>
+        </div>
+
+        <div class="form-group">
+            <input type="url" id="link" name="link" placeholder="Link">
+        </div>
+
+        <div class="form-group">
+            <textarea id="materiais" name="materiais" placeholder="Materiais de Estudo"></textarea>
+        </div>
+
+        <button type="submit">CADASTRAR</button>
+    </form>
+</div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 VagaCerta. Todos os direitos reservados.</p>
+    <p>Contato: vagacerta@gmail.com</p>
+</footer>
+</html>
