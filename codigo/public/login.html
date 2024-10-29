@@ -4,34 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desenvolvimento de Interfaces Web | Login de Usuário</title>
+  <title>Login de Usuário</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 
 <body class="">
+  <header class="cabecalho">
+    <a href="homepage.html"><img src="./assets/images/logo.png" class="logo"></a>
+</header>
   <div id="login">
     <div class="container">
-      <div id="login-row" class="row justify-content-center align-items-center bg-secondary m-5 p-5">
+      <div id="login-row">
         <div id="login-column" class="col-md-6">
           <div id="login-box" class="col-md-12">
             <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
-              <h3 class="text-center text-light">Identificação de Usuário</h3>
+              <h3 class="text-center text-light">Login</h3>
               <div class="form-group">
-                <label for="username" class="text-info text-light">Login</label><br>
-                <input type="text" name="username" id="username" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="password" class="text-info text-light">Senha</label><br>
-                <input type="password" name="password" id="password" class="form-control">
+                <input type="text" name="username" placeholder="Username" id="username" class="form-control">
+                <input type="password" name="password"  placeholder="Senha" id="password" class="form-control">
               </div>
               <div class="form-group text-center mt-3">
-                <button type="button" class="btn btn-primary text-light" data-toggle="modal" data-target="#loginModal">Registrar</button>
                 <input type="submit" name="submit" class="btn btn-primary text-light" value="Login"> 
+                <button type="button" class="btn btn-primary text-light" data-toggle="modal" data-target="#loginModal">Registrar</button>
               </div>
             </form>
           </div>
@@ -56,24 +56,11 @@
             <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
               <h3 class="text-center text-info">Novo usuário</h3>
               <div class="form-group">
-                <label for="login" class="text-info">Usuário</label><br>
-                <input type="text" name="txt_login" id="txt_login" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="nome" class="text-info">Nome completo</label><br>
-                <input type="text" name="txt_nome" id="txt_nome" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="email" class="text-info">email</label><br>
-                <input type="text" name="txt_email" id="txt_email" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="senha" class="text-info">Senha</label><br>
-                <input type="password" name="txt_senha" id="txt_senha" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="senha2" class="text-info">Confirmação de Senha</label><br>
-                <input type="password" name="txt_senha2" id="txt_senha2" class="form-control">
+                <input type="text" name="txt_login" placeholder="Usuário" id="txt_login" class="form-control">
+                <input type="text" name="txt_nome" placeholder="Nome Completo" id="txt_nome" class="form-control">
+                <input type="text" name="txt_email" placeholder="Email" id="txt_email" class="form-control">
+                <input type="password" name="txt_senha" placeholder="Senha" id="txt_senha" class="form-control">
+                <input type="password" name="txt_senha2" placeholder="Confirmação de Senha" id="txt_senha2" class="form-control">
               </div>
             </form>
           </div>
