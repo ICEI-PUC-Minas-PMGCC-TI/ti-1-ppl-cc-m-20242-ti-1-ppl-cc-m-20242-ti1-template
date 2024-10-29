@@ -7,7 +7,7 @@
 body, html {
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #black;
+    background-color: rgb(18, 18, 18);
 }
 
 .perfil-container {
@@ -19,33 +19,71 @@ body, html {
     width: 100%;
     height: 100%;
     margin: auto;
-    background-color: black;
+    background-color: rgb(18, 18, 18);
+}
+
+#banner-usuario {
+    border-radius: 30px;
+    width: 100%;
 }
 
 .capa {
-    width: 100%;
+    width: 92%;
     height: 250px;
-    background-color: #1da1f2;
+    margin-top: 70px;
 }
 
 .foto-perfil {
-    width: 150px;
-    height: 150px;
+    width: 180px; /* Aumentando o tamanho da foto */
+    height: 180px; /* Aumentando o tamanho da foto */
     border-radius: 50%;
     border: 4px solid #ffffff;
-    margin-top: -75px;
+    margin-top: -30px; /* Ajustando a posição da foto para ficar abaixo do banner */
+    margin-left: 100px;
 }
 
 .perfil-info {
-    padding: 20px;
+    display: flex; /* Para alinhar a foto e a biografia */
+    align-items: center; /* Alinhando os itens no topo */
+    justify-content: space-between; /* Espaçamento entre foto e biografia */
     width: 100%;
-    text-align: center;
+    margin-top: 200px;
+}
+
+.foto-e-nome {
+    display: flex;
+    flex-direction: column; /* Alinha a foto e o nome em coluna */
+    align-items: baseline; /* Centraliza a foto e o nome */
 }
 
 .perfil-info h2 {
-    font-size: 28px;
+    font-size: 24px; /* Ajustando o tamanho do nome */
     color: #f3f3f3;
     margin: 10px 0;
+}
+
+.perfil-e-bio-e-categoria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.bio-e-categoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bio-e-categoria h3 {
+    color: #f3f3f3;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+#categoria-jogo {
+    margin-top: 120px;
 }
 
 .perfil-info p {
@@ -56,6 +94,8 @@ body, html {
 #edit-btn {
     color: #ee4646;
     border-color: #ee4646;
+    margin-right: 150px;
+    margin-bottom: 200px;
 }
 
 /* Modal ajustes */

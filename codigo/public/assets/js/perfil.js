@@ -1,48 +1,43 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Confirma o carregamento do JavaScript
-    console.log("JavaScript carregado.");
-
-    // Referência ao botão "Editar Perfil"
     const editButton = document.getElementById("edit-btn");
+    const saveButton = document.getElementById("saveProfile");
+
     if (editButton) {
         editButton.addEventListener("click", function () {
-            console.log("Botão 'Editar Perfil' clicado.");
-            $('#editProfileModal').modal('show'); // Mostra o modal ao clicar
+            $('#editProfileModal').modal('show');
         });
-    } else {
-        console.error("Botão 'Editar Perfil' não encontrado.");
     }
 
-    // Referência ao botão de salvar no modal
-    const saveButton = document.getElementById("saveProfile");
-    if (saveButton) {
-        saveButton.addEventListener("click", function () {
-            console.log("Botão 'Salvar' clicado."); // Verificação do clique no botão Salvar
-            
-            // Captura os valores dos campos de entrada
-            const nome = document.getElementById("nome").value;
-            const bio = document.getElementById("bio-text").value;
-            const categoria = document.getElementById("categoria").value;
-            const jogos = document.getElementById("jogos").value;
+    const bannerUpload = document.getElementById("banner-upload");
+    const fotoUpload = document.getElementById("foto-upload");
 
-            // Cria um objeto JSON com os dados do usuário
-            const perfilUsuario = {
-                nome: nome,
-                bio: bio,
-                categoria: categoria,
-                jogos: jogos
-            };
+    bannerUpload.addEventListener("change", function (e) {
+        const banner = document.getElementById("banner-usuario");
+        const file = e.target.files[0];
+        if (file) {
+            banner.src = URL.createObjectURL(file);
+        }
+    });
 
-            // Atualiza o perfil na página com os dados salvos
-            document.getElementById("nome-usuario").innerText = perfilUsuario.nome || "Nome do Usuário";
-            document.getElementById("bio").innerText = perfilUsuario.bio || "Descrição breve do jogador";
-            document.getElementById("categoria-jogo").innerText = `Categoria: ${perfilUsuario.categoria || "N/A"}`;
-            document.getElementById("jogos").innerText = `Jogos Preferidos: ${perfilUsuario.jogos || ""}`;
+    fotoUpload.addEventListener("change", function (e) {
+        const foto = document.getElementById("foto-usuario");
+        const file = e.target.files[0];
+        if (file) {
+            foto.src = URL.createObjectURL(file);
+        }
+    });
 
-            // Fecha o modal após salvar as alterações
-            $('#editProfileModal').modal('hide');
-        });
-    } else {
-        console.error("Botão 'Salvar' não encontrado.");
-    }
+    saveButton.addEventListener("click", function () {
+        const nome = document.getElementById("nome").value;
+        const bio = document.getElementById("bio-text").value;
+        const categoria = document.getElementById("categoria").value;
+        const jogos = document.getElementById("jogos").value;
+
+        document.getElementById("nome-usuario").innerText = nome || "Nome do Usuário";
+        document.getElementById("bio").innerText = bio || "Descrição breve do jogador";
+        document.getElementById("categoria-jogo").innerText = `Categoria: ${categoria || "N/A"}`;
+        document.getElementById("jogos").innerText = `Jogos Preferidos: ${jogos || ""}`;
+
+        $('#editProfileModal').modal('hide');
+    });
 });

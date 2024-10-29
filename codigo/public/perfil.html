@@ -8,30 +8,44 @@
     <link rel="stylesheet" href="assets/css/perfil.css">
 </head>
 <body>
-    <div class="container perfil-container">
-        <!-- Seção de capa -->
-        <div class="capa"></div>
-
-        <!-- Foto de perfil e informações principais -->
-        <div class="perfil-info text-center">
-            <img src="assets/images/default-pp.jpg" alt="Foto de Perfil" class="foto-perfil">
-            <h2 id="nome-usuario">Nome do Usuário</h2>
-            <p id="bio">Descrição breve do jogador.</p>
-            <p id="categoria-jogo">Categoria: N/A</p>
-            <p id="jogos">Jogos Preferidos: Nenhum selecionado</p>
-            <button id="edit-btn" class="btn btn-outline-primary mt-3">Editar Perfil</button>
+    <div class="perfil-container">
+        <!-- Banner do Usuário com Placeholder -->
+        <div class="capa">
+            <img src="https://via.placeholder.com/1200x300?text=Banner+do+Usuário" alt="Banner do Usuário" id="banner-usuario" class="img-fluid w-100">
         </div>
+
+        <!-- Informações de Perfil -->
+    <div class="perfil-info">
+        <div class="perfil-e-bio-e-categoria">
+            <div class="foto-e-nome">
+                <img src="https://via.placeholder.com/180?text=Foto+de+Perfil" alt="Foto de Perfil" id="foto-usuario" class="foto-perfil rounded-circle">
+                <h2 id="nome-usuario">Nome do Usuário</h2>
+            </div>
+            <div class="bio-e-categoria">
+                <h3>Biografia</h3>
+                <p id="bio">Biografia do usuário.</p>
+                <p id="categoria-jogo">Categoria: </p>
+            </div>
+        </div>
+        <button id="edit-btn" class="btn btn-outline-primary mt-3">Editar Perfil</button>
     </div>
+</div>
 
     <!-- Modal de Edição -->
     <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="editProfileModalLabel">Editar Perfil</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <label for="banner-upload" class="form-label">Alterar Banner:</label>
+                    <input type="file" id="banner-upload" class="form-control mb-3" accept="image/*">
+
+                    <label for="foto-upload" class="form-label">Alterar Foto de Perfil:</label>
+                    <input type="file" id="foto-upload" class="form-control mb-3" accept="image/*">
+
                     <input type="text" id="nome" class="form-control mb-3" placeholder="Nome">
                     <textarea id="bio-text" class="form-control mb-3" placeholder="Sobre"></textarea>
                     <input type="text" id="categoria" class="form-control mb-3" placeholder="Categoria (Casual/Competitivo)">
