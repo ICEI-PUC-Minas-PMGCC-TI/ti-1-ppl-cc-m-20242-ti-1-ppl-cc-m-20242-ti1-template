@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const buttonContainer = document.getElementById('button-container');
 
-    // Função para criar um botão com base nos dados JSON
+    
     config.configurações[0].botões.forEach(button => {
         if (button.clicavel) {
             const buttonDiv = document.createElement('div');
@@ -82,12 +82,12 @@ document.addEventListener('DOMContentLoaded', function() {
             buttonLink.classList.add('section');
             
             if (button.tipo === "seta") {
-                // Botão "Voltar" com ícone apenas
+                
                 document.getElementById('seta').addEventListener('click', function() {
                     window.history.back();
                 });
             } else {
-                // Adiciona o texto ao botão normal
+            
                 buttonLink.textContent = button.nome;
                 buttonDiv.appendChild(icon);
                 buttonDiv.appendChild(buttonLink);
