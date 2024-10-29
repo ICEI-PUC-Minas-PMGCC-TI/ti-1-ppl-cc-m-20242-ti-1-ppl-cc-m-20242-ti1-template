@@ -43,10 +43,18 @@ fetch('dados.json')
     }
 
     for (let day = 1; day <= lastDate; day++) {
-      const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
-      const isEventDay = events.some(e => e.date === dateStr);
-      days.innerHTML += `<div class="${isEventDay ? 'highlight' : ''}">${day}</div>`;
+    const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    const eventDetails = events.find(e => e.date === dateStr);
+    const dayDiv = document.createElement('div');
+    dayDiv.className = eventDetails ? 'highlight' : '';
+    dayDiv.innerText = day;
+
+    if (eventDetails) {
+      dayDiv.title = eventDetails.event;
     }
+
+    days.appendChild(dayDiv);
+  }
 
     calendar.appendChild(days);
   }
