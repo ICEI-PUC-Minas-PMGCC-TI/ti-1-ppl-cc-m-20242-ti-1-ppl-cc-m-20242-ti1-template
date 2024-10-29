@@ -20,6 +20,7 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 .cabecalho .aparencia,
 .cabecalho .config,
