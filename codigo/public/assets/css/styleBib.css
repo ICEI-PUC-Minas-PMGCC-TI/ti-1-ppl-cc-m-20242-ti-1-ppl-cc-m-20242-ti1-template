@@ -64,13 +64,16 @@ footer {
     border: 1px solid white;
     
 }
-.botao{
+.botoes{
+
     display: flex;
+    justify-content: space-around;
     padding: 10px;
     margin: auto;
     background-color: orange;
     border-radius: 10px;
 }
+
 
 
 
