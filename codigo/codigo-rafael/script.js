@@ -4,13 +4,19 @@ fetch('dados.json')
   .then(response => response.json())
   .then(data => {
     events = data.concursos.map(concurso => ({
-      date: concurso.data.split('/').reverse().join('-'), 
+      date: formatDate(concurso.data), 
       event: `${concurso.nome} - ${concurso.localizacao}`
     }));
+    events.sort((a, b) => new Date(a.date) - new Date(b.date));
     generateCalendar(currentMonth, currentYear); 
     loadEvents(); 
   })
   .catch(error => console.error('Erro ao carregar os dados dos concursos:', error));
+
+function formatDate(dateStr) {
+    const [day, month, year] = dateStr.split('/');
+    return `${year}-${month}-${day}`; 
+  }
 
   function generateCalendar(month, year) {
     const calendar = document.getElementById('calendar');
@@ -39,7 +45,9 @@ fetch('dados.json')
     const lastDate = new Date(year, month + 1, 0).getDate();
 
     for (let i = 0; i < firstDay; i++) {
-      days.innerHTML += `<div></div>`;
+    const emptyDiv = document.createElement('div');
+    emptyDiv.className = 'empty';
+    days.appendChild(emptyDiv);
     }
 
     for (let day = 1; day <= lastDate; day++) {
@@ -78,9 +86,10 @@ fetch('dados.json')
     const eventList = document.getElementById('eventList');
     eventList.innerHTML = "<h4>Concursos Futuros (" + events.length + ")</h4>";
     events.forEach(event => {
+      const eventDate = new Date(event.date);
       const eventItem = document.createElement('div');
       eventItem.className = 'event-item';
-      eventItem.innerHTML = `<strong>${new Date(event.date).getDate()} de ${new Intl.DateTimeFormat('pt-BR', { month: 'long' }).format(new Date(event.date))}</strong><br>${event.event}`;
+      eventItem.innerHTML = `<strong>${eventDate.getUTCDate()} de ${new Intl.DateTimeFormat('pt-BR', { month: 'long' }).format(eventDate)}</strong><br>${event.event}`;
       eventList.appendChild(eventItem);
     });
   }
