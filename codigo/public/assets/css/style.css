@@ -55,7 +55,7 @@ button img {
     align-items: center;
     justify-content: center;
     flex: 1;
-    height: 100vh;
+    height: auto;
 }
 .linha {
     display: flex;
@@ -112,7 +112,6 @@ footer {
     padding: 10px;
     font-size: 14px;
     margin-top: auto;
-    position:absolute;
     bottom: 0;
     width: 100%;
 }

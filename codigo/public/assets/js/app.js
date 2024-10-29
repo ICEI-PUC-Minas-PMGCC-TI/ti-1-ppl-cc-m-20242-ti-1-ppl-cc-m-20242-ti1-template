@@ -26,7 +26,7 @@ document.getElementById('atualizarButton').addEventListener('click', function() 
         body: JSON.stringify(usuarioAtualizado)
     })
     .then(response => {
-        console.log('Resposta do servidor:', response); // Debug: Mostra a resposta do servidor
+        console.log('Resposta do servidor:', response);
         if (response.ok) {
             return response.json();
         }
