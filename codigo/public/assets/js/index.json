@@ -1,0 +1,12 @@
+{
+    "perfils": [
+      {
+        "id": 1,
+        "nome": "Nome do Usuário",
+        "bio": "Descrição breve do jogador",
+        "imagePath": "caminho/para/imagem.jpg",
+        "categorias": "Casual, Competitivo"
+      }
+    ]
+  }
+  

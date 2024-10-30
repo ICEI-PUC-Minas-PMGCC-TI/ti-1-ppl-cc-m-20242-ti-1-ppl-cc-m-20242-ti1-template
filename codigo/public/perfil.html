@@ -15,21 +15,21 @@
         </div>
 
         <!-- Informações de Perfil -->
-    <div class="perfil-info">
-        <div class="perfil-e-bio-e-categoria">
-            <div class="foto-e-nome">
-                <img src="https://via.placeholder.com/180?text=Foto+de+Perfil" alt="Foto de Perfil" id="foto-usuario" class="foto-perfil rounded-circle">
-                <h2 id="nome-usuario">Nome do Usuário</h2>
+        <div class="perfil-info">
+            <div class="perfil-e-bio-e-categoria">
+                <div class="foto-e-nome">
+                    <img src="https://via.placeholder.com/180?text=Foto+de+Perfil" alt="Foto de Perfil" id="foto-usuario" class="foto-perfil rounded-circle">
+                    <h2 id="nome-usuario">Nome do Usuário</h2>
+                </div>
+                <div class="bio-e-categoria">
+                    <h3>Biografia</h3>
+                    <p id="bio">Biografia do usuário.</p>
+                    <p id="categoria-jogo">Categoria: </p>
+                </div>
             </div>
-            <div class="bio-e-categoria">
-                <h3>Biografia</h3>
-                <p id="bio">Biografia do usuário.</p>
-                <p id="categoria-jogo">Categoria: </p>
-            </div>
+            <button id="edit-btn" class="btn btn-outline-primary mt-3">Editar Perfil</button>
         </div>
-        <button id="edit-btn" class="btn btn-outline-primary mt-3">Editar Perfil</button>
     </div>
-</div>
 
     <!-- Modal de Edição -->
     <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
@@ -58,25 +58,6 @@
                             <input type="checkbox" id="categoria-competitivo" name="categoria" value="Competitivo">
                             <label for="categoria-competitivo">Competitivo</label>
                         </div>
-                    </div>
-                    <h5 class="mt-4">Jogos Preferidos:</h5>
-                    <div id="jogos-carrossel" class="jogos-container">
-                        <!-- Cards de jogos com checkboxes -->
-                        <div class="jogo-card">
-                            <input type="checkbox" id="jogo1" class="jogo-checkbox">
-                            <label for="jogo1">
-                                <img src="https://via.placeholder.com/100x100?text=Jogo+1" alt="Jogo 1" class="jogo-imagem">
-                                <p>Jogo 1</p>
-                            </label>
-                        </div>
-                        <div class="jogo-card">
-                            <input type="checkbox" id="jogo2" class="jogo-checkbox">
-                            <label for="jogo2">
-                                <img src="https://via.placeholder.com/100x100?text=Jogo+2" alt="Jogo 2" class="jogo-imagem">
-                                <p>Jogo 2</p>
-                            </label>
-                        </div>
-                        <!-- Adicione mais jogos conforme necessário -->
                     </div>
                 </div>
                 <div class="modal-footer">
