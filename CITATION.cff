@@ -2,26 +2,26 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: 
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Feliciano
+    given-names: Thiago Henrique Gomes Feliciano
+  - family-names: Prado
+    given-names: Diego Moreira Prado
+  - family-names: Costa
+    given-names: Tiago Morais Costa
+  - family-names: Gomes
+    given-names: Felipe de Sousa Mendes Gomes
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Caetano
+    given-names: João Carlos Oliveira Caetano
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Carneiro
+    given-names: Rommel Vieira Carneiro
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Diniz
+    given-names: Luciana Mara Freitas Diniz
 keywords:
   - 
   - 
