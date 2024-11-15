@@ -1,55 +1,69 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
       "email": "admin@abc.com"
     },
     {
-       "id": 2,
-       "login": "user",
-       "senha": "123",
-       "nome": "Usuario Comum",
-       "email": "user@abc.com"
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
     },
     {
       "login": "rommel",
       "senha": "123",
       "nome": "Rommel",
       "email": "rommel@gmail.com",
-      "id": 3
+      "id": "3"
     }
   ],
-
-  "notificacoes" : [
+  "notificacoes": [
     {
-     "id": 1,
+      "id": "1",
       "nome": "Teste 1",
       "horario": "07:00",
       "situacao": "Lido"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Teste 2",
       "horario": "10:00",
       "situacao": "Lido"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Teste 3",
       "horario": "13:00",
       "situacao": "Não lido"
     },
     {
-      "id": 4,
-       "nome": "Teste 4",
-       "horario": "16:00",
-       "situacao": "Não lido"
-     }
+      "id": "4",
+      "nome": "Teste 4",
+      "horario": "16:00",
+      "situacao": "Não lido"
+    }
   ],
-  
+  "artigos": [
+    {
+      "id": "1",
+      "titulo": "TITULO",
+      "autor": "NOME",
+      "link": "LINK",
+      "assunto": "lorem-ipsum"
+    },
+    {
+      "id": "3f3b",
+      "titulo": "Teste",
+      "autor": "Felipe",
+      "link": "NOLINK",
+      "assunto": "a"
+    }
+  ],
   "habitos": [
       { "id": 1,
       "descricao": "Exercitar-se", 
