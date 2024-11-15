@@ -1,38 +1,35 @@
-// Adicionar novo artigo
-document.getElementById('artigoForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+fetch('../db/db.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    exibirArtigos(data); 
+  })
+  .catch(error => console.error('Erro ao carregar o JSON:', error)); 
 
-    const titulo = document.getElementById('titulo').value;
-    const autor = document.getElementById('autor').value;
-    const link = document.getElementById('link').value;
-    const assunto = document.getElementById('assunto').value;
+function exibirArtigos(data){
+    const artigos = data.artigos;
+    let artigosHTML = '';
 
-    const novoArtigo = {
-        titulo : titulo,
-        autor : autor,
-        link : link,
-        assunto : assunto
-    };
+    for (let i = 0; i < artigos.length; i++){
+        let titulo = artigos[i].titulo;
+        let autor = artigos[i].autor;
+        let link = artigos[i].link;
+        let assunto = artigos[i].assunto;
 
-    fetch('http://localhost:3001/artigos', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'applications/json'
-        },
-        body: JSON.stringify(novoArtigo)
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Artigo adicionado: ', data);
-        alert("Artigo adicionado com sucesso!");
-        document.getElementById('artigoForm').reset();
-    })
-    .catch(error => {
-        console.error("Erro ao adicionar artigo: ", error)
-        alert("Erro ao adicionar artigo!")
-    });
-});
-//Selecionar o item que for clicado
+        artigosHTML += `
+        <div class='content'>
+            <h2> ${ titulo }</h2>
+            <p> Autor: ${ autor } </p>
+            <p> Link de acesso: ${ link } </p>
+            <p> Assunto: ${ assunto } </p>
+        </div>
+        `;
+    }
+    document.getElementById("container").innerHTML += artigosHTML
+    document.getElementById("container").innerHTML += '<a href="novoartigo.html"><input type="button" value="Adicionar artigo" class="field" style="cursor:pointer"></input></a>'
+}
+
+  //Selecionar o item que for clicado
 
 var menuItem = document.querySelectorAll('.item-menu')
 
