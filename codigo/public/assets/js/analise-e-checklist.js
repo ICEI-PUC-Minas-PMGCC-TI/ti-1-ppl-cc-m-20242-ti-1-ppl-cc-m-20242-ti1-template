@@ -27,7 +27,7 @@ btnExp.addEventListener('click', function(){
 fetch('data.json')
     .then(response => response.json())
     .then(parsedData => {
-        const porcentagensRealizadas = parsedData.habitosRealizados.map(habito => (habito / parsedData.habitosTotais) * 100);
+        const porcentagensRealizadas = parsedData.habitosRealizadosGeral.map(habito => (habito / parsedData.habitosTotais) * 100);
 
         const ctx = document.getElementById('lineChart').getContext('2d');
         const lineChart = new Chart(ctx, {
@@ -70,50 +70,58 @@ fetch('data.json')
 //Gráfico expecifico por hábito
 
 document.addEventListener("DOMContentLoaded", () => {
-    const customHabitCard = document.getElementById('customHabitCard');
-    const habitNameElement = document.getElementById('habitName');
-    const habitFrequencyElement = document.getElementById('habitFrequency');
-    const customChartContainer = document.getElementById('customChartContainer');
+    const habitsContainer = document.getElementById("habitsContainer");
 
-    loadHabitData();
+    fetch('data1.json')
+        .then(response => response.json())
+        .then(habits => {
+            habits.forEach((habit, index) => {
+                createHabitCard(habit, index);
+            });
+        })
+        .catch(error => console.error('Erro ao carregar os dados:', error));
 
-    customHabitCard.addEventListener('click', () => {
+    function createHabitCard(habit, index) {
 
-        if (customChartContainer.style.display === 'none' || customChartContainer.style.display === '') {
-            customChartContainer.style.display = 'block';
-        } else {
-            customChartContainer.style.display = 'none'; 
-        }
-    });
+        const habitCard = document.createElement('div');
+        habitCard.classList.add('custom-habit-card');
+        habitCard.innerHTML = `
+            <h3>${habit.nomeHábito}</h3>
+            <p>Frequência: ${habit.frequencia} vezes por semana</p>
+        `;
 
-    function loadHabitData() {
-        fetch('data1.json')
-            .then(response => response.json())
-            .then(data => {
+        const chartContainer = document.createElement('div');
+        chartContainer.classList.add('custom-chart-container');
+        chartContainer.style.display = 'none'; 
+        chartContainer.innerHTML = `<canvas id="customLineChart-${index}"></canvas>`;
 
-                habitNameElement.textContent = data.nomeHábito;
-                habitFrequencyElement.textContent = `Frequência: ${data.frequencia} vezes por semana`;
+        habitCard.addEventListener('click', () => {
+            if (chartContainer.style.display === 'none') {
+                chartContainer.style.display = 'block';
+                loadCustomChart(habit, index);
+            } else {
+                chartContainer.style.display = 'none';
+            }
+        });
 
-                loadCustomChart(data);
-                customChartContainer.style.display = 'none';
-            })
-            .catch(error => console.error('Erro ao carregar o JSON:', error));
+        habitsContainer.appendChild(habitCard);
+        habitsContainer.appendChild(chartContainer);
     }
 
-    function loadCustomChart(data) {
-        const porcentagensRealizadas = data.habitosRealizados.map(habito => habito * 100);
-        
-        const ctx = document.getElementById('customLineChart').getContext('2d');
+    function loadCustomChart(habit, index) {
+        const porcentagensRealizadas = habit.habitosRealizados.map(h => h * 100);
+
+        const ctx = document.getElementById(`customLineChart-${index}`).getContext('2d');
         new Chart(ctx, {
             type: 'line',
             data: {
-                labels: data.dias,
+                labels: habit.dias,
                 datasets: [{
                     label: 'Hábito Realizado (%)',
                     data: porcentagensRealizadas,
                     fill: false,
                     borderColor: 'rgba(25, 196, 99, 1)',
-                    tension: 0.1
+                    tension: 0.1,
                 }]
             },
             options: {
@@ -125,13 +133,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         suggestedMax: 100,
                         title: {
                             display: true,
-                            text: 'Porcentagem (%)'
+                            text: 'Porcentagem (%)',
                         }
                     },
                     x: {
                         title: {
                             display: true,
-                            text: 'Dias da Semana'
+                            text: 'Dias da Semana',
                         }
                     }
                 }
@@ -140,8 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-
-//Adicionar item a lista, deletar, marcar.
+//Adicionar item a lista, deletar, marcar(check list)
 
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-box");
