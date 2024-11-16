@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livros</title>
     <link rel="stylesheet" href="/codigo/public/assets/css/style.css">
-    <link rel="stylesheet" href="/codigo/public/assets/css/styleBib.css">
+    <link rel="stylesheet" href="/codigo/public/assets/css/styleexeBib.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -21,12 +21,30 @@
     </header>
 
     <main>
-
+        <section class="livros">
+            <div class="livros-header">
+                <h1>Lista de Livros</h1>
+                <div>
+                    <label for="filter-materia">Filtrar por Matéria:</label>
+                    <select id="filter-materia">
+                        <option value="all">Todas</option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Portugues">Português</option>
+                        <option value="Informática">Informática</option>
+                    </select>
+                </div>
+            </div>
+        <div id="books-container">
+            
+        </div>
+        </section>
     </main>
     
     <footer>
         <p>&copy; 2024 VagaCerta. Todos os direitos reservados.</p>
         <p>Contato: vagacerta@gmail.com</p>
     </footer>
+
+    <script src="/codigo/public/assets/js/exeBib.js"></script>
 </body>
 </html>
