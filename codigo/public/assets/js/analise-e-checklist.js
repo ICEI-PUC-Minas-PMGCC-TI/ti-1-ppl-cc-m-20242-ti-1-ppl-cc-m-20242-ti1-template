@@ -148,44 +148,91 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-//Adicionar item a lista, deletar, marcar(check list)
+//Check List
 
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-box");
 
-function addTask(){
-    if(inputBox.value === ''){
-        alert("Escreva algo primeiro!");
-    }
-    else{
+let tasks = [];
+
+function loadTasks() {
+    fetch('tasks.json')
+        .then(response => response.json())
+        .then(data => {
+            tasks = data;
+            renderTasks();
+        })
+        .catch(error => console.error('Erro ao carregar tarefas:', error));
+}
+
+function renderTasks() {
+    listContainer.innerHTML = ''; 
+    tasks.forEach(task => {
         let li = document.createElement("li");
-        li.innerHTML = inputBox.value;
-        listContainer.appendChild(li);
+        li.innerHTML = task.name;
+        li.dataset.id = task.id;
+
+        if (task.done) {
+            li.classList.add("checked");
+        }
+
         let span = document.createElement("span");
         span.innerHTML = "\u00d7";
         li.appendChild(span);
-    }
-    inputBox.value = "";
-    saveData();
+
+        listContainer.appendChild(li);
+    });
 }
 
-listContainer.addEventListener("click", function(e){
-    if(e.target.tagName === "LI"){
-        e.target.classList.toggle("checked");
-        saveData();
+function addTask() {
+    if (inputBox.value === '') {
+        alert("Escreva algo primeiro!");
+        return;
     }
-    else if(e.target.tagName === "SPAN"){
-        e.target.parentElement.remove();
-        saveData();
+
+    const newTask = {
+        id: tasks.length ? tasks[tasks.length - 1].id + 1 : 1,
+        name: inputBox.value,
+        done: false
+    };
+
+    tasks.push(newTask);
+    renderTasks();
+    inputBox.value = ''; 
+    saveTasks();
+}
+
+listContainer.addEventListener("click", function (e) {
+    const id = e.target.dataset.id;
+
+    if (e.target.tagName === "LI") {
+        const task = tasks.find(task => task.id == id);
+        task.done = !task.done;
+    } else if (e.target.tagName === "SPAN") {
+        const index = tasks.findIndex(task => task.id == id);
+        tasks.splice(index, 1); 
     }
+
+    renderTasks();
+    saveTasks();
 }, false);
 
 
-function saveData(){
-    localStorage.setItem("data", listContainer.innerHTML);
+function saveTasks() {
+    fetch('save-tasks-endpoint', {
+        method: 'POST', 
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(tasks)
+    })
+    .then(response => {
+        if (response.ok) {
+            console.log('Tarefas salvas com sucesso.');
+        } else {
+            console.error('Erro ao salvar tarefas.');
+        }
+    })
+    .catch(error => console.error('Erro ao enviar tarefas:', error));
 }
-
-function showTask(){
-    listContainer.innerHTML = localStorage.getItem("data");
-}
-showTask();
+loadTasks();
