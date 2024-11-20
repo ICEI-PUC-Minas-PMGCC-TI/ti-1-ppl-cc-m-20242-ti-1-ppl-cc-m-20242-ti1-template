@@ -1,14 +1,14 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
       "email": "admin@abc.com"
     },
     {
-      "id": 2,
+      "id": "2",
       "login": "user",
       "senha": "123",
       "nome": "Usuario Comum",
@@ -19,88 +19,78 @@
       "senha": "123",
       "nome": "Rommel",
       "email": "rommel@gmail.com",
-      "id": 3
+      "id": "3"
     }
   ],
-
   "livros": [
     {
-      "id":1,
+      "id": "1",
       "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
-      "materia":"Matemática",
-      "editora":"Ciência Moderna",
-      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em álgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio."
+      "materia": "Matemática",
+      "editora": "Ciência Moderna",
+      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em ��lgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio."
     },
     {
-      "id":2,
+      "id": "2",
       "titulo": "Gramática completa para concursos e vestibulares",
       "materia": "Portugues",
       "editora": "Saraiva",
       "descricao": "Gramática completa para concursos e vestibulares traz a teoria gramatical completa explicada de um modo simples e mais de 500 testes de múltipla escolha selecionados de concursos públicos e vestibulares promovidos por diversas instituições brasileiras, constantes em uma lista no final do volume. Esta obra foi pensada para tornar o estudo da Gramática uma atividade mais prazerosa, distanciando-a daquela idéia de informações maçantes difíceis de decifrar."
     },
     {
-      "id":3,
+      "id": "3",
       "titulo": "Matemática e lógica para concursos",
       "materia": "Matemática",
       "editora": "Saraiva",
       "descricao": "Esta edição já está de acordo com a nova ortografia.Você acha matemática complicada e não se lembra mais do que estudou? Acaba se atrapalhando quando o assunto é Raciocínio Lógico? Quer brigar por um cargo público (auditor fiscal, oficial de justiça, agente de polícia, técnico da Receita Federal, analista de finanças etc.)? Você sabe que vai precisar direcionar bem os seus estudos. A competição é acirrada e qualquer ponto pode fazer a diferença.Matemática e Lógica para Concursos, elaborada pelo professor José Luiz de Morais, especialista em preparação de candidatos a concursos públicos, reúne toda a teoria necessária e muito cobrada em concursos, para ajudar você a se preparar melhor nos estudos."
-    },
-    {
-      "id":4,
-      "titulo": "Matemática Para Vencer",
-      "materia": "Matemática",
-      "editora":"Ciência Moderna",
-      "descricao":"Um curso de matemática que começa do zero, desde a tabuada, e leva o aluno a dominar toda a matemática básica que faz falta nas séries superiores. Esta matemática básica permite até mesmo ao adultos, terem autonomia para realizar com sucesso, curso s de matemática financeira e de matemática mais avançada, necessárias em concursos públicos. "
-    },
-    {
-      "id":5,
-      "titulo": "Manual Completo de Informática para Concursos",
-      "materia":"Informática",
-      "editora":"Foco",
-      "descricao": "Por que você está diante de um MANUAL COMPLETO DE INFORMÁTICA para Concursos?Porque este MANUAL não se limita a trazer a TEORIA acerca do que é cobrado nos concursos públicos. Ele vai além e traz, também, número expressivo de QUESTÕES COMENTADAS , assuntos atuais e escrita de fácil entendimento.Quanto aos TEMAS ABORDADOS , foram selecionados aqueles de maior relevância e incidência em provas de concurso de todo o país, visando uma preparação mais objetiva do concursando. É importante salientar que nem todo tema será abordado de forma profunda, uma vez que frequentemente é requisitado um conhecimento geral sobre a Informática."
     }
+    
   ],
-
   "concursos": [
-  {
-    "nome": "Concurso IBGE",
-    "dataInscricao": "15/07/2024",
-    "data": "10/11/2024",
-    "salario": 3500.00,
-    "nivelEnsino": "nível médio",
-    "localizacao": "São Paulo"
-  },
-  {
-    "nome": "Concurso PF",
-    "dataInscricao": "01/08/2024",
-    "data": "05/12/2024",
-    "salario": 12000.00,
-    "nivelEnsino": "nível superior",
-    "localizacao": "Brasília"
-  },
-  {
-    "nome": "Concurso TRE",
-    "dataInscricao": "20/05/2024",
-    "data": "30/09/2024",
-    "salario": 8000.00,
-    "nivelEnsino": "nível superior",
-    "localizacao": "Rio de Janeiro"
-  },
-  {
-    "nome": "Concurso Receita Federal",
-    "dataInscricao": "10/09/2024",
-    "data": "15/01/2025",
-    "salario": 15000.00,
-    "nivelEnsino": "nível superior",
-    "localizacao": "Distrito Federal"
-  },
-  {
-    "nome": "Concurso Banco do Brasil",
-    "dataInscricao": "05/10/2024",
-    "data": "20/01/2025",
-    "salario": 6000.00,
-    "nivelEnsino": "nível médio",
-    "localizacao": "Paraná"
-  }
-]
+    {
+      "nome": "Concurso IBGE",
+      "dataInscricao": "15/07/2024",
+      "data": "10/11/2024",
+      "salario": 3500,
+      "nivelEnsino": "nível médio",
+      "localizacao": "São Paulo",
+      "id": "5f13"
+    },
+    {
+      "nome": "Concurso PF",
+      "dataInscricao": "01/08/2024",
+      "data": "05/12/2024",
+      "salario": 12000,
+      "nivelEnsino": "nível superior",
+      "localizacao": "Brasília",
+      "id": "3731"
+    },
+    {
+      "nome": "Concurso TRE",
+      "dataInscricao": "20/05/2024",
+      "data": "30/09/2024",
+      "salario": 8000,
+      "nivelEnsino": "nível superior",
+      "localizacao": "Rio de Janeiro",
+      "id": "fb36"
+    },
+    {
+      "nome": "Concurso Receita Federal",
+      "dataInscricao": "10/09/2024",
+      "data": "15/01/2025",
+      "salario": 15000,
+      "nivelEnsino": "nível superior",
+      "localizacao": "Distrito Federal",
+      "id": "3621"
+    },
+    {
+      "nome": "Concurso Banco do Brasil",
+      "dataInscricao": "05/10/2024",
+      "data": "20/01/2025",
+      "salario": 6000,
+      "nivelEnsino": "nível médio",
+      "localizacao": "Paraná",
+      "id": "c84e"
+    }
+  ]
 }

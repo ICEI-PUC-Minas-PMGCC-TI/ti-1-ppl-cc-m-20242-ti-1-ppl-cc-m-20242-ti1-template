@@ -1,52 +1,43 @@
-document.addEventListener('DOMContentLoaded', function() {
-  fetch('/codigo/db/db.json')
-    .then(response => response.json())
-    .then(data => {
-      const booksContainer = document.getElementById('books-container');
-      data.livros.forEach(book => {
-        const bookDiv = document.createElement('div');
-        bookDiv.classList.add('livro');
-
-        
-
-        const title = document.createElement('h2');
-        title.textContent = book.titulo;
-        bookDiv.appendChild(title);
-
-        
-
-        const description = document.createElement('p');
-        description.textContent = book.descricao;
-        bookDiv.appendChild(description);
-
-        booksContainer.appendChild(bookDiv);
+async function carregarLivros(materia) {
+  try {
+      let url = "http://localhost:3000/livros";
+      if(materia && materia != "all") {
+          url += `?materia=${materia}`;
+      }
+      const response = await fetch(url, {
+          method: 'GET',
+          headers: {
+              'Content-Type': 'application/json'
+          },
       });
+      const livros = await response.json();
 
-      const filterMateria = document.getElementById('filter-materia');
-      filterMateria.addEventListener('change', function() {
-        const selectedMateria = filterMateria.value;
-        booksContainer.innerHTML = '';
-        data.livros
-          .filter(book => selectedMateria === 'all' || book.materia === selectedMateria)
-          .forEach(book => {
-            const bookDiv = document.createElement('div');
-            bookDiv.classList.add('livro');
+      const listaLivros = document.getElementById('lista-livros');
 
-           
+      listaLivros.innerHTML = '';
+      while (listaLivros.firstChild) {
+        listaLivros.removeChild(listaLivros.firstChild);
+      }
 
-            const title = document.createElement('h2');
-            title.textContent = book.titulo;
-            bookDiv.appendChild(title);
-
-           
-
-            const description = document.createElement('p');
-            description.textContent = book.descricao;
-            bookDiv.appendChild(description);
-
-            booksContainer.appendChild(bookDiv);
-          });
+      livros.forEach(livro => { 
+          const livroElement = document.createElement('div');
+          livroElement.classList.add('livro');
+          livroElement.innerHTML = `
+              <h3>${livro.titulo}</h3>
+              <p><strong>Matéria:</strong> ${livro.materia}</p>
+              <p><strong>Editora:</strong> ${livro.editora}</p>
+              <p><strong>Descrição:</strong> ${livro.descricao}</p>
+          `;
+          listaLivros.appendChild(livroElement);
       });
-    })
-    .catch(error => console.error('Error fetching the books:', error));
+  } catch (error) {
+      console.error('Erro ao carregar o JSON:', error);
+  }
+}
+
+document.getElementById("filter-materia").addEventListener("change", function () {
+  const value = this.value; 
+  carregarLivros(value)
 });
+
+window.onload = carregarLivros();
