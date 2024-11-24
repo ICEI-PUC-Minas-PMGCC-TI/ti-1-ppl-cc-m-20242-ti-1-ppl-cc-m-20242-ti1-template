@@ -20,7 +20,7 @@ function exibirArtigos(data){
         <div class='content'>
             <h2> ${ titulo }</h2>
             <p> Autor: ${ autor } </p>
-            <p> Link de acesso: ${ link } </p>
+            <p> Link de acesso: <a href='${link}' target='_blank'> Link </a> </p>
             <p> Assunto: ${ assunto } </p>
         </div>
         `;
