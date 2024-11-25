@@ -1,34 +1,209 @@
 {
   "usuarios": [
     {
-      "id": 1,
-      "nome": "Tiago Morais Costa"
+      "id": "1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "login": "rommel",
+      "senha": "123",
+      "nome": "Rommel",
+      "email": "rommel@gmail.com",
+      "id": "3"
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": "1",
+      "nome": "Teste 1",
+      "horario": "07:00",
+      "situacao": "Lido"
+    },
+    {
+      "id": "2",
+      "nome": "Teste 2",
+      "horario": "10:00",
+      "situacao": "Lido"
+    },
+    {
+      "id": "3",
+      "nome": "Teste 3",
+      "horario": "13:00",
+      "situacao": "Não lido"
+    },
+    {
+      "id": "4",
+      "nome": "Teste 4",
+      "horario": "16:00",
+      "situacao": "Não lido"
+    }
+  ],
+  "artigos": [
+    {
+      "id": "1",
+      "titulo": "TITULO",
+      "autor": "NOME",
+      "link": "LINK",
+      "assunto": "lorem-ipsum"
+    },
+    {
+      "id": "3f3b",
+      "titulo": "Teste",
+      "autor": "Felipe",
+      "link": "https://www.cell.com/current-biology/fulltext/S0960-9822%2817%2931258-7?elsca1=etoc&amp%3Belsca2=email&amp%3Belsca3=0960-9822_20171120_27_22_&amp%3Belsca4=Cell+Press",
+      "assunto": "a"
     }
   ],
   "habitos": [
-    {
-      "id": 15,
-      "nome": "Exercício",
-      "status": "completo"
-    }
-  ],
-  "historico_habito": [
-    {
-      "id": 1,
-      "data": "2024-11-01",
-      "idUsuario": 1,
-      "idHabito": 15,
-      "nota": "Correu 5 km",
-      "horaConcluida": "08:00"
-    },
-    {
-      "id": 2,
-      "data": "2024-11-02",
-      "idUsuario": 1,
-      "idHabito": 15,
-      "nota": "Correu 3 km",
-      "horaConcluida": "07:30"
-    }
-  ]
-}
+      { "id": 1,
+      "descricao": "Exercitar-se", 
+        "data": "01-10-2024", 
+        "feito": true 
+      },
+      { "id": 2,
+        "descricao": "Ler", 
+          "data": "02-10-2024", 
+          "feito": false 
+        },
+      { "id": 3,
+        "descricao": "Meditar", 
+          "data": "03-10-2024", 
+          "feito": true 
+        }
+    ], 
 
+  "user": [
+    {
+    "id": 1,
+    "name": "João",
+      "points": 1500,
+      "level": 3,
+      "habits": [
+        {
+          "id": 101,
+          "name": "Ir à academia",
+          "progress": 75,
+          "target": "Segunda - Sexta",
+          "level": 2,
+          "rewards": [
+            {
+              "type": "medal",
+              "name": "Disciplina de Prata",
+              "achieved": true
+            }
+          ],
+          
+          "daily_checkin": {
+            "completed": true,
+            "streak": 10
+          }
+        },
+        
+        {
+          "id": 102,
+          "name": "Estudar 1 hora por dia",
+          "progress": 50,
+          "target": "Segunda - Sábado",
+          "level": 1,
+          "rewards": [
+            {
+              "type": "badge",
+              "name": "Aprendiz Dedicado",
+              "achieved": false
+              }
+              ],
+              "daily_checkin": {
+              "completed": false,
+              "streak": 0
+              }
+              }
+              ]
+              },
+              "challenges", [
+              {
+              "id": 201,
+              "name": "Complete 5 dias seguidos na academia",
+              "description": "Mantenha uma rotina de exercícios por 5 dias consecutivos.",
+              "progress": 3,
+              "total": 5,
+              "reward": {
+              "type": "trophy",
+              "name": "Atleta Bronze"
+              }
+              },
+              {
+              "id": 202,
+              "name": "Estude 20 horas esta semana",
+              "description": "Complete um total de 20 horas de estudo durante a semana.",
+                "progress": 15,
+                "total": 20,
+                "reward": {
+                  "type": "points",
+                  "amount": 500
+                }
+                }
+                ],
+                "badges", [
+                {
+                "id": 301,
+                "name": "Conquistador de Metas",
+                "description": "Complete 10 hábitos consecutivos.",
+                "achieved": true,
+                "date_achieved": "2024-09-30"
+                },
+                {
+                "id": 302,
+                "name": "Recuperação Rápida",
+                "description": "Volte a realizar um hábito após uma semana de interrupção.",
+                "achieved": false
+                }
+                ]
+    ],
+  
+  "habitos": [
+    {
+      "nome": "Exercitar-se",
+      "data_inicio": "2024-09-01",
+      "dias_sem_fazer": 15,
+      "motivo": "Melhorar a saúde",
+      "historico": [
+        {
+        "data": "2024-09-10",
+        "status": "Reiniciado"
+        },
+        {
+        "data": "2024-09-05",
+        "status": "Interrompido"
+        }
+      ]
+      },
+      {
+      "nome": "Meditar",
+      "data_inicio": "2024-09-20",
+      "dias_sem_fazer": 7,
+      "motivo": "Reduzir o estresse",
+      "historico": [
+        {
+          "data": "2024-09-22",
+          "status": "Reiniciado"
+        },
+        {
+        "data": "2024-09-18",
+        "status": "Interrompido"
+        }
+      ]
+      }
+      ],
+      "mensagem_sucesso": "Contagem atualizada!"
+
+}
