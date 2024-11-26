@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Página do Usuário</title>
@@ -8,25 +8,25 @@
 <body>
     <div class="container">
         <h1>Perfil do Usuário</h1>
-        <img id="profileImage" th:src="@{'/uploads/' + ${photo}}" alt="Foto de Perfil" width="150" height="150">
-        <form action="/uploadPhoto" method="post" enctype="multipart/form-data">
+        <img id="profileImage" src="default-profile.png" alt="Foto de Perfil" width="150" height="150">
+        <form id="uploadForm">
             <label for="photo">Alterar Foto de Perfil:</label>
-            <input type="file" name="photo" id="photo">
+            <input type="file" name="photo" id="photo" accept="image/*">
             <button type="submit">Enviar Foto</button>
         </form>
 
         <h2>Editar Informações</h2>
-        <form action="/updateInfo" method="post">
+        <form id="editForm">
             <label for="name">Nome:</label>
-            <input type="text" name="name" id="name" th:value="${name}">
+            <input type="text" name="name" id="name">
 
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" th:value="${email}">
+            <input type="email" name="email" id="email">
 
             <button type="submit">Salvar Alterações</button>
         </form>
 
-        <button onclick="window.location.href='/logout'">Logout</button>
+        <button id="logoutButton">Logout</button>
     </div>
 
     <div class="container2">
@@ -36,19 +36,6 @@
         </ul>
     </div>
 
-    <script th:inline="javascript">
-        /*<![CDATA[*/
-        fetch('/getHabits')
-            .then(response => response.json())
-            .then(data => {
-                const habitsList = document.getElementById('habitsList');
-                data.habits.forEach(function(habit) {
-                    const li = document.createElement('li');
-                    li.textContent = habit;
-                    habitsList.appendChild(li);
-                });
-            });
-        /*]]>*/
-    </script>
+    <script src="Usuario.js"></script>
 </body>
 </html>
