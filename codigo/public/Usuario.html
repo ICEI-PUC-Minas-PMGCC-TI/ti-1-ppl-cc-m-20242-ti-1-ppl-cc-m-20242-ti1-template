@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Página do Usuário</title>
+    <link rel="stylesheet" href="Usuario.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Perfil do Usuário</h1>
+        <img id="profileImage" th:src="@{'/uploads/' + ${photo}}" alt="Foto de Perfil" width="150" height="150">
+        <form action="/uploadPhoto" method="post" enctype="multipart/form-data">
+            <label for="photo">Alterar Foto de Perfil:</label>
+            <input type="file" name="photo" id="photo">
+            <button type="submit">Enviar Foto</button>
+        </form>
+
+        <h2>Editar Informações</h2>
+        <form action="/updateInfo" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" th:value="${name}">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" th:value="${email}">
+
+            <button type="submit">Salvar Alterações</button>
+        </form>
+
+        <button onclick="window.location.href='/logout'">Logout</button>
+    </div>
+
+    <div class="container2">
+        <h2>Mural dos Hábitos</h2>
+        <ul id="habitsList">
+            <!-- A lista de hábitos será carregada aqui -->
+        </ul>
+    </div>
+
+    <script th:inline="javascript">
+        /*<![CDATA[*/
+        fetch('/getHabits')
+            .then(response => response.json())
+            .then(data => {
+                const habitsList = document.getElementById('habitsList');
+                data.habits.forEach(function(habit) {
+                    const li = document.createElement('li');
+                    li.textContent = habit;
+                    habitsList.appendChild(li);
+                });
+            });
+        /*]]>*/
+    </script>
+</body>
+</html>
