@@ -2,30 +2,30 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: 
 authors:
-  - family-names: Feliciano
+  - family-names: Gomes Feliciano
     given-names: Thiago Henrique Gomes Feliciano
-  - family-names: Prado
+  - family-names: Moreira Prado
     given-names: Diego Moreira Prado
-  - family-names: Costa
+  - family-names: Morais Costa
     given-names: Tiago Morais Costa
-  - family-names: Gomes
+  - family-names: Sousa Mendes Gomes
     given-names: Felipe de Sousa Mendes Gomes
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Caetano
+    family-names: Oliveira Caetano
     given-names: João Carlos Oliveira Caetano
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Carneiro
+    family-names: Vieira Carneiro
     given-names: Rommel Vieira Carneiro
   - name-suffix: Professora
     affiliation: PUC Minas
-    family-names: Diniz
+    family-names: Freitas Diniz
     given-names: Luciana Mara Freitas Diniz
 keywords:
+  - habitos
   - 
-  - 
-repository-code: 
+repository-code: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g6-criar-e-desfazer-habitos/tree/master
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
