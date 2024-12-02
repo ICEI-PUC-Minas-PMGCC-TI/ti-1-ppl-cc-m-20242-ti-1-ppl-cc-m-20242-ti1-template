@@ -3,25 +3,25 @@ message: Please cite this software using these metadata.
 title: 
 authors:
   - family-names: Gomes Feliciano
-    given-names: Thiago Henrique Gomes Feliciano
+    given-names: Thiago Henrique
   - family-names: Moreira Prado
-    given-names: Diego Moreira Prado
+    given-names: Diego
   - family-names: Morais Costa
-    given-names: Tiago Morais Costa
+    given-names: Tiago
   - family-names: Sousa Mendes Gomes
-    given-names: Felipe de Sousa Mendes Gomes
+    given-names: Felipe
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Oliveira Caetano
-    given-names: João Carlos Oliveira Caetano
+    given-names: João Carlos
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Vieira Carneiro
-    given-names: Rommel Vieira Carneiro
+    given-names: Rommel
   - name-suffix: Professora
     affiliation: PUC Minas
     family-names: Freitas Diniz
-    given-names: Luciana Mara Freitas Diniz
+    given-names: Luciana Mara
 keywords:
   - habitos
   - 
