@@ -9,7 +9,6 @@ Informações básicas do projeto.
   * [Thiago Gomes](https://github.com/Thigogomes)
   * [Tiago Costa](https://github.com/Tiagomcosta10)
   * [Felipe](https://github.com/ilipehwd)
-  * [Ricardo](https://github.com/RicardoGuidi)
   * [Diego](https://github.com/Diegogeladin)
 
 A documentação do projeto é estruturada da seguinte forma:
