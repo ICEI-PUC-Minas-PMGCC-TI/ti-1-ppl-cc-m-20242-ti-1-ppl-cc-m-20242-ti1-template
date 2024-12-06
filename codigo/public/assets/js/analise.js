@@ -1,67 +1,89 @@
-//Selecionar o item que for clicado
+// Selecionar o item que for clicado
+var menuItem = document.querySelectorAll('.item-menu');
 
-var menuItem = document.querySelectorAll('.item-menu')
-
-function selectLink(){
-    menuItem .forEach((item) =>
+function selectLink() {
+    menuItem.forEach((item) =>
         item.classList.remove('ativo')
-)
-this.classList.add('ativo')
+    );
+    this.classList.add('ativo');
 }
 
-//Espandir o menu
-
+// Expandir o menu
 menuItem.forEach((item) =>
     item.addEventListener('click', selectLink)
-)
+);
 
-var btnExp = document.querySelector('#btn-exp')
-var menuSide = document.querySelector('.menu-lateral')
+var btnExp = document.querySelector('#btn-exp');
+var menuSide = document.querySelector('.menu-lateral');
 
-btnExp.addEventListener('click', function(){
-    menuSide.classList.toggle('expandir')
-})
+btnExp.addEventListener('click', function () {
+    menuSide.classList.toggle('expandir');
+});
 
 // Gráfico geral
 fetch('db.json')
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Erro ao acessar o JSON: ${response.statusText}`);
+        }
+        return response.json();
+    })
     .then(parsedData => {
-        const porcentagensRealizadas = parsedData.graficoGeral.habitosRealizadosGeral.map(habito => (habito / parsedData.graficoGeral.habitosTotais) * 100);
+        const graficoGeral = parsedData.graficoGeral?.[0];
 
-        const ctx = document.getElementById('lineChart').getContext('2d');
-        const lineChart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: parsedData.graficoGeral.dias,
-                datasets: [{
-                    label: 'Porcentagem de Hábitos Realizados',
-                    data: porcentagensRealizadas,
-                    fill: false,
-                    borderColor: 'rgba(25, 196, 99, 1)',
-                    tension: 0.1
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        suggestedMax: 100,
-                        title: {
-                            display: true,
-                            text: 'Porcentagem (%)'
-                        }
+        if (graficoGeral) {
+            const { habitosRealizadosGeral, habitosTotais, dias } = graficoGeral;
+
+            if (habitosRealizadosGeral && habitosTotais && dias) {
+                console.log("Dados do gráfico geral carregados:", graficoGeral);
+
+                const porcentagensRealizadas = habitosRealizadosGeral.map(habito =>
+                    (habito / habitosTotais) * 100
+                );
+
+                const ctx = document.getElementById('lineChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: dias,
+                        datasets: [{
+                            label: 'Porcentagem de Hábitos Realizados',
+                            data: porcentagensRealizadas,
+                            fill: false,
+                            borderColor: 'rgba(25, 196, 99, 1)',
+                            tension: 0.1
+                        }]
                     },
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Dias da Semana'
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                suggestedMax: 100,
+                                title: {
+                                    display: true,
+                                    text: 'Porcentagem (%)'
+                                }
+                            },
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Dias da Semana'
+                                }
+                            }
                         }
                     }
-                }
+                });
+            } else {
+                console.error("Campos faltando em 'graficoGeral'. Verifique o JSON.");
             }
-        });
+        } else {
+            console.error("'graficoGeral' não encontrado. Verifique o caminho no JSON.");
+        }
+    })
+    .catch(error => {
+        console.error("Erro ao carregar os dados do gráfico geral:", error);
     });
 
 // Gráfico específico
@@ -69,15 +91,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const habitsContainer = document.getElementById("habitsContainer");
 
     fetch('db.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Erro ao acessar o JSON: ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            const habits = data.graficoExpecifico;
-            habits.forEach((habit, index) => {
-                createHabitCard(habit, index);
-            });
+            if (data.graficoExpecifico) {
+                const habits = data.graficoExpecifico;
+                habits.forEach((habit, index) => {
+                    createHabitCard(habit, index);
+                });
+            } else {
+                console.error("Dados do gráfico específico não encontrados no JSON.");
+            }
         })
         .catch(error => {
-            console.error("Erro ao carregar os hábitos:", error);
+            console.error("Erro ao carregar os hábitos específicos:", error);
         });
 
     function createHabitCard(habit, index) {
