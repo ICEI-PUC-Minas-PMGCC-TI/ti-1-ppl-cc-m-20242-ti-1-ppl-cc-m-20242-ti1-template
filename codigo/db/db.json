@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "usuarios": [
     {
       "id": "1",
@@ -187,7 +186,6 @@
         "status": "Interrompido"
         }
       ]
-=======
     "usuarios": [
       {
         "id": "1",
@@ -195,7 +193,6 @@
         "senha": "123",
         "nome": "Administrador do Sistema",
         "email": "admin@abc.com"
->>>>>>> 09fac83421bdd3d8b8c10ccb7ff3fbb1539ce268
       },
       {
         "id": "2",
