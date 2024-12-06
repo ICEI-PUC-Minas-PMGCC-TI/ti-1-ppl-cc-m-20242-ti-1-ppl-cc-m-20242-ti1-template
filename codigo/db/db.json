@@ -128,8 +128,8 @@
               }
               }
               ]
-              },
-              "challenges", [
+              },{
+              "challenges": [
               {
               "id": 201,
               "name": "Complete 5 dias seguidos na academia",
@@ -153,7 +153,7 @@
                 }
                 }
                 ],
-                "badges", [
+                "badges": [
                 {
                 "id": 301,
                 "name": "Conquistador de Metas",
@@ -167,7 +167,7 @@
                 "description": "Volte a realizar um hábito após uma semana de interrupção.",
                 "achieved": false
                 }
-                ]
+                ]}
     ],
   
   "habitosInfos": [
