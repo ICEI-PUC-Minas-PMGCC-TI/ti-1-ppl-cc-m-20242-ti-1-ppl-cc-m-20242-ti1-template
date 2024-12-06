@@ -209,7 +209,6 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKoWGKSY=/       |
 | Repositório de código       | GitHub     | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g6-criar-e-desfazer-habitos/tree/master      |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
 | Protótipo Interativo        | Figma      |  https://www.figma.com/design/yQJVH902D3Z9bOykY9xmuC/Projeto-ESCOLAR?node-id=0-1&node-type=canvas&t=Ga8tZvOvD7HfvKQQ-0  | 
 | Organização de tarefas      | Monday.com | https://ilipedesousas-team.monday.com/boards/7452019286|
 
@@ -260,48 +259,217 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
 
-##### Estrutura de Dados - Contatos   ⚠️ EXEMPLO ⚠️
-
-Contatos da aplicação
-
-```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
-  
-```
-
-##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
+##### Estrutura de Dados - Usuários
 
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema
 
 ```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
+  "usuarios": [
+    {
+      "id": "1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "login": "rommel",
+      "senha": "123",
+      "nome": "Rommel",
+      "email": "rommel@gmail.com",
+      "id": "3"
+    }
+  ]
+```
+##### Estrutura de Dados - Artigos
+
+Registro de artigos por administradores do sistema para que usuários possam conhecer mais sobre a manutenção de hábitos e afins
+
+```json
+  "artigos": [
+    {
+      "id": "1",
+      "titulo": "TITULO",
+      "autor": "NOME",
+      "link": "LINK",
+      "assunto": "lorem-ipsum"
+    },
+    {
+      "id": "3f3b",
+      "titulo": "Teste",
+      "autor": "Felipe",
+      "link": "https://www.cell.com/current-biology/fulltext/S0960-9822%2817%2931258-7?elsca1=etoc&amp%3Belsca2=email&amp%3Belsca3=0960-9822_20171120_27_22_&amp%3Belsca4=Cell+Press",
+      "assunto": "a"
+    }
+  ]
 ```
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
->
-> **Orientações:**
->
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+##### Estrutura de Dados - Hábitos
+
+Registro de hábitos praticados pelos usuários
+
+```json
+  "habitos": [
+      { "id": 1,
+      "descricao": "Exercitar-se", 
+        "data": "01-10-2024", 
+        "feito": true 
+      },
+      { "id": 2,
+        "descricao": "Ler", 
+          "data": "02-10-2024", 
+          "feito": false 
+        },
+      { "id": 3,
+        "descricao": "Meditar", 
+          "data": "03-10-2024", 
+          "feito": true 
+        }
+  ]
+```
+
+##### Estrutura de Dados - Hábitos por usuário
+
+Registro de hábitos praticados pelos usuários
+
+```json
+"user": [
+    {
+    "id": 1,
+    "name": "João",
+      "points": 1500,
+      "level": 3,
+      "habits": [
+        {
+          "id": 101,
+          "name": "Ir à academia",
+          "progress": 75,
+          "target": "Segunda - Sexta",
+          "level": 2,
+          "rewards": [
+            {
+              "type": "medal",
+              "name": "Disciplina de Prata",
+              "achieved": true
+            }
+          ],
+          
+          "daily_checkin": {
+            "completed": true,
+            "streak": 10
+          }
+        },
+        
+        {
+          "id": 102,
+          "name": "Estudar 1 hora por dia",
+          "progress": 50,
+          "target": "Segunda - Sábado",
+          "level": 1,
+          "rewards": [
+            {
+              "type": "badge",
+              "name": "Aprendiz Dedicado",
+              "achieved": false
+              }
+              ],
+              "daily_checkin": {
+              "completed": false,
+              "streak": 0
+              }
+              }
+              ]
+              },
+              "challenges", [
+              {
+              "id": 201,
+              "name": "Complete 5 dias seguidos na academia",
+              "description": "Mantenha uma rotina de exercícios por 5 dias consecutivos.",
+              "progress": 3,
+              "total": 5,
+              "reward": {
+              "type": "trophy",
+              "name": "Atleta Bronze"
+              }
+              },
+              {
+              "id": 202,
+              "name": "Estude 20 horas esta semana",
+              "description": "Complete um total de 20 horas de estudo durante a semana.",
+                "progress": 15,
+                "total": 20,
+                "reward": {
+                  "type": "points",
+                  "amount": 500
+                }
+                }
+                ],
+                "badges", [
+                {
+                "id": 301,
+                "name": "Conquistador de Metas",
+                "description": "Complete 10 hábitos consecutivos.",
+                "achieved": true,
+                "date_achieved": "2024-09-30"
+                },
+                {
+                "id": 302,
+                "name": "Recuperação Rápida",
+                "description": "Volte a realizar um hábito após uma semana de interrupção.",
+                "achieved": false
+                }
+                ]
+    ]
+```
+
+##### Estrutura de Dados - Informações hábitos
+
+Registro de informações dos hábitos
+
+```json
+"habitosInfos": [
+    {
+      "nome": "Exercitar-se",
+      "data_inicio": "2024-09-01",
+      "dias_sem_fazer": 15,
+      "motivo": "Melhorar a saúde",
+      "historico": [
+        {
+        "data": "2024-09-10",
+        "status": "Reiniciado"
+        },
+        {
+        "data": "2024-09-05",
+        "status": "Interrompido"
+        }
+      ]
+      },
+      {
+      "nome": "Meditar",
+      "data_inicio": "2024-09-20",
+      "dias_sem_fazer": 7,
+      "motivo": "Reduzir o estresse",
+      "historico": [
+        {
+          "data": "2024-09-22",
+          "status": "Reiniciado"
+        },
+        {
+        "data": "2024-09-18",
+        "status": "Interrompido"
+        }
+      ]
+      }
+      ]
+```
+
 
 ## Módulos e APIs
 
@@ -313,7 +481,7 @@ Esta seção apresenta os módulos e APIs utilizados na solução
 
 **Fonts:**
 
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+* Poppins - [https://fonts.google.com/specimen/Poppins](https://fonts.google.com/specimen/Poppins) ⚠️ EXEMPLO ⚠️
 
 **Scripts:**
 
