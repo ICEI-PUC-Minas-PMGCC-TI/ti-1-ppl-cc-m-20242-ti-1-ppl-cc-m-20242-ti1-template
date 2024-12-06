@@ -7,7 +7,6 @@ Estamos desenvolvendo um aplicativo que visa auxiliar as pessoas a transformarem
 
 * Diego Prado
 * Felipe de Sousa
-* Gabriel Fontes
 * Thiago Gomes
 * Tiago Morais Costa
 * Ricardo Guidi
