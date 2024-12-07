@@ -21,7 +21,7 @@ btnExp.addEventListener('click', function () {
 });
 
 // Gráfico geral
-fetch('db.json')
+fetch('../db/db.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`Erro ao acessar o JSON: ${response.statusText}`);
@@ -90,7 +90,7 @@ fetch('db.json')
 document.addEventListener("DOMContentLoaded", () => {
     const habitsContainer = document.getElementById("habitsContainer");
 
-    fetch('db.json')
+    fetch('../db/db.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Erro ao acessar o JSON: ${response.statusText}`);

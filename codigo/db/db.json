@@ -169,9 +169,10 @@
                 }
                 ]}
     ],
-  
+
   "habitosInfos": [
     {
+      "id" : 1,
       "nome": "Exercitar-se",
       "data_inicio": "2024-09-01",
       "dias_sem_fazer": 15,
@@ -184,8 +185,8 @@
         {
         "data": "2024-09-05",
         "status": "Interrompido"
-        }
-      ]
+          }        
+      ]}],
     "usuarios": [
       {
         "id": "1",
@@ -385,8 +386,8 @@
                 }
                 }
                 ]
-                },
-                "challenges", [
+                },{
+                "challenges": [
                 {
                 "id": 201,
                 "name": "Complete 5 dias seguidos na academia",
@@ -410,7 +411,7 @@
                   }
                   }
                   ],
-                  "badges", [
+                  "badges": [
                   {
                   "id": 301,
                   "name": "Conquistador de Metas",
@@ -424,7 +425,7 @@
                   "description": "Volte a realizar um hábito após uma semana de interrupção.",
                   "achieved": false
                   }
-                  ]
+                  ]}
       ],
     
     "habitosInfos": [
