@@ -470,6 +470,95 @@ Registro de informações dos hábitos
       ]
 ```
 
+##### Estrutura de Dados - Check List
+
+Registra os hábitos feitos e mostra os que devem ser feitos
+
+```json
+ {
+    "habitosCheckList": [
+      {
+        "id": 1,
+        "name": "Caminhar 30 minutos",
+        "done": false,
+        "frequency": ["Segunda", "Quarta", "Sexta"]
+      },
+      {
+        "id": 2,
+        "name": "Beber 2L de água",
+        "done": false,
+        "frequency": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"]
+      },
+      {
+        "id": 3,
+        "name": "Ler 10 páginas de um livro",
+        "done": false,
+        "frequency": ["Segunda", "Quarta", "Sexta"]
+      },
+      {
+        "id": 4,
+        "name": "Meditar",
+        "done": false,
+        "frequency": ["Segunda", "Quarta", "Sexta"]
+      }
+    ]
+  }
+  
+```
+
+##### Estrutura de Dados - Gráficos
+
+Mostra os gráficos com a análise dos hábitos
+
+```json
+
+{
+    "graficoExpecifico": [
+          {
+              "id": 5,
+              "nomeHábito": "Caminhar",
+              "frequencia": 3,
+              "dias": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+              "habitosRealizados": [1, 0, 0, 1, 0, 1, 0]
+          },
+          {
+              "id": 6,
+              "nomeHábito": "Ler",
+              "frequencia": 5,
+              "dias": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+              "habitosRealizados": [1, 1, 1, 1, 0, 0, 0]
+          },
+          {
+              "id": 7,
+              "nomeHábito": "Beber Água",
+              "frequencia": 7,
+              "dias": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+              "habitosRealizados": [1, 1, 1, 1, 1, 1, 1]
+          },
+          {
+              "id": 8,
+              "nomeHábito": "Meditar",
+              "frequencia": 4,
+              "dias": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+              "habitosRealizados": [0, 1, 0, 1, 0, 1, 1]
+          },
+          {
+              "id": 9,
+              "nomeHábito": "Academia",
+              "frequencia": 3,
+              "dias": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+              "habitosRealizados": [1, 0, 0, 1, 0, 1, 0]
+          }
+      ],
+      "graficoGeral": [
+      {
+          "dias": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+          "habitosRealizadosGeral": [3, 4, 2, 5, 3, 4, 4],
+          "habitosTotais": 5
+      }
+    ]
+  }
+```
 
 ## Módulos e APIs
 
