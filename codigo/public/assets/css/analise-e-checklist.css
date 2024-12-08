@@ -378,3 +378,14 @@ button{
 .caixa ul li span:hover{
     background: #4a4a4a;
 }
+
+.field {
+    background-color: #FFF;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}

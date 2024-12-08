@@ -14,7 +14,7 @@ document.getElementById('artigoForm').addEventListener('submit', function(event)
         assunto : assunto
     };
 
-    fetch('http://localhost:3001/artigos', {
+    fetch('http://localhost:3000/artigos', {
         method: 'POST',
         headers: {
             'Content-Type': 'applications/json'

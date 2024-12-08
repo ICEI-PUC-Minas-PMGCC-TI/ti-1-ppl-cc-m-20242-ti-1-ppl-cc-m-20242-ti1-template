@@ -36,7 +36,7 @@
     <script>
         let habitCount = 0;
 
-document.getElementById('habitForm').addEventListener('submit', function (event) {
+    document.getElementById('habitForm').addEventListener('submit', function (event) {
     event.preventDefault();
     const nome = document.getElementById('habitName').value;
     const frequencia = document.getElementById('frequency').value;
@@ -57,7 +57,7 @@ document.getElementById('habitForm').addEventListener('submit', function (event)
                 <strong>Motivo:</strong> ${motivo}
             </div>
             <div class="habit-controls">
-                <span id="timer-${habitCount}" class="timer">00:00</span>
+                <span id="timer-${habitCount}" class="timer">00:00:00</span>
                 <button onclick="concluirHabit(this, ${habitCount})">Concluído</button>
             </div>
         `;
