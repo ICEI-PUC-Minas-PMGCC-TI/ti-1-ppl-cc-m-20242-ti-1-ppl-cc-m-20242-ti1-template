@@ -313,21 +313,22 @@ Adiona um novo hábito para ser criado ou desfeito.
 
 * **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
 * **Instruções de uso:**
-  *
+  *Escreva as informações pedidas e clique em adicionar.
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/.jpeg)
+![Tela de Funcionalidade](images/criar-habito-tela.jpeg)
 
 ##### Funcionalidade 7 - Calendário
 
----
+Mostra o calendário do mês e o status do hábito.
 
 * **Estrutura de dados:** [-](#ti_ed_contatos)
 * **Instruções de uso:**
-  *
+  *Clique na seta para avançar ou voltar o mês.
+  *Visualize os hábitos por mês.
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/.jpeg)
+![Tela de Funcionalidade](images/calendario-tela.jpeg)
 
 ##### Funcionalidade 8 - Cronômetro
 
