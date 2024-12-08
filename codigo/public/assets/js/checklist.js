@@ -31,7 +31,7 @@ let tasks = [];
 let tempTasks = []; 
 
 function loadTasks() {
-    fetch('db.json')
+    fetch('../db/db.json')
         .then(response => response.json())
         .then(data => {
             tasks = data.habitosCheckList;

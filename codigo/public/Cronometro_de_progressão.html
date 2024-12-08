@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Hábitos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/Cronometro de progressão.css">
 </head>
 <body>
     <div class="container">
@@ -57,7 +57,7 @@ document.getElementById('habitForm').addEventListener('submit', function (event)
                 <strong>Motivo:</strong> ${motivo}
             </div>
             <div class="habit-controls">
-                <span id="timer-${habitCount}" class="timer">00:00:00</span>
+                <span id="timer-${habitCount}" class="timer">00:00</span>
                 <button onclick="concluirHabit(this, ${habitCount})">Concluído</button>
             </div>
         `;

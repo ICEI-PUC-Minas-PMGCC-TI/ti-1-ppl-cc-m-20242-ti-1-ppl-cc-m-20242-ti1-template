@@ -345,7 +345,7 @@ button{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(imagens/checkbox-regular-24.png);
+    background-image: url(../images/checkbox-regular-24.jpeg);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -359,7 +359,7 @@ button{
 }
 
 .caixa ul li.checked::before{
-    background-image: url(imagens/checkbox-checked-solid-24.png);
+    background-image: url(../images/checkbox-checked-solid-24.jpeg);
 }
 
 .caixa ul li span{
