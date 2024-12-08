@@ -1,42 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calendário de Hábitos</title>
-  <link rel="stylesheet" href="assets/css/calendario.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário de Hábitos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body id="calendar-body">
-  <header>
-    <div class="header-container">
-      <h1>Calendário de Hábitos</h1>
-      <p id="user-info">ID do Usuário: Carregando...</p>
-    </div>
-  </header>
-  <main>
-    <section class="calendar">
-      <div class="calendar-header">
-        <button id="prev-month" class="nav-button">&lt;</button>
-        <h2 id="current-month">Carregando...</h2>
-        <button id="next-month" class="nav-button">&gt;</button>
-      </div>
-      <div id="calendar-grid">
-        <!-- Dias do calendário serão renderizados aqui -->
-      </div>
-    </section>
-    <section class="habit-details">
-      <h2>Detalhes do Hábito</h2>
-      <div id="habit-details">
-        <p>Selecione um dia no calendário para ver os detalhes.</p>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Calendário de Hábitos</p>
-  </footer>
-  <script src="assets/js/calendario.js"></script>
+<body>
+    <header>
+        <h1>Calendário de Hábitos</h1>
+    </header>
+
+    <main>
+        <section id="usuario-info">
+            <h2>Bem-vindo(a), Tiago Morais Costa</h2>
+        </section>
+
+        <section id="calendario">
+            <h2>Calendário</h2>
+            <div id="calendar-header">
+                <button id="prev-month">&lt;</button>
+                <span id="current-month">Novembro 2024</span>
+                <button id="next-month">&gt;</button>
+            </div>
+            <div id="calendar-grid"></div>
+        </section>
+
+        <section id="habitos">
+            <h2>Hábitos</h2>
+            <ul>
+                <li>Exercício - Status: Completo</li>
+            </ul>
+        </section>
+
+        <section id="historico">
+            <h2>Histórico</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Hábito</th>
+                        <th>Nota</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-11-01</td>
+                        <td>Exercício</td>
+                        <td>Correu 5 km</td>
+                        <td>08:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 App de Hábitos</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
