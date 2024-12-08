@@ -271,7 +271,7 @@ Mostra um gráfico geral mostrando a média da realização dos hábitos da sema
   *Mostra o grafico expecifico do hábito.
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/.jpeg)
+![Tela de Funcionalidade](images/graficos-list.jpeg)
 
 ##### Funcionalidade 3 - Notificação
 
@@ -283,6 +283,73 @@ Mostra as notificações do usuário.
 * **Tela da funcionalidade**:
 
 ![Tela de Funcionalidade](images/notificacao-tela.jpeg)
+
+##### Funcionalidade 4 - Adicionar Artigos
+
+Adicionar um novo artigo no app.
+
+* **Estrutura de dados:** [Arquivos](#ti_ed_contatos)
+* **Instruções de uso:**
+  *Colocara as informações sobre o artigo.
+  *Adicionar o artigo e enviar.
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/adicionar-artigo-tela.jpeg)
+
+##### Funcionalidade 5 - Artigos
+
+Mostra artigos informativos sobre hábitos.
+
+* **Estrutura de dados:** [Arquivos](#ti_ed_contatos)
+* **Instruções de uso:**
+  *Clique em qual artigo que deseja ler.
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/artigo-visualizar-tela.jpeg)
+
+##### Funcionalidade 6 - Criar um novo hábito
+
+Adiona um novo hábito para ser criado ou desfeito.
+
+* **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
+* **Instruções de uso:**
+  *
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/.jpeg)
+
+##### Funcionalidade 7 - Calendário
+
+---
+
+* **Estrutura de dados:** [-](#ti_ed_contatos)
+* **Instruções de uso:**
+  *
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/.jpeg)
+
+##### Funcionalidade 8 - Cronômetro
+
+Cronometra a quantidade de tempo sem fazer uma hábito negativo.
+
+* **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
+* **Instruções de uso:**
+  *
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/.jpeg)
+
+##### Funcionalidade 9 - Árae do Usuário
+
+----
+
+* **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
+* **Instruções de uso:**
+  *
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/.jpeg)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
