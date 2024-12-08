@@ -305,7 +305,7 @@ Mostra artigos informativos sobre hábitos.
   *Clique em qual artigo que deseja ler.
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/artigo-visualizar-tela.jpeg)
+![Tela de Funcionalidade](images/artigos-visualizar-tela.jpeg)
 
 ##### Funcionalidade 6 - Criar um novo hábito
 
