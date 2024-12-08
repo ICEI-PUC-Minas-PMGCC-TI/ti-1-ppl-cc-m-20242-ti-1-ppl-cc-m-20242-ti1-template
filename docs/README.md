@@ -249,6 +249,12 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 ![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
 
+![Tela de Funcionalidade](images/check-list-tela.jpeg)
+1. Check List, uma local onde sera mostrado quais hábitos devem ser feitos no dia e também com  a possibilidade de criar tarefas para o dia.
+2. Estrutura de Dados - Check List
+3. Quando escreve e logo depois se clica em adicionar, adciona uma nova tarefa para o dia; Quando se clica no quadrado ele marca a tarefa como concluida.
+
+
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
