@@ -1,151 +1,142 @@
-// Elementos da interface
-const userInfo = document.getElementById('user-info');
-const calendarBody = document.getElementById('calendar-body');
-const monthTitle = document.getElementById('month-title');
-const prevMonthButton = document.getElementById('prev-month');
-const nextMonthButton = document.getElementById('next-month');
 
-// Data atual
-let currentYear = new Date().getFullYear();
-let currentMonth = new Date().getMonth();
-
-// Função para obter os dados do usuário
-async function getUserInfo(userId) {
+async function loadLocalData() {
   try {
-    const response = await fetch(`http://localhost:3000/usuarios/${userId}`);
-    const user = await response.json();
-    userInfo.textContent = `ID do Usuário: ${user.id} - ${user.nome}`;
+    const response = await fetch('./db.json'); // Caminho relativo ao index.html
+    const data = await response.json();
+
+    // Separar os dados
+    const usuarios = data.usuarios;
+    const habitos = data.habitos;
+    const historicoHabito = data.historico_habito;
+
+    // Exemplo de uso dos dados
+    console.log("Usuários:", usuarios);
+    console.log("Hábitos:", habitos);
+    console.log("Histórico de Hábitos:", historicoHabito);
+
+    // Chamar a função que renderiza o calendário aqui
+    renderizarCalendario(historicoHabito);
   } catch (error) {
-    console.error('Erro ao carregar dados do usuário', error);
+    console.error("Erro ao carregar o arquivo JSON:", error);
   }
 }
 
-// Função para obter os hábitos
-async function getHabits() {
-  try {
-    const response = await fetch("http://localhost:3000/habitos");
-    const habits = await response.json();
-    return habits;
-  } catch (error) {
-    console.error('Erro ao carregar hábitos', error);
-  }
-}
+// Chamada para carregar os dados
+loadLocalData();
 
-// Função para obter o histórico de hábitos
-async function getHabitHistory() {
-  try {
-    const response = await fetch("http://localhost:3000/historico_habito");
-    const history = await response.json();
-    return history;
-  } catch (error) {
-    console.error('Erro ao carregar histórico de hábitos', error);
-  }
+// Função de exemplo para renderizar o calendário
+function renderizarCalendario(historicoHabito) {
+  // Exemplo: exibir o histórico no console
+  historicoHabito.forEach((item) => {
+    console.log(
+      `Data: ${item.data}, Hábito: ${item.idHabito}, Nota: ${item.nota}`
+    );
+  });
+}
+// Dados JSON simulados
+const db = {
+  "usuarios": [
+      { "id": 1, "nome": "Tiago Morais Costa" }
+  ],
+  "habitos": [
+      { "id": 15, "nome": "Exercício", "status": "completo" }
+  ],
+  "historico_habito": [
+      {
+          "id": 1,
+          "data": "2024-11-01",
+          "idUsuario": 1,
+          "idHabito": 15,
+          "nota": "Correu 5 km",
+          "horaConcluida": "08:00"
+      }
+  ]
+};
+
+// Elementos do DOM
+const calendarGrid = document.getElementById("calendar-grid");
+const currentMonthDisplay = document.getElementById("current-month");
+const prevMonthButton = document.getElementById("prev-month");
+const nextMonthButton = document.getElementById("next-month");
+
+let currentDate = new Date();
+
+// Função para obter o nome do mês e ano
+function getMonthYearString(date) {
+  const months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+  return `${months[date.getMonth()]} ${date.getFullYear()}`;
 }
 
 // Função para renderizar o calendário
-function renderCalendar(year, month, habits, history) {
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
-  calendarBody.innerHTML = ''; // Limpa o conteúdo do calendário
+function renderCalendar() {
+  console.log("Renderizando calendário...");
+  calendarGrid.innerHTML = ""; // Limpar o calendário
 
-  // Define o primeiro dia do mês
-  const firstDay = new Date(year, month, 1).getDay();
-  let dayCount = 1;
+  // Atualizar o mês exibido
+  currentMonthDisplay.textContent = getMonthYearString(currentDate);
 
-  // Preenche os dias do calendário
-  for (let i = 0; i < 6; i++) { // Máximo de 6 linhas para o calendário
-    const row = document.createElement('tr');
-    for (let j = 0; j < 7; j++) {
-      const cell = document.createElement('td');
-      
-      // Adiciona os dias do mês
-      if ((i === 0 && j >= firstDay) || (i > 0 && dayCount <= daysInMonth)) {
-        cell.textContent = dayCount;
-        cell.classList.add('calendar-day');
-        
-        // Verifica se o dia tem hábito registrado
-        const dayString = `${year}-${String(month + 1).padStart(2, '0')}-${String(dayCount).padStart(2, '0')}`;
-        const habitHistoryForDay = history.filter(item => item.data === dayString);
+  // Dias da semana
+  const daysOfWeek = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+  daysOfWeek.forEach(day => {
+      const header = document.createElement("div");
+      header.classList.add("calendar-header-day");
+      header.textContent = day;
+      calendarGrid.appendChild(header);
+  });
 
-        // Se tiver histórico de hábitos, exibe no dia
-        if (habitHistoryForDay.length > 0) {
-          cell.classList.add('has-habit');
-          cell.title = habitHistoryForDay.map(item => `${item.nota} às ${item.horaConcluida}`).join('\n');
-        }
+  // Dias vazios antes do início do mês
+  const firstDayIndex = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1).getDay();
+  for (let i = 0; i < firstDayIndex; i++) {
+      const emptyDay = document.createElement("div");
+      emptyDay.classList.add("calendar-day", "empty");
+      calendarGrid.appendChild(emptyDay);
+  }
 
-        // Quando o usuário clica em um dia, exibe o histórico de hábitos
-        cell.addEventListener('click', () => showHabitDetails(dayString, habitHistoryForDay, habits));
+  // Dias do mês
+  const daysInMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
+  for (let day = 1; day <= daysInMonth; day++) {
+      const dayElement = document.createElement("div");
+      dayElement.classList.add("calendar-day");
+      dayElement.textContent = day;
 
-        dayCount++;
+      // Verificar se há histórico para o dia
+      const dateStr = `${currentDate.getFullYear()}-${String(currentDate.getMonth() + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+      const habitHistory = db.historico_habito.find(entry => entry.data === dateStr);
+
+      if (habitHistory) {
+          dayElement.classList.add("completed");
+          dayElement.title = `${habitHistory.nota} às ${habitHistory.horaConcluida}`;
       }
-      row.appendChild(cell);
-    }
-    calendarBody.appendChild(row);
-    if (dayCount > daysInMonth) break;
+
+      calendarGrid.appendChild(dayElement);
+  }
+
+  // Preencher dias vazios no final
+  const totalCells = firstDayIndex + daysInMonth;
+  const remainingCells = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
+  for (let i = 0; i < remainingCells; i++) {
+      const emptyDay = document.createElement("div");
+      emptyDay.classList.add("calendar-day", "empty");
+      calendarGrid.appendChild(emptyDay);
   }
 }
 
-// Função para mostrar detalhes do hábito
-function showHabitDetails(dayString, habitHistoryForDay, habits) {
-  const habitDetails = document.getElementById('habit-details');
-  habitDetails.innerHTML = `<h3>Histórico de hábitos para ${dayString}</h3>`;
-  
-  if (habitHistoryForDay.length === 0) {
-    habitDetails.innerHTML += '<p>Nenhum hábito registrado para esse dia.</p>';
-  } else {
-    habitHistoryForDay.forEach(habitRecord => {
-      const habit = habits.find(h => h.id === habitRecord.idHabito);
-      habitDetails.innerHTML += `
-        <p><strong>Hábito:</strong> ${habit ? habit.nome : 'Desconhecido'}</p>
-        <p><strong>Nota:</strong> ${habitRecord.nota}</p>
-        <p><strong>Hora concluída:</strong> ${habitRecord.horaConcluida}</p>
-        <hr>`;
-    });
-  }
-}
+// Eventos de navegação
+prevMonthButton.addEventListener("click", () => {
+  currentDate.setMonth(currentDate.getMonth() - 1);
+  renderCalendar();
+});
 
-// Função para atualizar o título do mês
-function updateMonthTitle() {
-  const monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
-  monthTitle.textContent = `${monthNames[currentMonth]} ${currentYear}`;
-}
+nextMonthButton.addEventListener("click", () => {
+  currentDate.setMonth(currentDate.getMonth() + 1);
+  renderCalendar();
+});
 
-// Função para navegar entre os meses
-function changeMonth(delta) {
-  currentMonth += delta;
-  if (currentMonth < 0) {
-    currentMonth = 11;
-    currentYear--;
-  } else if (currentMonth > 11) {
-    currentMonth = 0;
-    currentYear++;
-  }
-  updateMonthTitle();
-  renderCalendar(currentYear, currentMonth, habits, habitHistory);
-}
+// Inicializar o calendário
+document.addEventListener("DOMContentLoaded", () => {
+  renderCalendar();
+});
 
-// Inicialização do aplicativo
-async function initializeApp() {
-  // Carrega dados do usuário
-  await getUserInfo(1);
-
-  // Carrega hábitos e histórico de hábitos
-  const hab = await getHabits();
-  const habitHistory = await getHabitHistory();
-
-  // Renderiza o calendário com os hábitos e histórico
-  renderCalendar(currentYear, currentMonth, hab, habitHistory);
-  updateMonthTitle();
-
-  console.log("Habitos carregados:", hab);
-  console.log("Histórico carregado:", habitHistory);
-}
-
-// Adicionando eventos de navegação entre os meses
-prevMonthButton.addEventListener("click", () => changeMonth(-1));
-nextMonthButton.addEventListener("click", () => changeMonth(1));
-
-// Inicializa o app
-initializeApp();
 
 
 
