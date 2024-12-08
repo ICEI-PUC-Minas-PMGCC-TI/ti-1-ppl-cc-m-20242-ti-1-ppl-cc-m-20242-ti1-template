@@ -25,25 +25,25 @@
   "notificacoes": [
     {
       "id": "1",
-      "nome": "Teste 1",
+      "nome": "Fazer caminhada",
       "horario": "07:00",
       "situacao": "Lido"
     },
     {
       "id": "2",
-      "nome": "Teste 2",
+      "nome": "Ler",
       "horario": "10:00",
       "situacao": "Lido"
     },
     {
       "id": "3",
-      "nome": "Teste 3",
+      "nome": "Estudar",
       "horario": "13:00",
       "situacao": "Não lido"
     },
     {
       "id": "4",
-      "nome": "Teste 4",
+      "nome": "Fazer academia",
       "horario": "16:00",
       "situacao": "Não lido"
     }
