@@ -343,14 +343,14 @@ Cronometra a quantidade de tempo sem fazer uma hábito negativo.
 
 ##### Funcionalidade 9 - Árae do Usuário
 
-----
+Coloque ou altere suas informações para criar ou mudar o seu perfil(como foto, e-mail e nome).
 
-* **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
+* **Estrutura de dados:** [Usuários](#ti_ed_usuarios)
 * **Instruções de uso:**
-  *
+  *Coloque informações novas e clique em salvar alterações.
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/.jpeg)
+![Tela de Funcionalidade](images/perfil-usuario-tela.jpeg)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
