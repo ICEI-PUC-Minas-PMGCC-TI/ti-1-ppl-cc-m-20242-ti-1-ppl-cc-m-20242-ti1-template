@@ -253,7 +253,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite mostra quais hábitos devem ser feitos no dia e também com  a possibilidade de criar tarefas para o dia.
 
-* **Estrutura de dados:** [habitosCheckList](#ti_ed_contatos)
+* **Estrutura de dados:** [Check List](#ti_ed_contatos)
 * **Instruções de uso:**
   * Escreve e logo depois se clica em adicionar.
   * Clica no quadrado ele marca a tarefa como concluida.
@@ -261,6 +261,28 @@ Permite mostra quais hábitos devem ser feitos no dia e também com  a possibili
 
 ![Tela de Funcionalidade](images/check-list-tela.jpeg)
 
+##### Funcionalidade 2 - Análise Gráfica
+
+Mostra um gráfico geral mostrando a média da realização dos hábitos da semana e também mostra gráficos expecificas semanal de cada hábito.
+
+* **Estrutura de dados:** [Gráficos](#ti_ed_contatos)
+* **Instruções de uso:**
+  *Clique na caixa com o nome do hábito.
+  *Mostra o grafico expecifico do hábito.
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/.jpeg)
+
+##### Funcionalidade 3 - Notificação
+
+Mostra as notificações do usuário.
+
+* **Estrutura de dados:** [-](#ti_ed_contatos)
+* **Instruções de uso:**
+  *Mostra as noticações do usuário.
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/notificacao-tela.jpeg)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
