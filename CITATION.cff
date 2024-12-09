@@ -1,31 +1,31 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: BloonHabits
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Gomes Feliciano
+    given-names: Thiago Henrique
+  - family-names: Moreira Prado
+    given-names: Diego
+  - family-names: Morais Costa
+    given-names: Tiago
+  - family-names: Sousa Mendes Gomes
+    given-names: Felipe
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Oliveira Caetano
+    given-names: João Carlos
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Freitas Diniz
+    given-names: Luciana Mara
 keywords:
+  - habitos
   - 
-  - 
-repository-code: 
+repository-code: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g6-criar-e-desfazer-habitos/tree/master
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14

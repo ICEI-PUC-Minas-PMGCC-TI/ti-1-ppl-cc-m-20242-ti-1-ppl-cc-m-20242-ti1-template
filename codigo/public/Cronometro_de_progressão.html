@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Hábitos</title>
+    <link rel="stylesheet" href="assets/css/Cronometro de progressão.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Criar Hábito</h1>
+        <form id="habitForm">
+            <label for="habitName">Nome do Hábito:</label>
+            <input type="text" id="habitName" required>
+
+            <label for="frequency">Frequência:</label>
+            <select id="frequency">
+                <option> </option>
+                <option value="diário">Diário</option>
+                <option value="semanal">Semanal</option>
+                <option value="mensal">Mensal</option>
+            </select>
+
+            <label for="motivo">Motivo:</label>
+            <input type="text" id="motivo" required>
+
+            <button type="submit">Adicionar Hábito</button>
+        </form>
+
+        <ul id="habitList"></ul>
+        <div id="successMessage" class="hidden">Hábito adicionado com sucesso!</div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+        let habitCount = 0;
+
+    document.getElementById('habitForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    const nome = document.getElementById('habitName').value;
+    const frequencia = document.getElementById('frequency').value;
+    const motivo = document.getElementById('motivo').value;
+
+    if (nome && frequencia && motivo) {
+        habitCount++;
+        
+        const habitList = document.getElementById('habitList');
+        const habitItem = document.createElement('li');
+        habitItem.id = `habit-${habitCount}`;
+
+        habitItem.innerHTML = `
+            <div class="habit-info">
+                <strong>ID:</strong> ${habitCount}<br>
+                <strong>Nome:</strong> ${nome}<br>
+                <strong>Frequência:</strong> ${frequencia}<br>
+                <strong>Motivo:</strong> ${motivo}
+            </div>
+            <div class="habit-controls">
+                <span id="timer-${habitCount}" class="timer">00:00:00</span>
+                <button onclick="concluirHabit(this, ${habitCount})">Concluído</button>
+            </div>
+        `;
+
+        habitList.appendChild(habitItem);
+
+        const successMessage = document.getElementById('successMessage');
+        successMessage.classList.remove('hidden');
+        document.getElementById('habitForm').reset();
+
+        startTimer(habitCount);
+
+        setTimeout(() => {
+            successMessage.classList.add('hidden');
+        }, 3000);
+    } else {
+        alert('Preencha todos os campos antes de adicionar um hábito.');
+    }
+});
+
+function formatTime(days, hours, minutes, seconds) {
+    if (days > 0) {
+        return `${String(days).padStart(2, '0')}:${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+    } else if (hours > 0) {
+        return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    } else {
+        return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+    }
+}
+
+const timers = {};
+
+function startTimer(habitId) {
+    if (timers[habitId]) clearInterval(timers[habitId]);
+
+    let seconds = 0;
+    timers[habitId] = setInterval(() => {
+        seconds++;
+        const days = Math.floor(seconds / 86400);
+        const hours = Math.floor((seconds % 86400) / 3600);
+        const minutes = Math.floor((seconds % 3600) / 60);
+        const secs = seconds % 60;
+        document.getElementById(`timer-${habitId}`).textContent = formatTime(days, hours, minutes, secs);
+    }, 1000);
+}
+
+function resetTimer(habitId) {
+    clearInterval(timers[habitId]);
+    document.getElementById(`timer-${habitId}`).textContent = '00:00:00';
+}
+
+function concluirHabit(button, habitId) {
+    resetTimer(habitId);
+    const habitItem = button.closest('li');
+    habitItem.style.textDecoration = "line-through";
+    button.disabled = true;
+}
+
+    </script>
+</body>
+</html>

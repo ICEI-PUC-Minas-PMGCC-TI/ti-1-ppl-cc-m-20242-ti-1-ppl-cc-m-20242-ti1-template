@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+:root { 
+    --black: #2a2a2a;
+    --green: #19c463; 
+    --gray: #3a3a3a; 
+    --white: #fff; 
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--black);
+}
+
+/* Menu Lateral */
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: var(--gray);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 var(--green);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i {
+    color: var(--white);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu:hover {
+    background-color: var(--green);
+}
+
+ul li.item-menu {
+    transition: 0.2s;
+}
+
+ul li.ativo {
+    background-color: var(--green);
+}
+
+ul li.item-menu a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 70px;
+    transition: 0.5s;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    padding: 10px;
+    font-size: 24px;
+}
+
+header {
+    background-color: var(--gray);
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--black);
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.tab {
+    background-color: var(--green);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content {
+    background-color: var(--green);
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content h2 {
+    margin: 0;
+}
+
+.tudo, .nlido {
+    display: none;
+}

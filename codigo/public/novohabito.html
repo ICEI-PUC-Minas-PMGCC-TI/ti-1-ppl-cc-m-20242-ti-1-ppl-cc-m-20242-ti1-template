@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Hábitos</title>
+    <!-- Ligação com o arquivo CSS -->
+    <link rel="stylesheet" href="assets/css/novohabito.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Criar Hábito</h1>
+        <form id="habitForm">
+            <label for="habitName">Nome do Hábito:</label>
+            <input type="text" id="habitName" required>
+
+            <label for="frequency">Frequência:</label>
+            <select id="frequency">
+                <option> </option>
+                <option value="diário">Diário</option>
+                <option value="semanal">Semanal</option>
+                <option value="mensal">Mensal</option>
+            </select>
+
+            <label for="motivo">Motivo:</label>
+            <input type="text" id="motivo" required>
+
+            <button type="submit">Adicionar Hábito</button>
+        </form>
+     
+        <ul id="habitList"></ul>
+
+        <div id="successMessage" class="hidden">Hábito adicionado com sucesso!</div>
+    </div>
+
+
+    <!-- Ligação com o arquivo JavaScript -->
+    <script src="assets/js/novohabito.js"></script>
+</body>
+
+</html>

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check List</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ánalise Geral</title>
     <link rel="stylesheet" href="./assets/css/analise-e-checklist.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -12,22 +13,22 @@
 
 <header>
     <div class="cabeçalho">
-        <span>Check List</span>
+        <span>Ánalise Geral</span>
     </div>
 </header>
 
 <body>
-    <div class="caixa">
-        <div class="todo-app">
-            <h2>Check List <i class='bx bx-edit-alt'></i></h2>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Escreva uma tarefa...">
-                <button onclick="addTask()">Adicionar</button>
-            </div>
-            <ul id="list-box"></ul>
+    <div class="chart-wrapper">
+        <a href="Cronometro_de_progressão.html"><input type="button" style="cursor:pointer;" class="field" title="Cronometro" value="Visualizar Cronometro"></input></a>
+        <div class="titulo-container">
+            <div class="titulo-semanal">Semanal</div>
+        </div>
+        <div class="chart-container">
+            <canvas id="lineChart"></canvas>
         </div>
     </div>
-
+    <div class="custom-container" id="habitsContainer">
+    </div>
 </body>
 
 <nav class="menu-lateral">
@@ -35,8 +36,8 @@
         <i class="bi bi-list" id="btn-exp"></i>
     </div>
     <ul>
-        <li class="item-menu ativo">
-            <a href="checklist.html">
+        <li class="item-menu">
+            <a href="index.html">
                 <span class="icon"><i class="bi bi-check-square"></i></span>
                 <span class="txt-link">Check List</span>
             </a>
@@ -53,7 +54,7 @@
                 <span class="txt-link">Novo Hábito</span>
             </a>
         </li>
-        <li class="item-menu">
+        <li class="item-menu ativo">
             <a href="analise.html">
                 <span class="icon"><i class="bi bi-graph-up"></i></span>
                 <span class="txt-link">Ánalise</span>
@@ -80,5 +81,6 @@
     </ul>
 </nav>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="./assets/js/checklist.js"></script>
+<script src="./assets/js/analise.js"></script>
+
 </html>

@@ -1,0 +1,130 @@
+/* Variáveis de cores principais */
+:root {
+  --green: #19c463;
+  --black: #2a2a2a;
+  --gray: #3a3a3a;
+  --white: #fff;
+  --dark-gray: #1e1e1e;
+}
+
+/* Reset e estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--gray);
+  color: var(--white);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: var(--black);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#usuario-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#calendario {
+  margin-top: 2rem;
+}
+
+#calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#calendar-header button {
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#calendar-header button:hover {
+  background-color: #17a554;
+}
+
+#current-month {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+#calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  padding: 10px;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.calendar-header-day {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: var(--gray);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.calendar-day {
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.calendar-day:hover {
+  background-color: var(--green);
+  transform: scale(1.05);
+}
+
+.calendar-day.completed {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.calendar-day.empty {
+  background-color: transparent;
+  cursor: default;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #777;
+  font-size: 0.9rem;
+}

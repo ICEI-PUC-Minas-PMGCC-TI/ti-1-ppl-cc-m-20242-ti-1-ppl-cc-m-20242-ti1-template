@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --black: #2a2a2a;
+    --green: #19c463;
+    --gray: #3a3a3a;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--black);
+}
+
+/* Menu Lateral */
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: var(--gray);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 var(--green);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i {
+    color: var(--white);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu:hover {
+    background-color: var(--green);
+}
+
+ul li.item-menu {
+    transition: 0.2s;
+}
+
+ul li.ativo {
+    background-color: var(--green);
+}
+
+ul li.item-menu a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 70px;
+    transition: 0.5s;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    padding: 10px;
+    font-size: 24px;
+}
+
+header {
+    background-color: var(--gray);
+    width: 100%;
+}
+
+/* Gráfico Semanal */
+.chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.titulo-container {
+    margin-bottom: 10px;
+}
+
+.titulo-semanal {
+    font-size: 24px;
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: var(--gray);
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    border: 3px solid var(--green);
+    padding: 20px;
+    background-color: var(--gray);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Gráfico de Hábito Específico */
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--black);
+}
+
+.custom-habit-card {
+    width: 300px;
+    background-color: var(--gray);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-habit-card:hover {
+    background-color: var(--green);
+}
+
+.custom-chart-container {
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    border: 3px solid var(--green);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--gray);
+    display: none;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Responsividade para celular  */
+@media (max-width: 768px) {
+    nav.menu-lateral {
+        width: 60px;
+        padding: 20px 0 20px 1%;
+    }
+
+    nav.menu-lateral.expandir {
+        width: 200px;
+    }
+
+    ul li.item-menu a {
+        font-size: 16px;
+        padding: 15px 3%;
+    }
+
+    ul li.item-menu a .txt-link {
+        margin-left: 40px;
+    }
+
+    .cabeçalho {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .chart-wrapper {
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .titulo-semanal {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .chart-container, .custom-chart-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .custom-habit-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav.menu-lateral {
+        width: 50px;
+    }
+
+    nav.menu-lateral.expandir {
+        width: 150px;
+    }
+
+    ul li.item-menu a {
+        font-size: 14px;
+        padding: 12px 2%;
+    }
+
+    .cabeçalho {
+        font-size: 18px;
+    }
+
+    .chart-wrapper {
+        padding: 5px;
+    }
+
+    .titulo-semanal {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .chart-container, .custom-chart-container {
+        padding: 8px;
+    }
+
+    .custom-habit-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/*check list*/
+
+.caixa{
+    width: 100%;
+    min-width: 100vh;
+    background: var(--black);
+    padding: 10px;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: var(--gray);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 i{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--white);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: var(--green);
+    color: var(--white);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.caixa ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.caixa ul li::before{
+    content: ' ';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(../images/checkbox-regular-24.jpeg);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+.caixa ul li.checked{
+    color: var(--black);
+    text-decoration: line-through;
+
+}
+
+.caixa ul li.checked::before{
+    background-image: url(../images/checkbox-checked-solid-24.jpeg);
+}
+
+.caixa ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: var(--black);
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.caixa ul li span:hover{
+    background: #4a4a4a;
+}
+
+.field {
+    background-color: #FFF;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
