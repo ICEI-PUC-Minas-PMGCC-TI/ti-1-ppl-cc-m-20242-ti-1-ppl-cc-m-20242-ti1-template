@@ -234,20 +234,7 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 
 ## Funcionalidades
 
-Esta seção apresenta as funcionalidades da solução.Info
-
-##### Funcionalidade 1 - Cadastro de Contatos ⚠️ EXEMPLO ⚠️
-
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
-
-* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
-* **Instruções de acesso:**
-  * Abra o site e efetue o login
-  * Acesse o menu principal e escolha a opção Cadastros
-  * Em seguida, escolha a opção Contatos
-* **Tela da funcionalidade**:
-
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+Esta seção apresenta as funcionalidades da solução.
 
 ##### Funcionalidade 1 - check List
 
@@ -311,7 +298,7 @@ Mostra artigos informativos sobre hábitos.
 
 Adiona um novo hábito para ser criado ou desfeito.
 
-* **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
+* **Estrutura de dados:** [Informações hábitos](#ti_ed_contatos)
 * **Instruções de uso:**
   *Escreva as informações pedidas e clique em adicionar.
 * **Tela da funcionalidade**:
@@ -336,10 +323,10 @@ Cronometra a quantidade de tempo sem fazer uma hábito negativo.
 
 * **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
 * **Instruções de uso:**
-  *
+  *Coloca as informações dos habitos ruins e clique em adicionar.
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/.jpeg)
+![Tela de Funcionalidade](images/cronometro-tela.jpeg)
 
 ##### Funcionalidade 9 - Árae do Usuário
 
@@ -351,12 +338,6 @@ Coloque ou altere suas informações para criar ou mudar o seu perfil(como foto,
 * **Tela da funcionalidade**:
 
 ![Tela de Funcionalidade](images/perfil-usuario-tela.jpeg)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
 
 ## Estruturas de Dados
 
