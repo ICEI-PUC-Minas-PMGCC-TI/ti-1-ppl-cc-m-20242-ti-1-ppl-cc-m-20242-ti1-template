@@ -22,7 +22,4 @@ Estamos desenvolvendo um aplicativo que visa auxiliar as pessoas a transformarem
 
 Assim que a primeira versão do sistema estiver disponível, iremos complementar esta aba.
 
-Toda a documentação do projeto é realizado por meio do Markdown, uma linguagem de formatação adotada pelo GitHub e por diversas outras plataformas. Aprenda Markdown e use-o para documentar o projeto:
-
-* [Sintaxe básica de gravação e formatação no GitHub - GitHub Docs](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [Markdown® Básico: Sintaxe, Uso &amp; Exemplos [Passo a Passo]](https://markdown.net.br/sintaxe-basica/)
+É preciso rodar o json server na porta 3000.
