@@ -663,31 +663,68 @@ Mostra os gráficos com a análise dos hábitos
   }
 ```
 
+##### Estrutura de Dados - Notificações
+
+```json
+"notificacoes": [
+    {
+      "id": "1",
+      "nome": "Fazer caminhada",
+      "horario": "07:00",
+      "situacao": "Lido"
+    },
+    {
+      "id": "2",
+      "nome": "Ler",
+      "horario": "10:00",
+      "situacao": "Lido"
+    },
+    {
+      "id": "3",
+      "nome": "Estudar",
+      "horario": "13:00",
+      "situacao": "Não lido"
+    },
+    {
+      "id": "4",
+      "nome": "Fazer academia",
+      "horario": "16:00",
+      "situacao": "Não lido"
+    }
+  ]
+```
+
+##### Estrutura de Dados - Histórico de hábitos (Calendário)
+
+```json
+"historico_habito": [
+    {
+      "id": "1",
+      "data": "2024-11-01",
+      "idUsuario": 1,
+      "idHabito": 15,
+      "nota": "Correu 5 km",
+      "horaConcluida": "08:00"
+    }
+  ]
+```
+
 ## Módulos e APIs
 
 Esta seção apresenta os módulos e APIs utilizados na solução
 
-**Images**:
+**Icons**:
 
-* Unsplash - [https://unsplash.com/](https://unsplash.com/)
+* jsDeliver - [https://www.jsdelivr.com/](https://www.jsdelivr.com/)
+* Bootstrap Icons [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
 
 **Fonts:**
 
 * Poppins - [https://fonts.google.com/specimen/Poppins](https://fonts.google.com/specimen/Poppins)
 
-**Scripts:**
-
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) 
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/)
-
 # Referências
 
 As referências utilizadas no trabalho foram:
 
-* SOBRENOME, Nome do autor. Título da obra. 8. ed. Cidade: Editora, 2000. 287 p ⚠️ EXEMPLO ⚠️
-* VAN HORNE, Katrina et al. A neural basis for contagious yawning. Current Biology, v. 27, n. 22, p. R1239-R1245, 2017. 
->
-> **Orientações**:
->
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+* ROBBINS, T. W.; COSTA, R. M. Habits. Current Biology, v. 27, n. 22, p. R1200–R1206, 20 nov. 2017.
+* VIANA, V. et al. COMPORTAMENTO E HÁBITOS ALIMENTARES EM CRIANÇAS E JOVENS: UMA REVISÃO DA LITERATURA EATING BEHAVIOR AND FOOD HABITS IN CHILDREN AND ADOLESCENTS: A LITERATURE REVIEW. [s.l: s.n.]. Disponível em: <https://scielo.pt/pdf/psd/v9n2/v9n2a03.pdf>.
