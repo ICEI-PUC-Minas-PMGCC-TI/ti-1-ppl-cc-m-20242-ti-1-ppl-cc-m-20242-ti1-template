@@ -298,7 +298,7 @@ Mostra artigos informativos sobre hábitos.
 
 Adiona um novo hábito para ser criado ou desfeito.
 
-* **Estrutura de dados:** [Hábitos](#ti_ed_contatos)
+* **Estrutura de dados:** [Informações hábitos](#ti_ed_contatos)
 * **Instruções de uso:**
   *Escreva as informações pedidas e clique em adicionar.
 * **Tela da funcionalidade**:
