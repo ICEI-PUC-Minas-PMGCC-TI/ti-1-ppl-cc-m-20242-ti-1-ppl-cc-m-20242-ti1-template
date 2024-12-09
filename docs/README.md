@@ -222,15 +222,9 @@ Esta seção apresenta todos os detalhes da solução criada no projeto.
 
 ## Vídeo do Projeto
 
-O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
+O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
 
-[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
->
-> Inclua um link para o vídeo do projeto.
+[![Vídeo do projeto](images/video.png)](https://youtu.be/H2lposeJqEI)
 
 ## Funcionalidades
 
@@ -707,5 +701,4 @@ Esta seção apresenta os módulos e APIs utilizados na solução
 
 As referências utilizadas no trabalho foram:
 
-* ROBBINS, T. W.; COSTA, R. M. Habits. Current Biology, v. 27, n. 22, p. R1200–R1206, 20 nov. 2017.
 * VIANA, V. et al. COMPORTAMENTO E HÁBITOS ALIMENTARES EM CRIANÇAS E JOVENS: UMA REVISÃO DA LITERATURA EATING BEHAVIOR AND FOOD HABITS IN CHILDREN AND ADOLESCENTS: A LITERATURE REVIEW. [s.l: s.n.]. Disponível em: <https://scielo.pt/pdf/psd/v9n2/v9n2a03.pdf>.
