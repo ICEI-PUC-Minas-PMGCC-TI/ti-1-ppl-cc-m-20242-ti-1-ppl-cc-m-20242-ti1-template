@@ -9,7 +9,6 @@ Estamos desenvolvendo um aplicativo que visa auxiliar as pessoas a transformarem
 * Felipe de Sousa
 * Thiago Gomes
 * Tiago Morais Costa
-* Ricardo Guidi
 
 ## Professores responsáveis
 
